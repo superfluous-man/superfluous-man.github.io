@@ -7,20 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://duoyu.ren/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Home</title>
-      <link>https://duoyu.ren/main/</link>
+      <title>Induction</title>
+      <link>https://duoyu.ren/statistics/</link>
       <pubDate>Thu, 01 Jan 1970 08:34:59 +0800</pubDate>
       
-      <guid>https://duoyu.ren/main/</guid>
+      <guid>https://duoyu.ren/statistics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Induction</title>
-      <link>https://duoyu.ren/statistics/</link>
+      <title>Home</title>
+      <link>https://duoyu.ren/main/</link>
       <pubDate>Thu, 01 Jan 1970 08:34:58 +0800</pubDate>
       
-      <guid>https://duoyu.ren/statistics/</guid>
+      <guid>https://duoyu.ren/main/</guid>
       <description></description>
     </item>
     
