@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Books on Duōyú Rén</title>
+    <link>https://duoyu.ren/books/</link>
+    <description>Recent content in Books on Duōyú Rén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
+    <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
+    <copyright>&amp;copy;2020-{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="https://duoyu.ren/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>《中國哲學》筆記大綱</title>
+        <link>https://duoyu.ren/books/zgzx/</link>
+        <pubDate>Tue, 17 Sep 2019 22:27:42 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/zgzx/</guid>
+        <description>第 01 章 第 02 章 第 03 章 第 04 章 第 05 章 第 06 章 本筆記主要參考（chāoxí ）以下課本整理： ⦿ 主要參考文獻 ⦿ 勞思光. 新編中國哲學史[M]. 臺北: 三民書局</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/books/zxs/kongzi.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>《中國文學》筆記大綱</title>
+        <link>https://duoyu.ren/books/zgwx/</link>
+        <pubDate>Tue, 17 Sep 2019 22:27:42 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/zgwx/</guid>
+        <description>第 01 章 第 02 章 第 03 章 第 04 章 第 05 章 第 06 章 本筆記主要參考（chāoxí ）以下課本整理： ⦿ 主要參考文獻 ⦿ 袁行霈. 中国文学史（四卷本）[M]. 北京:高</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/books/wxs/taoqian.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>《藝術概論》筆記大綱</title>
+        <link>https://duoyu.ren/books/art/</link>
+        <pubDate>Tue, 17 Sep 2019 22:27:42 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/art/</guid>
+        <description>第 01 章 第 02 章 第 03 章 第 04 章 第 05 章 第 06 章 本筆記主要參考（chāoxí ）以下課本整理： ⦿ 主要參考文獻 ⦿ 徐明, 2008. 符号逻辑讲义[M].武汉:武汉大学出</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/books/art/Nietzsche.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>shortcode</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>《邏輯基礎》筆記大綱</title>
+        <link>https://duoyu.ren/books/logic/</link>
+        <pubDate>Tue, 17 Sep 2019 22:27:42 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/</guid>
+        <description>第 00 章 緒論：邏輯與邏輯學 第 01 章 預備：素樸集合論 第 02 章 PL 聯結詞與真值表 第 03 章 PL 概念的嚴格刻畫 第 04 章 PL 推演系統概說 第 05 章 PL 矢列演算 第 06 章 PL 自然演</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

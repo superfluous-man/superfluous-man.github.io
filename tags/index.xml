@@ -1,10 +1,334 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on Duōyú Rén</title>
     <link>https://duoyu.ren/tags/</link>
     <description>Recent content in Tags on Duōyú Rén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://duoyu.ren/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
+    <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
+    <copyright>&amp;copy;2020-{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 04 Mar 2022 10:52:18 +0800</lastBuildDate>
+    
+        <atom:link href="https://duoyu.ren/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>essay</title>
+        <link>https://duoyu.ren/tags/essay/</link>
+        <pubDate>Fri, 04 Mar 2022 10:52:18 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/essay/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>poem</title>
+        <link>https://duoyu.ren/tags/poem/</link>
+        <pubDate>Mon, 19 Jul 2021 07:08:23 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/poem/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>teaching</title>
+        <link>https://duoyu.ren/tags/teaching/</link>
+        <pubDate>Sat, 03 Jul 2021 01:27:07 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/teaching/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>thesis</title>
+        <link>https://duoyu.ren/tags/thesis/</link>
+        <pubDate>Sat, 10 Apr 2021 15:30:18 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/thesis/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>lecture</title>
+        <link>https://duoyu.ren/tags/lecture/</link>
+        <pubDate>Mon, 07 Sep 2020 22:16:30 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/lecture/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>logic</title>
+        <link>https://duoyu.ren/tags/logic/</link>
+        <pubDate>Mon, 07 Sep 2020 22:16:30 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/logic/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>dictionary</title>
+        <link>https://duoyu.ren/tags/dictionary/</link>
+        <pubDate>Thu, 21 May 2020 12:35:09 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/dictionary/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>barefoot</title>
+        <link>https://duoyu.ren/tags/barefoot/</link>
+        <pubDate>Tue, 07 Jan 2020 22:41:40 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/barefoot/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>science</title>
+        <link>https://duoyu.ren/tags/science/</link>
+        <pubDate>Mon, 28 Oct 2019 23:53:54 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/science/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>layout</title>
+        <link>https://duoyu.ren/tags/layout/</link>
+        <pubDate>Tue, 15 Oct 2019 00:57:29 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/layout/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>shortcode</title>
+        <link>https://duoyu.ren/tags/shortcode/</link>
+        <pubDate>Tue, 15 Oct 2019 00:57:29 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/shortcode/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Chinese</title>
+        <link>https://duoyu.ren/tags/chinese/</link>
+        <pubDate>Tue, 16 Jul 2019 18:33:42 -0400</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/chinese/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>diary</title>
+        <link>https://duoyu.ren/tags/diary/</link>
+        <pubDate>Mon, 10 Sep 2018 15:25:25 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/diary/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Cāngjié</title>
+        <link>https://duoyu.ren/tags/c%C4%81ngji%C3%A9/</link>
+        <pubDate>Mon, 17 Jul 2017 21:47:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/c%C4%81ngji%C3%A9/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>TeX</title>
+        <link>https://duoyu.ren/tags/tex/</link>
+        <pubDate>Sat, 13 May 2017 09:29:32 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/tex/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Confucius</title>
+        <link>https://duoyu.ren/tags/confucius/</link>
+        <pubDate>Sun, 05 Jun 2016 21:39:35 +0000</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/confucius/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>index</title>
+        <link>https://duoyu.ren/tags/index/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/index/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
   </channel>
 </rss>

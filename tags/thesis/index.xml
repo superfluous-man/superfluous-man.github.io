@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>thesis on Duōyú Rén</title>
+    <link>https://duoyu.ren/tags/thesis/</link>
+    <description>Recent content in thesis on Duōyú Rén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
+    <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
+    <copyright>&amp;copy;2020-{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 10 Apr 2021 15:30:18 +0800</lastBuildDate>
+    
+        <atom:link href="https://duoyu.ren/tags/thesis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>彩虹屁之歌</title>
+        <link>https://duoyu.ren/articles/20210410-cai-hong-pi/</link>
+        <pubDate>Sat, 10 Apr 2021 15:30:18 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/articles/20210410-cai-hong-pi/</guid>
+        <description>昨夜與即將畢業的新一代打工人討論定稿事宜。期間笑語盈盈，歡樂而祥和，師生雙方都沒有要尋死覓活的。在校園時常爆出跳樓新聞的時代，這種心態，極其</description>
+        
+        <dc:creator>李二苟</dc:creator>
+        <media:content url="https://duoyu.ren/images/articles/caihongpi.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>thesis</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>毕业论文写作近期、远期要做的事情</title>
+        <link>https://duoyu.ren/articles/20191123-lun-wen-hui-yi/</link>
+        <pubDate>Sat, 23 Nov 2019 14:50:28 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/articles/20191123-lun-wen-hui-yi/</guid>
+        <description>学士论文写作，仅作为一次写作训练与逻辑训练，勉强可作为一次科学研究训练。论文写作的最低要求是「把话说清楚」。论文初稿应当「文从字顺」，语言表</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/schoollogo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>thesis</category>
+            
+          
+        
+        
+          
+            
+              <category>寫作</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

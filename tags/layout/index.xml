@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>layout on Duōyú Rén</title>
+    <link>https://duoyu.ren/tags/layout/</link>
+    <description>Recent content in layout on Duōyú Rén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
+    <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
+    <copyright>&amp;copy;2020-{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 15 Oct 2019 00:57:29 +0800</lastBuildDate>
+    
+        <atom:link href="https://duoyu.ren/tags/layout/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>內容版式 Demos</title>
+        <link>https://duoyu.ren/articles/20191015-demos/</link>
+        <pubDate>Tue, 15 Oct 2019 00:57:29 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/articles/20191015-demos/</guid>
+        <description>本站新增樣式 參考衆多 Hugo shortcode 樣式案例，爲提高效率，本站新增以下幾種樣式。模板原有 shortcode 樣式在本文第二部分列出備查。 源代碼展示框 1 2 3 4 5 6 7 8 9 10 11</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>layout</category>
+            
+          
+            
+              <category>shortcode</category>
+            
+          
+        
+        
+          
+            
+              <category>hugo</category>
+            
+          
+        
+        
+          
+            
+              <category>書版</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>基於 XeLaTeX 的中文直書方案</title>
+        <link>https://duoyu.ren/articles/20181216-tex-han-yu-zhi-pai/</link>
+        <pubDate>Sun, 16 Dec 2018 18:03:24 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/articles/20181216-tex-han-yu-zhi-pai/</guid>
+        <description>半個世紀以來，「橫排」逐漸成爲出版物排版的主流。十年前，境內還能偶爾看到一些出版社以「直排」方式出版一些古籍圖書。目下，僅有境外幾家出版社偶</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>layout</category>
+            
+          
+        
+        
+          
+            
+              <category>編舟</category>
+            
+          
+        
+        
+          
+            
+              <category>書版</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

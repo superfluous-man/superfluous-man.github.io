@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>logic on Duōyú Rén</title>
+    <link>https://duoyu.ren/tags/logic/</link>
+    <description>Recent content in logic on Duōyú Rén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
+    <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
+    <copyright>&amp;copy;2020-{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 07 Sep 2020 22:16:30 +0800</lastBuildDate>
+    
+        <atom:link href="https://duoyu.ren/tags/logic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>第 00 章 緒論：邏輯與邏輯學</title>
+        <link>https://duoyu.ren/books/logic/ch00/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch00/</guid>
+        <description>⦿ 本章主要參考文獻 ⦿ 徐明, 2008. 符号逻辑讲义[M].武汉: 武汉大学出版社. （這本書的緒論章節是本章內容的主要來源。) 宋文坚, 郭世铭,1998. 逻</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 01 章 預備：素樸集合論</title>
+        <link>https://duoyu.ren/books/logic/ch01/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch01/</guid>
+        <description>⦿ 本章主要參考文獻 ⦿ Zach, Richard. Open Logic Project. （這個龐大的開源項目，囊括了非哲學、數學專業的邏輯學習所需的大部分材料。本章內容卽基於其 $\TeX$ 源碼整理而成） 安德鲁</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 02 章 PL 聯結詞與真值表</title>
+        <link>https://duoyu.ren/books/logic/ch02/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch02/</guid>
+        <description>⦿ 本章主要參考文獻 ⦿ 徐明, 2008. 符号逻辑讲义[M].武汉: 武汉大学出版社. （這本書第二章是本章內容的主要來源） Bergmann M, Moor J, Nelson J, 2014.The Logic Book[M].Sixth. NewYork: McGraw‑</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 03 章 PL 概念的嚴格刻畫</title>
+        <link>https://duoyu.ren/books/logic/ch03/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch03/</guid>
+        <description>⦿ 本章主要參考文獻 ⦿ 徐明, 2008. 符号逻辑讲义[M].武汉: 武汉大学出版社. 這本書第三章是本章內容的主要來源 Bergmann M, Moor J, Nelson J, 2014.The Logic Book[M].Sixth. NewYork: McGraw‑Hi</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 04 章 PL 推演系統概說</title>
+        <link>https://duoyu.ren/books/logic/ch04/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch04/</guid>
+        <description>⦿ 本章主要參考文獻 ⦿ Zach, Richard. Open Logic Project. （本章內容卽基於其 $\TeX$ 源碼整理而成） 刘壮虎, 1993. 逻辑演算[M].北京: 中国社会科学出版社 （這本書第二章簡單説明了命</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 05 章  PL 矢列演算</title>
+        <link>https://duoyu.ren/books/logic/ch05/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch05/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 06 章  PL 自然演繹</title>
+        <link>https://duoyu.ren/books/logic/ch06/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch06/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 07 章  PL 表列演算</title>
+        <link>https://duoyu.ren/books/logic/ch07/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch07/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 08 章  PL 弗-希演算（一）</title>
+        <link>https://duoyu.ren/books/logic/ch08/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch08/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 09 章  PL 弗-希演算（二）</title>
+        <link>https://duoyu.ren/books/logic/ch09/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch09/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 10 章  PL 完全性定理</title>
+        <link>https://duoyu.ren/books/logic/ch10/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch10/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 11 章  PL 自動證明程序</title>
+        <link>https://duoyu.ren/books/logic/ch11/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch11/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 12 章  PL 傳統的分析</title>
+        <link>https://duoyu.ren/books/logic/ch12/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch12/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 13 章  FOL 謂詞符號化</title>
+        <link>https://duoyu.ren/books/logic/ch13/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch13/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 14 章  FOL 語義語法（一）</title>
+        <link>https://duoyu.ren/books/logic/ch14/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch14/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 15 章  FOL 語義語法（二）</title>
+        <link>https://duoyu.ren/books/logic/ch15/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch15/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 16 章  FOL 矢列演算</title>
+        <link>https://duoyu.ren/books/logic/ch16/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch16/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 17 章  FOL 自然演繹</title>
+        <link>https://duoyu.ren/books/logic/ch17/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch17/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 18 章  FOL 表列演算</title>
+        <link>https://duoyu.ren/books/logic/ch18/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch18/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 19 章  FOL 弗-希演算（三）</title>
+        <link>https://duoyu.ren/books/logic/ch19/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch19/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 20 章  FOL 弗-希演算（四）</title>
+        <link>https://duoyu.ren/books/logic/ch20/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch20/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 22 章  FOL 完全性定理</title>
+        <link>https://duoyu.ren/books/logic/ch21/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch21/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 22 章  FOL 自動證明程序</title>
+        <link>https://duoyu.ren/books/logic/ch22/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch22/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 23 章  FOL 傳統的分析</title>
+        <link>https://duoyu.ren/books/logic/ch23/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch23/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 24 章  IR 傳統歸納推理</title>
+        <link>https://duoyu.ren/books/logic/ch24/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch24/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 25 章  IR 現代歸納推理</title>
+        <link>https://duoyu.ren/books/logic/ch25/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch25/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 26 章  語用邏輯：語境</title>
+        <link>https://duoyu.ren/books/logic/ch26/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch26/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 27 章  語用邏輯：言語行爲</title>
+        <link>https://duoyu.ren/books/logic/ch27/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch27/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 28 章  語用邏輯：預設</title>
+        <link>https://duoyu.ren/books/logic/ch28/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch28/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 29 章  語用邏輯：語用原則</title>
+        <link>https://duoyu.ren/books/logic/ch29/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch29/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 30 章  邏輯方法：定義</title>
+        <link>https://duoyu.ren/books/logic/ch30/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch30/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 31 章  邏輯方法：論證反駁</title>
+        <link>https://duoyu.ren/books/logic/ch31/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch31/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 32 章  邏輯方法：謬誤</title>
+        <link>https://duoyu.ren/books/logic/ch32/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch32/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>第 33 章  邏輯方法：思維規律</title>
+        <link>https://duoyu.ren/books/logic/ch33/</link>
+        <pubDate>Tue, 01 Sep 2020 05:38:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/books/logic/ch33/</guid>
+        <description>建設中</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/godel.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Logic 01 Slides</title>
+        <link>https://duoyu.ren/presentation/logic-slides/ch00-slides/</link>
+        <pubDate>Mon, 07 Sep 2020 22:16:30 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <guid>https://duoyu.ren/presentation/logic-slides/ch00-slides/</guid>
+        <description></description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren//images/author/schoollogo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+            
+              <category>lecture</category>
+            
+          
+        
+        
+          
+            
+              <category>logic-slides</category>
+            
+          
+        
+        
+          
+            
+              <category>logic</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
