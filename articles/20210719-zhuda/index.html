@@ -25,6 +25,43 @@
 
  
 
+
+    
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/@raruto/leaflet-elevation@1.1.1/dist/leaflet-elevation.css" />
+
+<script src="https://duoyu.ren/js/leaflet.elevation.min.26c60bf7b7c69f77679476d6dfb3ac54.js"></script>
+
+
+
+<script src="https://duoyu.ren/js/leaflet.hugo.min.e9d28425adb797efc3aac7ef7cdc6857.js"></script>
+
+
+<link rel="stylesheet" href="https://duoyu.ren/css/leaflet.extra-markers.min.css">
+
+<script src="https://duoyu.ren/js/leaflet.extra-markers.min.js"></script>
+
+<style>
+    .fa-icon-marker {
+        text-align: center;
+        width: 100%;
+    }
+    .download-track {
+        background-color: #e1e1e1;
+        text-align: center;
+        margin-bottom: 25px;
+        border-radius: 0 0 10px 10px;
+        cursor: pointer;
+    }
+</style>
+
  
  
  
@@ -1209,7 +1246,7 @@
 <meta name="keywords" content="poem">
 
 <meta name="created" content="2021-07-19T07:08:23&#43;0800">
-<meta name="modified" content="2022-10-02T23:10:43&#43;0800">
+<meta name="modified" content="2022-10-07T23:02:58&#43;0800">
 <meta property="article:published_time" content="2021-07-19T07:08:23&#43;0800">
 
 <meta name="author" content="李二苟">
@@ -1256,7 +1293,7 @@
     "@type": "WebPage",
     "headline": "過天寧觀",
     "datePublished": "2021-07-19T07:08:23+08:00",
-    "dateModified": "2022-10-02T23:10:43+08:00",
+    "dateModified": "2022-10-07T23:02:58+08:00",
     "url" : "https://duoyu.ren/articles/20210719-zhuda/",
     "description": "拈花未可嗟。",
     "keywords": ["poem"],
@@ -1756,9 +1793,9 @@ if (!doNotTrack) {
 
 &middot; <time class="single__info" title="Written At">📅&nbsp;Jul 19, 2021 </time>
   
-&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Oct 2, 2022 </time>
+&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Oct 7, 2022 </time>
   
-&middot; 🔢 250 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 1 min read</span>
+&middot; 🔢 252 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 1 min read</span>
 <span class="single__info"> 
  &middot; 👀<span id="busuanzi_value_page_pv">...</span> views 
 </span>
@@ -1801,7 +1838,67 @@ if (!doNotTrack) {
 
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
-      <p>前日三過<z>南昌</z>，同儕<z>付</z>君帶領夜遊<z>萬壽宮</z>，昨日則共遊<z>八大山人紀念館</z>。麥秀黍離，俱付諸筆端。坊間對其所繪之青白眼尤多關注。在書畫真跡館，附近小學的幾名小學生趁着假期來志願解說。這些小孩兒大約三年級左右，男女娃娃十分可愛。他們顯然經過訓練，解說有模有樣，較爲「標緻」，恰似小和尚念經——有口無心。若詳究之，則略顯爲難。這是極好的——正是美好的童年，何必去理解這些書畫作品背後的靈魂。生於新時代，長在紅旗下，娃娃們最好永遠不用「體悟」這些作品背後的靈魂。</p>
+      
+
+
+
+
+
+
+
+
+
+
+<div class="leaflets">
+  <div class="leaflet">
+<p class="leaflet-title">Precise Location</p>
+<div id='mapid_1' class="leaflet-map" style='width: 100%; height: 400px;'></div>
+</div>
+</div>
+
+<script>
+    
+    leafletMapsObj["1"] = L.map('mapid_1').setView(["28.60374857828549", "115.91579940776245"], "13");
+    
+    
+    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(leafletMapsObj["1"]);
+
+</script>
+
+    
+    
+    
+    
+    
+    
+        
+    
+            
+            
+            
+            
+    
+            <script>
+                
+                leafletMarkersObj["636c8881bd11730eaa222168e1962b69"] = L.marker(["28.60374857828549", "115.91579940776245"]).addTo(leafletMapsObj["1"]);
+    
+                
+            </script>
+    
+        
+    
+    
+    
+    
+    
+
+
+
+
+
+<p>前日三過<z>南昌</z>，同儕<z>付</z>君帶領夜遊<z>萬壽宮</z>，昨日則共遊<z>八大山人紀念館</z>。麥秀黍離，俱付諸筆端。坊間對其所繪之青白眼尤多關注。在書畫真跡館，附近小學的幾名小學生趁着假期來志願解說。這些小孩兒大約三年級左右，男女娃娃十分可愛。他們顯然經過訓練，解說有模有樣，較爲「標緻」，恰似小和尚念經——有口無心。若詳究之，則略顯爲難。這是極好的——正是美好的童年，何必去理解這些書畫作品背後的靈魂。生於新時代，長在紅旗下，娃娃們最好永遠不用「體悟」這些作品背後的靈魂。</p>
 <div class="poem">
 <div>
 <span style="font-family:LXGWWenKaiTC-Bold, SYHei Bold;">過天寧觀</span>
@@ -1811,7 +1908,7 @@ if (!doNotTrack) {
 </div>
 <p><img src="https://i.loli.net/2021/07/19/VRh5aHUTq3smNBu.png" alt="badashanren.png" /></p>
 
-<p style="font-family:LXGWWenKaiTC-Bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Sunday, October 2, 2022, 23:10:43 by 王小花.</p>
+<p style="font-family:LXGWWenKaiTC-Bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Friday, October 7, 2022, 23:02:58 by 王小花.</p>
     </article>
     
     <script>

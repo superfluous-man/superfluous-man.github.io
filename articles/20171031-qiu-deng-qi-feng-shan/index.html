@@ -25,6 +25,43 @@
 
  
 
+
+    
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/@raruto/leaflet-elevation@1.1.1/dist/leaflet-elevation.css" />
+
+<script src="https://duoyu.ren/js/leaflet.elevation.min.26c60bf7b7c69f77679476d6dfb3ac54.js"></script>
+
+
+
+<script src="https://duoyu.ren/js/leaflet.hugo.min.e9d28425adb797efc3aac7ef7cdc6857.js"></script>
+
+
+<link rel="stylesheet" href="https://duoyu.ren/css/leaflet.extra-markers.min.css">
+
+<script src="https://duoyu.ren/js/leaflet.extra-markers.min.js"></script>
+
+<style>
+    .fa-icon-marker {
+        text-align: center;
+        width: 100%;
+    }
+    .download-track {
+        background-color: #e1e1e1;
+        text-align: center;
+        margin-bottom: 25px;
+        border-radius: 0 0 10px 10px;
+        cursor: pointer;
+    }
+</style>
+
  
  
  
@@ -1209,7 +1246,7 @@
 <meta name="keywords" content="poem">
 
 <meta name="created" content="2017-10-31T12:53:43&#43;0800">
-<meta name="modified" content="2022-10-02T04:56:38&#43;0800">
+<meta name="modified" content="2022-10-07T22:42:18&#43;0800">
 <meta property="article:published_time" content="2017-10-31T12:53:43&#43;0800">
 
 <meta name="author" content="李二狗">
@@ -1256,7 +1293,7 @@
     "@type": "WebPage",
     "headline": "秋登旗峯山",
     "datePublished": "2017-10-31T12:53:43+08:00",
-    "dateModified": "2022-10-02T04:56:38+08:00",
+    "dateModified": "2022-10-07T22:42:18+08:00",
     "url" : "https://duoyu.ren/articles/20171031-qiu-deng-qi-feng-shan/",
     "description": "下山急就章，雖事後略加調整，依然胡言亂語，略無詩意可言。",
     "keywords": ["poem"],
@@ -1756,9 +1793,9 @@ if (!doNotTrack) {
 
 &middot; <time class="single__info" title="Written At">📅&nbsp;Oct 31, 2017 </time>
   
-&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Oct 2, 2022 </time>
+&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Oct 7, 2022 </time>
   
-&middot; 🔢 765 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 2 min read</span>
+&middot; 🔢 767 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 2 min read</span>
 <span class="single__info"> 
  &middot; 👀<span id="busuanzi_value_page_pv">...</span> views 
 </span>
@@ -1820,6 +1857,66 @@ if (!doNotTrack) {
 </div>
 
       <!--markup: mmark 本是 KaTeX 配套屬性，單獨用則可禁用該頁面的側邊目錄欄-->
+
+
+
+
+
+
+
+
+
+
+
+<div class="leaflets">
+  <div class="leaflet">
+<p class="leaflet-title">Precise Location</p>
+<div id='mapid_1' class="leaflet-map" style='width: 100%; height: 400px;'></div>
+</div>
+</div>
+
+<script>
+    
+    leafletMapsObj["1"] = L.map('mapid_1').setView(["23.017350272219016", "113.77471681342284"], "13");
+    
+    
+    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(leafletMapsObj["1"]);
+
+</script>
+
+    
+    
+    
+    
+    
+    
+        
+    
+            
+            
+            
+            
+    
+            <script>
+                
+                leafletMarkersObj["bebdc8518854bb5abb31eeb40867e4f4"] = L.marker(["23.017350272219016", "113.77471681342284"]).addTo(leafletMapsObj["1"]);
+    
+                
+            </script>
+    
+        
+    
+    
+    
+    
+    
+
+
+
+
+
 <h1 id="緣起">緣起</h1>
 <p>十月廿二，與（前）工友二人，登<z>東莞</z>聖山<z>旗峯山</z>。每遇良辰美景，輒自嘆「登山有情情滿懷，頌嶽無詩詩難覓」。三人下山，見亭青如春，遂搜腸刮肚，編造三言兩語，亦推心置腹，略表登高之誼爾。</p>
 <p>成文倉促，難免四聲八病；情懷歡暢，不管出律拗救。妄稱「擬古」，實則不堪。舊詩話有言：才力不濟，非讀書能補也。蓋才思淺薄，已難出新；況不學無術，唯落窠臼。余自入廠務工以來，廢書久矣，空有感懷，無以言表，一歎。</p>
@@ -1851,7 +1948,7 @@ if (!doNotTrack) {
 <li><strong>蘇韓</strong>：乃指<z>蘇東坡</z>、<z>韓退之</z>，二公皆有南國之緣。</li>
 </ul>
 
-<p style="font-family:LXGWWenKaiTC-Bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Sunday, October 2, 2022, 04:56:38 by 王小花.</p>
+<p style="font-family:LXGWWenKaiTC-Bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Friday, October 7, 2022, 22:42:18 by 王小花.</p>
     </article>
     
     <script>

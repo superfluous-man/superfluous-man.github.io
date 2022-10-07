@@ -25,6 +25,43 @@
 
  
 
+
+    
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/@raruto/leaflet-elevation@1.1.1/dist/leaflet-elevation.css" />
+
+<script src="https://duoyu.ren/js/leaflet.elevation.min.26c60bf7b7c69f77679476d6dfb3ac54.js"></script>
+
+
+
+<script src="https://duoyu.ren/js/leaflet.hugo.min.e9d28425adb797efc3aac7ef7cdc6857.js"></script>
+
+
+<link rel="stylesheet" href="https://duoyu.ren/css/leaflet.extra-markers.min.css">
+
+<script src="https://duoyu.ren/js/leaflet.extra-markers.min.js"></script>
+
+<style>
+    .fa-icon-marker {
+        text-align: center;
+        width: 100%;
+    }
+    .download-track {
+        background-color: #e1e1e1;
+        text-align: center;
+        margin-bottom: 25px;
+        border-radius: 0 0 10px 10px;
+        cursor: pointer;
+    }
+</style>
+
  
  
  
@@ -1209,7 +1246,7 @@
 <meta name="keywords" content="poem">
 
 <meta name="created" content="2020-08-16T13:42:30&#43;0800">
-<meta name="modified" content="2022-10-02T21:06:56&#43;0800">
+<meta name="modified" content="2022-10-07T22:51:01&#43;0800">
 <meta property="article:published_time" content="2020-08-16T13:42:30&#43;0800">
 
 <meta name="author" content="李二狗">
@@ -1256,7 +1293,7 @@
     "@type": "WebPage",
     "headline": "赴粵務工道中謁靖節先生墓",
     "datePublished": "2020-08-16T13:42:30+08:00",
-    "dateModified": "2022-10-02T21:06:56+08:00",
+    "dateModified": "2022-10-07T22:51:01+08:00",
     "url" : "https://duoyu.ren/articles/20200816-visit-tym-poem/",
     "description": "雲無心以出岫，鳥倦飛而知還。",
     "keywords": ["poem"],
@@ -1756,9 +1793,9 @@ if (!doNotTrack) {
 
 &middot; <time class="single__info" title="Written At">📅&nbsp;Aug 16, 2020 </time>
   
-&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Oct 2, 2022 </time>
+&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Oct 7, 2022 </time>
   
-&middot; 🔢 138 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 1 min read</span>
+&middot; 🔢 140 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 1 min read</span>
 <span class="single__info"> 
  &middot; 👀<span id="busuanzi_value_page_pv">...</span> views 
 </span>
@@ -1802,10 +1839,70 @@ if (!doNotTrack) {
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
       <p><img src="https://i.loli.net/2020/08/22/Z1hv4XY38L5piCH.jpg" alt="ym.jpg" /></p>
+
+
+
+
+
+
+
+
+
+
+
+<div class="leaflets">
+  <div class="leaflet">
+<p class="leaflet-title">Precise Location</p>
+<div id='mapid_1' class="leaflet-map" style='width: 100%; height: 400px;'></div>
+</div>
+</div>
+
+<script>
+    
+    leafletMapsObj["1"] = L.map('mapid_1').setView(["29.61325666145875", "115.89911183167952"], "13");
+    
+    
+    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(leafletMapsObj["1"]);
+
+</script>
+
+    
+    
+    
+    
+    
+    
+        
+    
+            
+            
+            
+            
+    
+            <script>
+                
+                leafletMarkersObj["7c21ac1eff101a2d3a2e9c84f4c67c2c"] = L.marker(["29.61325666145875", "115.89911183167952"]).addTo(leafletMapsObj["1"]);
+    
+                
+            </script>
+    
+        
+    
+    
+    
+    
+    
+
+
+
+
+
 <p>盛夏孟秋之日，余自遠方赴<z>粵</z>中務工。時過<z>九江</z>，隨<z>付</z>君<z>小芳</z>謁靖節祠、太白煙、愛蓮池、點將臺、浸水亭。亦談及<z>潯陽</z>三隱、<z>江州</z>司馬、白鹿書院、南山菊茶、陶令酒……感於人傑地靈，物華天寶，因就陶公祠留言薄二句擴而爲篇。原作於國鐵列車臨時拼湊，偶有疏漏。今微調錄在此地。思淺學陋，僅以致謝。</p>
 <p><img src="https://i.loli.net/2020/08/20/DJ4FZq7Xn96fjvR.png" alt="visit-tym-poem.png" /></p>
 
-<p style="font-family:LXGWWenKaiTC-Bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Sunday, October 2, 2022, 21:06:56 by 王小花.</p>
+<p style="font-family:LXGWWenKaiTC-Bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Friday, October 7, 2022, 22:51:01 by 王小花.</p>
     </article>
     
     <script>

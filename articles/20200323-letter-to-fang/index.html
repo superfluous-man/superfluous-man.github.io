@@ -25,6 +25,43 @@
 
  
 
+
+    
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/@raruto/leaflet-elevation@1.1.1/dist/leaflet-elevation.css" />
+
+<script src="https://duoyu.ren/js/leaflet.elevation.min.26c60bf7b7c69f77679476d6dfb3ac54.js"></script>
+
+
+
+<script src="https://duoyu.ren/js/leaflet.hugo.min.e9d28425adb797efc3aac7ef7cdc6857.js"></script>
+
+
+<link rel="stylesheet" href="https://duoyu.ren/css/leaflet.extra-markers.min.css">
+
+<script src="https://duoyu.ren/js/leaflet.extra-markers.min.js"></script>
+
+<style>
+    .fa-icon-marker {
+        text-align: center;
+        width: 100%;
+    }
+    .download-track {
+        background-color: #e1e1e1;
+        text-align: center;
+        margin-bottom: 25px;
+        border-radius: 0 0 10px 10px;
+        cursor: pointer;
+    }
+</style>
+
  
  
  
@@ -1209,7 +1246,7 @@
 <meta name="keywords" content="poem">
 
 <meta name="created" content="2020-03-23T12:56:30&#43;0800">
-<meta name="modified" content="2022-10-02T21:07:21&#43;0800">
+<meta name="modified" content="2022-10-07T22:47:49&#43;0800">
 <meta property="article:published_time" content="2020-03-23T12:56:30&#43;0800">
 
 <meta name="author" content="李二狗">
@@ -1256,7 +1293,7 @@
     "@type": "WebPage",
     "headline": "應當銘記的兩個月",
     "datePublished": "2020-03-23T12:56:30+08:00",
-    "dateModified": "2022-10-02T21:07:21+08:00",
+    "dateModified": "2022-10-07T22:47:49+08:00",
     "url" : "https://duoyu.ren/articles/20200323-letter-to-fang/",
     "description": "Nach Auschwitz ein Gedicht zu schreiben, ist barbarisch.",
     "keywords": ["poem"],
@@ -1756,9 +1793,9 @@ if (!doNotTrack) {
 
 &middot; <time class="single__info" title="Written At">📅&nbsp;Mar 23, 2020 </time>
   
-&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Oct 2, 2022 </time>
+&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Oct 7, 2022 </time>
   
-&middot; 🔢 36 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 1 min read</span>
+&middot; 🔢 38 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 1 min read</span>
 <span class="single__info"> 
  &middot; 👀<span id="busuanzi_value_page_pv">...</span> views 
 </span>
@@ -1813,6 +1850,66 @@ if (!doNotTrack) {
 
 
 
+<div class="leaflets">
+  <div class="leaflet">
+<p class="leaflet-title">Precise Location</p>
+<div id='mapid_1' class="leaflet-map" style='width: 100%; height: 400px;'></div>
+</div>
+</div>
+
+<script>
+    
+    leafletMapsObj["1"] = L.map('mapid_1').setView(["30.54991655054522", "114.28847434669231"], "13");
+    
+    
+    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(leafletMapsObj["1"]);
+
+</script>
+
+    
+    
+    
+    
+    
+    
+        
+    
+            
+            
+            
+            
+    
+            <script>
+                
+                leafletMarkersObj["c2a31e397cdbbcc6a795ddf004096879"] = L.marker(["30.54991655054522", "114.28847434669231"]).addTo(leafletMapsObj["1"]);
+    
+                
+            </script>
+    
+        
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   
@@ -1837,7 +1934,7 @@ if (!doNotTrack) {
 
 <p><img src="https://i.loli.net/2020/05/04/SCA4rdkUjEQJcFv.png" alt="LF.png" /></p>
 
-<p style="font-family:LXGWWenKaiTC-Bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Sunday, October 2, 2022, 21:07:21 by 王小花.</p>
+<p style="font-family:LXGWWenKaiTC-Bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Friday, October 7, 2022, 22:47:49 by 王小花.</p>
     </article>
     
     <script>
