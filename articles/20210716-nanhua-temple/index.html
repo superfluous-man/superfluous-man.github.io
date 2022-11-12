@@ -580,6 +580,15 @@
             theme: selectedThemeVariant === "dark" || selectedThemeVariant === "hacker" ? 'photon-dark' : selectedThemeVariant === 'kimbie' ? 'github-dark-orange' : 'github-light',
           }, 'https://utteranc.es');
         }
+
+        var giscus = document.querySelector('iframe');
+        if (giscus) {
+          giscus.contentWindow.postMessage({
+            type: 'set-theme',
+            theme: selectedThemeVariant === "dark" || selectedThemeVariant === "hacker" ? 'photon-dark' : selectedThemeVariant === 'kimbie' ? 'github-dark-orange' : 'github-light',
+          }, 'https://giscus.app/zh-CN');
+        }        
+        
       });
     }) : null;
   
