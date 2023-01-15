@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Fonts on Duōyú Rén</title>
+    <link>https://duoyu.ren/tags/fonts/</link>
+    <description>Recent content in Fonts on Duōyú Rén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
+    <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
+    <copyright>&amp;copy;2020-{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 15 Jan 2023 14:51:03 +0800</lastBuildDate>
+    
+        <atom:link href="https://duoyu.ren/tags/fonts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>二十六種希臘文排版字體</title>
+        <link>https://duoyu.ren/articles/20230115-greek-fonts/</link>
+        <pubDate>Sun, 15 Jan 2023 14:51:03 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Sun, 15 Jan 2023 18:31:56 +0800</atom:modified>
+        <guid>https://duoyu.ren/articles/20230115-greek-fonts/</guid>
+        <description>Intro 此前整理邏輯學材料，需要用希臘字母抽象替代某些對象時都是以 TeX 命令實現。近來折騰通史材料，常常遇到古希臘人名與書名，難以用 TeX 命令逐個字母輸入</description>
+        
+        <dc:creator>李二苟</dc:creator>
+        <media:content url="https://duoyu.ren/images/articles/gr-font.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Greek</category>
+            
+          
+            
+              <category>Fonts</category>
+            
+          
+        
+        
+          
+            
+              <category>Greek</category>
+            
+          
+        
+        
+          
+            
+              <category>Fonts</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
