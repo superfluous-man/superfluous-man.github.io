@@ -639,9 +639,9 @@
         <link>https://duoyu.ren/articles/20191015-demos/</link>
         <pubDate>Tue, 15 Oct 2019 00:57:29 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Fri, 07 Oct 2022 20:22:02 +0800</atom:modified>
+        <atom:modified>Tue, 31 Jan 2023 18:11:26 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20191015-demos/</guid>
-        <description>本站新增樣式 參考衆多 Hugo shortcode 樣式案例，爲提高效率，本站新增以下幾種樣式。模板原有 shortcode 樣式在本文第二部分列出備查。 地圖插件（2022增加） 採用 hugo-leaf 的方</description>
+        <description>本站新增樣式 參考衆多 Hugo shortcode 樣式案例，爲提高效率，本站新增以下幾種樣式。模板原有 shortcode 樣式在本文第二部分列出備查。 外鏈圖標（2023增加） 採用 im.youronly.one 的方</description>
         
         <dc:creator>李二狗</dc:creator>
         <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>

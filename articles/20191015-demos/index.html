@@ -1241,6 +1241,7 @@
 <link rel="stylesheet" href="/css/main.min.css">
 
 
+
     
 <meta name="description" content="本站爲便於整理、排版圖文內容，結合 Hugo 的 shortcode 功能，製作若干便捷樣式，以提高 markdown 書寫的效率。本文爲這些設計的備份。" />
 
@@ -1248,7 +1249,7 @@
 <meta name="keywords" content="layout,shortcode">
 
 <meta name="created" content="2019-10-15T00:57:29&#43;0800">
-<meta name="modified" content="2022-10-07T20:22:02&#43;0800">
+<meta name="modified" content="2023-01-31T18:11:26&#43;0800">
 <meta property="article:published_time" content="2019-10-15T00:57:29&#43;0800">
 
 <meta name="author" content="李二狗">
@@ -1295,7 +1296,7 @@
     "@type": "WebPage",
     "headline": "內容版式 Demos",
     "datePublished": "2019-10-15T00:57:29+08:00",
-    "dateModified": "2022-10-07T20:22:02+08:00",
+    "dateModified": "2023-01-31T18:11:26+08:00",
     "url" : "https://duoyu.ren/articles/20191015-demos/",
     "description": "本站爲便於整理、排版圖文內容，結合 Hugo 的 shortcode 功能，製作若干便捷樣式，以提高 markdown 書寫的效率。本文爲這些設計的備份。",
     "keywords": ["layout","shortcode"],
@@ -1795,9 +1796,9 @@ if (!doNotTrack) {
 
 &middot; <time class="single__info" title="Written At">📅&nbsp;Oct 15, 2019 </time>
   
-&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Oct 7, 2022 </time>
+&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Jan 31, 2023 </time>
   
-&middot; 🔢 4572 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 10 min read</span>
+&middot; 🔢 6178 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 13 min read</span>
 <span class="single__info"> 
  &middot; 👀<span id="busuanzi_value_page_pv">...</span> views 
 </span>
@@ -1857,6 +1858,7 @@ if (!doNotTrack) {
   <ul>
     <li><a href="#本站新增樣式">本站新增樣式</a>
       <ul>
+        <li><a href="#外鏈圖標2023增加">外鏈圖標（2023增加）</a></li>
         <li><a href="#地圖插件2022增加">地圖插件（2022增加）</a></li>
         <li><a href="#源代碼展示框">源代碼展示框</a></li>
         <li><a href="#漢語拼音標註">漢語拼音標註</a></li>
@@ -1894,8 +1896,835 @@ if (!doNotTrack) {
 
       <h1 id="本站新增樣式">本站新增樣式</h1>
 <p>參考衆多 Hugo shortcode 樣式案例，爲提高效率，本站新增以下幾種樣式。模板原有 shortcode 樣式在本文第二部分列出備查。</p>
+<h2 id="外鏈圖標2023增加">外鏈圖標（2023增加）</h2>
+<p>採用 <a href="https://im.youronly.one/techmagus/codebits/hugo/hugo-render-link/how-to-add-link-icons-hugo-markdown-links-2022140/#" title="im.youronly.one" class="icon_external" rel="noopener external">im.youronly.one</a>
+
+
+ 的方案，並借鑑 <a href="https://www.jayeless.net/2021/08/hugo-mark-external-links.html" title="Jayeless.net" class="icon_external" rel="noopener external">Jayeless.net</a>
+
+
+的部分樣式，按說明文檔，將相關文件歸併到模板對應位置即可實現。</p>
+<ul>
+<li>Create a file called <code>render-link.html</code> in this directory <code>/layouts/_default/_markup/</code></li>
+<li>Copy and paste this code:</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span><span class="lnt">77
+</span><span class="lnt">78
+</span><span class="lnt">79
+</span><span class="lnt">80
+</span><span class="lnt">81
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="nx">$baseurl</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">urls</span><span class="na">.Parse</span><span class="w"> </span><span class="nx">site</span><span class="na">.BaseURL</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="nx">$url</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">urls</span><span class="na">.Parse</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="nx">$getpage</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">site</span><span class="na">.GetPage</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="nx">$internal</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">lt</span><span class="w"> </span><span class="o">(</span><span class="k">len</span><span class="w"> </span><span class="nx">$url</span><span class="na">.Host</span><span class="o">)</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="cp">-}}</span> <span class="cm">{{/* NOTE: internal links will always have an empty $url.Host */}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="nx">$fragment</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">$url</span><span class="na">.Fragment</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="nx">$fragment</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$fragment</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">printf</span><span class="w"> </span><span class="s">&#34;#%s&#34;</span><span class="w"> </span><span class="nx">$fragment</span><span class="w"> </span><span class="cp">}}{{-</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="nx">$destination</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="s">&#34;&#34;</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$internal</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="o">(</span><span class="nx">strings</span><span class="na">.HasPrefix</span><span class="w"> </span><span class="nx">$url</span><span class="na">.Path</span><span class="w"> </span><span class="s">&#34;./&#34;</span><span class="o">)</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">{{/* NOTE: for links starting with ./ */}}</span>
+</span></span><span class="line"><span class="cl">    <span class="cp">{{-</span><span class="w"> </span><span class="nx">$urltrimmed</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">strings</span><span class="na">.TrimPrefix</span><span class="w"> </span><span class="s">&#34;./&#34;</span><span class="w"> </span><span class="nx">$url</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">    <span class="cp">{{-</span><span class="w"> </span><span class="nx">$destination</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">printf</span><span class="w"> </span><span class="s">&#34;%s://%s/%s%s&#34;</span><span class="w"> </span><span class="nx">$baseurl</span><span class="na">.Scheme</span><span class="w"> </span><span class="nx">$baseurl</span><span class="na">.Host</span><span class="w"> </span><span class="nx">$urltrimmed</span><span class="w"> </span><span class="nx">$fragment</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">    <span class="cm">{{/* NOTE: for internal links */}}</span>
+</span></span><span class="line"><span class="cl">    <span class="cp">{{-</span><span class="w"> </span><span class="nx">$destination</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">printf</span><span class="w"> </span><span class="s">&#34;%s%s&#34;</span><span class="w"> </span><span class="nx">$getpage</span><span class="na">.RelPermalink</span><span class="w"> </span><span class="nx">$fragment</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$destination</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cm">{{/* PROTOCOLS */}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$chat</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;^(?:discord|irc[s6]?|jabber|skype|xmpp)://&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$ftp</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;^(?:[as]?ftp)://&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$magnet</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">strings</span><span class="na">.HasPrefix</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="s">&#34;magnet://&#34;</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$mail</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">strings</span><span class="na">.HasPrefix</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="s">&#34;mailto:&#34;</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$remote</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;^(?:bzr|git|s(?:sh|vn)|telnet)://&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$tel</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">strings</span><span class="na">.HasPrefix</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="s">&#34;tel:&#34;</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cm">{{/* READING */}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$books</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">or</span><span class="w"> </span><span class="o">(</span><span class="nx">strings</span><span class="na">.HasPrefix</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="s">&#34;doi://&#34;</span><span class="o">)</span><span class="w"> </span><span class="o">(</span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:epub|mobi|pdf)$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="o">)</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$document</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:docx?|odt|s(?:dw|xw)|sxw|uo[ft])$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$text</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:csv|txt)$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$presentation</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:f?odp|pptx?|s(?:d[dp]|xi)|uop)$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$spreadsheet</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:f?ods|s(?:d[cx]|xc)|uos|xlsx?)$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cm">{{/* MEDIA */}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$audio</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:(?:fl|a)ac|mka|og[ag]|opus|mp[3a]|midi?|wave?|wma)$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$video</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:av[1i]|divx|mk(?:3d|v)|mp(?:(?:e?g)?4?|v)|og[mv]|xvid|webm)$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$subtitle</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:dfxp|mks|s(?:bv|cc|rt|ub)|ttml|vtt)$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cm">{{/* EXECUTABLES */}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$executable</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:apk|com|deb|exe|msi)$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$scripts</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:bat|sh)$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cm">{{/* OTHERS */}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$fonts</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:otf|tt[fc]|woff2?)$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$compressed</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:[7g]?z(?:ip)?|bz(?:ip)?2?|[rt]ar)$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$diskimage</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:[di]mg|iso|md[sfx])$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="nx">$imagediting</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">findRE</span><span class="w"> </span><span class="s">&#34;\\.(?:psd|xcf)$&#34;</span><span class="w"> </span><span class="na">.Destination</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="s">&#34;&#34;</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$chat</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;chat&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$ftp</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;ftp&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$magnet</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;magnet&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$mail</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;mail&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$remote</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;remote&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$tel</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;tel&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$books</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;books&#34;</span><span class="w"> </span><span class="cp">}}</span>  | .woff2  | .otf  | .ttf  | .ttc 
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$document</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;document&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$text</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;text&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$presentation</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;presentation&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$spreadsheet</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;spreadsheet&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$audio</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;audio&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$video</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;video&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$subtitle</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;subtitle&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$executable</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;executable&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$scripts</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;scripts&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$fonts</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;fonts&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$compressed</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;compressed&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$diskimage</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;diskimage&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nx">$imagediting</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;imagediting&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="cp">{{-</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="o">(</span><span class="k">not</span><span class="w"> </span><span class="nx">$internal</span><span class="o">)</span><span class="w"> </span><span class="o">(</span><span class="k">ne</span><span class="w"> </span><span class="nx">$url</span><span class="na">.Host</span><span class="w"> </span><span class="nx">$baseurl</span><span class="na">.Host</span><span class="o">)</span><span class="w"> </span><span class="cp">-}}{{</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;external&#34;</span><span class="w"> </span><span class="cp">}}</span>  | .woff2  | .otf  | .ttf  | .ttc 
+</span></span><span class="line"><span class="cl"><span class="cp">{{-</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;</span><span class="cp">{{</span><span class="w"> </span><span class="nx">$destination</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nx">safeURL</span><span class="w"> </span><span class="cp">}}</span><span class="s">&#34;</span><span class="cp">{{</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="k">or</span><span class="w"> </span><span class="na">.Title</span><span class="w"> </span><span class="nx">$getpage</span><span class="na">.LinkTitle</span><span class="w"> </span><span class="na">.Text</span><span class="w"> </span><span class="cp">}}</span> <span class="na">title</span><span class="o">=</span><span class="s">&#34;</span><span class="cp">{{</span><span class="w"> </span><span class="na">.</span><span class="w"> </span><span class="cp">}}</span><span class="s">&#34;</span><span class="cp">{{</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">}}{{</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="nx">$icon</span><span class="w"> </span><span class="cp">}}</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;icon_</span><span class="cp">{{</span><span class="w"> </span><span class="na">.</span><span class="w"> </span><span class="cp">}}</span><span class="s">&#34;</span><span class="cp">{{</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">}}{{</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="k">not</span><span class="w"> </span><span class="nx">$internal</span><span class="w"> </span><span class="cp">}}</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;noopener external&#34;</span><span class="cp">{{</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">}}</span><span class="p">&gt;</span><span class="cp">{{</span><span class="w"> </span><span class="k">or</span><span class="w"> </span><span class="na">.Text</span><span class="w"> </span><span class="na">.Title</span><span class="w"> </span><span class="nx">$getpage</span><span class="na">.LinkTitle</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nx">safeHTML</span><span class="w"> </span><span class="cp">}}</span><span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>In your stylesheet file add:</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-CSS" data-lang="CSS"><span class="line"><span class="cl"><span class="c">/********************
+</span></span></span><span class="line"><span class="cl"><span class="c">** BGN: Link icons **
+</span></span></span><span class="line"><span class="cl"><span class="c">********************/</span>
+</span></span><span class="line"><span class="cl">  <span class="o">[</span><span class="nt">class</span><span class="o">^=</span><span class="s2">&#34;icon_&#34;</span><span class="o">]</span><span class="p">::</span><span class="nd">after</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">display</span><span class="p">:</span> <span class="kc">inline-block</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">text-decoration</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">white-space</span><span class="p">:</span> <span class="kc">pre-wrap</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">margin-left</span><span class="p">:</span> <span class="mf">0.25</span><span class="kt">em</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">width</span><span class="p">:</span> <span class="mi">1</span><span class="kt">em</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_external</span><span class="p">::</span><span class="nd">after</span>     <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\1F517&#34;</span><span class="p">;</span>                                    <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_chat</span><span class="p">::</span><span class="nd">after</span>         <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\1F4AC&#34;</span><span class="p">;</span>                                    <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_ftp</span><span class="p">::</span><span class="nd">after</span>          <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\2194\FE0F&#34;</span><span class="p">;</span>                                <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_magnet</span><span class="p">::</span><span class="nd">after</span>       <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\1F9F2&#34;</span><span class="p">;</span>                                    <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_mail</span><span class="p">::</span><span class="nd">after</span>         <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\1F4E7&#34;</span><span class="p">;</span>                                    <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_remote</span><span class="p">::</span><span class="nd">after</span>       <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\1F4BB&#34;</span><span class="p">;</span>                                    <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_tel</span><span class="p">::</span><span class="nd">after</span>          <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\260E\FE0F&#34;</span><span class="p">;</span>                                <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_books</span><span class="p">::</span><span class="nd">after</span>        <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\1F4D6&#34;</span><span class="p">;</span>                                    <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_document</span><span class="p">::</span><span class="nd">after</span>     <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\1F4C4&#34;</span><span class="p">;</span>                                    <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_text</span><span class="p">::</span><span class="nd">after</span>         <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\1F4DD&#34;</span><span class="p">;</span>                                    <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_presentation</span><span class="p">::</span><span class="nd">after</span> <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="nb">url</span><span class="p">(</span><span class="s2">&#34;../fonts/link-icons-presentation.svg&#34;</span><span class="p">);</span> <span class="c">/* https://openclipart.org/detail/36505/tango-x-office-presentation */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_spreadsheet</span><span class="p">::</span><span class="nd">after</span>  <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="nb">url</span><span class="p">(</span><span class="s2">&#34;../fonts/link-icons-spreadsheet.svg&#34;</span><span class="p">);</span>  <span class="c">/* https://openclipart.org/detail/36517/tango-x-office-spreadsheet */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_audio</span><span class="p">::</span><span class="nd">after</span>        <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\1F3B5&#34;</span><span class="p">;</span>                                    <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_video</span><span class="p">::</span><span class="nd">after</span>        <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\1F4FD\FE0F&#34;</span><span class="p">;</span>                               <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_subtitle</span><span class="p">::</span><span class="nd">after</span>     <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="nb">url</span><span class="p">(</span><span class="s2">&#34;../fonts/link-icons-subtitle.svg&#34;</span><span class="p">);</span>     <span class="c">/* https://openclipart.org/detail/212110/mimetype-subtitle */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_executable</span><span class="p">::</span><span class="nd">after</span>   <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="nb">url</span><span class="p">(</span><span class="s2">&#34;../fonts/link-icons-executable.svg&#34;</span><span class="p">);</span>   <span class="c">/* https://openclipart.org/detail/212161/mimetype-binary */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_scripts</span><span class="p">::</span><span class="nd">after</span>      <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="nb">url</span><span class="p">(</span><span class="s2">&#34;../fonts/link-icons-scripts.svg&#34;</span><span class="p">);</span>      <span class="c">/* https://openclipart.org/detail/36175/tango-text-x-script */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_fonts</span><span class="p">::</span><span class="nd">after</span>        <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="nb">url</span><span class="p">(</span><span class="s2">&#34;../fonts/link-icons-fonts.svg&#34;</span><span class="p">);</span>        <span class="c">/* https://openclipart.org/detail/35257/tango-preferences-desktop-font */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_compressed</span><span class="p">::</span><span class="nd">after</span>   <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\1F5DC\FE0F&#34;</span><span class="p">;</span>                               <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_diskimage</span><span class="p">::</span><span class="nd">after</span>    <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="s2">&#34;\1F4BD&#34;</span><span class="p">;</span>                                    <span class="c">/*  */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">.</span><span class="nc">icon_imagediting</span><span class="p">::</span><span class="nd">after</span>  <span class="p">{</span> <span class="k">content</span><span class="p">:</span> <span class="nb">url</span><span class="p">(</span><span class="s2">&#34;../fonts/link-icons-imageediting.svg&#34;</span><span class="p">);</span> <span class="c">/* https://openclipart.org/detail/231061/artists-brush-and-paint */</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c">/********************
+</span></span></span><span class="line"><span class="cl"><span class="c">** END: Link icons **
+</span></span></span><span class="line"><span class="cl"><span class="c">********************/</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>根據所涉及的圖標，添加相關字體支持後，正文以下列方式導入：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-Markdown" data-lang="Markdown"><span class="line"><span class="cl"><span class="k">-</span> External links
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">https://example.com/#fragment</span>](<span class="na">https://example.com/#fragment &#34;https://example.com/#fragment&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Chat
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">irc://</span>](<span class="na">irc://example.com &#34;irc://&#34;</span>) | [<span class="nt">ircs://</span>](<span class="na">ircs://example.com &#34;ircs://&#34;</span>) | [<span class="nt">irc6://</span>](<span class="na">irc6://example.com &#34;irc6://&#34;</span>) | [<span class="nt">xmpp://</span>](<span class="na">xmpp://example.com &#34;xmpp://&#34;</span>) | [<span class="nt">jabber://</span>](<span class="na">jabber://example.com &#34;jabber://&#34;</span>) | [<span class="nt">discord://</span>](<span class="na">discord://example.com &#34;discord://&#34;</span>) | [<span class="nt">skype://</span>](<span class="na">skype://example.com &#34;skype://&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> FTP
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">sftp://</span>](<span class="na">sftp://example.com &#34;sftp://&#34;</span>) | [<span class="nt">ftp://</span>](<span class="na">ftp://example.com &#34;ftp://&#34;</span>) | [<span class="nt">aftp://</span>](<span class="na">aftp://example.com &#34;aftp://&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Magnet
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">magnet://</span>](<span class="na">magnet://example.com &#34;magnet://&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Mail
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">mailto:</span>](<span class="na">mailto:noreply@example.com &#34;mailto:&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Remote
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">telnet://</span>](<span class="na">telnet://example.com &#34;telnet://&#34;</span>) | [<span class="nt">ssh://</span>](<span class="na">ssh://example.com &#34;ssh://&#34;</span>) | [<span class="nt">git://</span>](<span class="na">git://example.com &#34;git://&#34;</span>) | [<span class="nt">svn://</span>](<span class="na">svn://example.com &#34;svn://&#34;</span>) | [<span class="nt">bzr://</span>](<span class="na">bzr://example.com &#34;bzr://&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Tel
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">tel:</span>](<span class="na">tel:123-456-7890 &#34;tel:&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Books
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">doi://</span>](<span class="na">doi://example.com &#34;doi://&#34;</span>) | [<span class="nt">.epub</span>](<span class="na">https://example.com/file.epub &#34;.epub&#34;</span>) | [<span class="nt">.mobi</span>](<span class="na">https://example.com/file.mobi &#34;.mobi&#34;</span>) | [<span class="nt">.pdf</span>](<span class="na">https://example.com/file.pdf &#34;.pdf&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Document
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">.odt</span>](<span class="na">https://example.com/file.odt &#34;.odt&#34;</span>) | [<span class="nt">.sdw</span>](<span class="na">https://example.com/file.sdw &#34;.sdw&#34;</span>) | [<span class="nt">.sxw</span>](<span class="na">https://example.com/file.sxw &#34;.sxw&#34;</span>) | [<span class="nt">.uof</span>](<span class="na">https://example.com/file.uof &#34;.uof&#34;</span>) | [<span class="nt">.uot</span>](<span class="na">https://example.com/file.uot &#34;.uot&#34;</span>) | [<span class="nt">.doc</span>](<span class="na">https://example.com/file.doc &#34;.doc&#34;</span>) | [<span class="nt">.docx</span>](<span class="na">https://example.com/file.docx &#34;.docx&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Text
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">.txt</span>](<span class="na">https://example.com/file.txt &#34;.txt&#34;</span>) | [<span class="nt">.csv</span>](<span class="na">https://example.com/file.csv &#34;.csv&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Presentation
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">.odp</span>](<span class="na">https://example.com/file.odp &#34;.odp&#34;</span>) | [<span class="nt">.fodp</span>](<span class="na">https://example.com/file.fodp &#34;.fodp&#34;</span>) | [<span class="nt">.sdd</span>](<span class="na">https://example.com/file.sdd &#34;.sdd&#34;</span>) | [<span class="nt">.sdp</span>](<span class="na">https://example.com/file.sdp &#34;.sdp&#34;</span>) | [<span class="nt">.sxi</span>](<span class="na">https://example.com/file.sxi &#34;.sxi&#34;</span>) | [<span class="nt">.uop</span>](<span class="na">https://example.com/file.uop &#34;.uop&#34;</span>) | [<span class="nt">.ppt</span>](<span class="na">https://example.com/file.ppt &#34;.ppt&#34;</span>) | [<span class="nt">.pptx</span>](<span class="na">https://example.com/file.pptx &#34;.pptx&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Spreadsheet
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">.ods</span>](<span class="na">https://example.com/file.ods &#34;.ods&#34;</span>) | [<span class="nt">.fods</span>](<span class="na">https://example.com/file.fods &#34;.fods&#34;</span>) | [<span class="nt">.sdc</span>](<span class="na">https://example.com/file.sdc &#34;.sdc&#34;</span>) | [<span class="nt">.sxc</span>](<span class="na">https://example.com/file.sxc &#34;.sxc&#34;</span>) | [<span class="nt">.uos</span>](<span class="na">https://example.com/file.uos &#34;.uos&#34;</span>) | [<span class="nt">.xls</span>](<span class="na">https://example.com/file.xls &#34;.xls&#34;</span>) | [<span class="nt">.xlsx</span>](<span class="na">https://example.com/file.xlsx &#34;.xlsx&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Audio
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">.flac</span>](<span class="na">https://example.com/file.flac &#34;.flac&#34;</span>) | [<span class="nt">.aac</span>](<span class="na">https://example.com/file.aac &#34;.aac&#34;</span>) | [<span class="nt">.mka</span>](<span class="na">https://example.com/file.mka &#34;.mka&#34;</span>) | [<span class="nt">.ogg</span>](<span class="na">https://example.com/file.ogg &#34;.ogg&#34;</span>) | [<span class="nt">.oga</span>](<span class="na">https://example.com/file.oga &#34;.oga&#34;</span>) | [<span class="nt">.opus</span>](<span class="na">https://example.com/file.opus &#34;.opus&#34;</span>) | [<span class="nt">.mp3</span>](<span class="na">https://example.com/file.mp3 &#34;.mp3&#34;</span>) | [<span class="nt">.mpa</span>](<span class="na">https://example.com/file.mpa &#34;.mpa&#34;</span>) | [<span class="nt">.mid</span>](<span class="na">https://example.com/file.mid &#34;.mid&#34;</span>) | [<span class="nt">.midi</span>](<span class="na">https://example.com/file.midi &#34;.midi&#34;</span>) | [<span class="nt">.wav</span>](<span class="na">https://example.com/file.wav &#34;.wav&#34;</span>) | [<span class="nt">.wave</span>](<span class="na">https://example.com/file.wave &#34;.wave&#34;</span>) | [<span class="nt">.wma</span>](<span class="na">https://example.com/file.wma &#34;.wma&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Video
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">.av1</span>](<span class="na">https://example.com/file.av1 &#34;.av1&#34;</span>) | [<span class="nt">.webm</span>](<span class="na">https://example.com/file.webm &#34;.webm&#34;</span>) | [<span class="nt">.xvid</span>](<span class="na">https://example.com/file.xvid &#34;.xvid&#34;</span>) | [<span class="nt">.mkv</span>](<span class="na">https://example.com/file.mkv &#34;.mkv&#34;</span>) | [<span class="nt">.mk3d</span>](<span class="na">https://example.com/file.mk3d &#34;.mk3d&#34;</span>) | [<span class="nt">.ogm</span>](<span class="na">https://example.com/file.ogm &#34;.ogm&#34;</span>) | [<span class="nt">.ogv</span>](<span class="na">https://example.com/file.ogv &#34;.ogv&#34;</span>) | [<span class="nt">.divx</span>](<span class="na">https://example.com/file.divx &#34;.divx&#34;</span>) | [<span class="nt">.avi</span>](<span class="na">https://example.com/file.avi &#34;.avi&#34;</span>) | [<span class="nt">.mp4</span>](<span class="na">https://example.com/file.mp4 &#34;.mp4&#34;</span>) | [<span class="nt">.mpeg4</span>](<span class="na">https://example.com/file.mpeg4 &#34;.mpeg4&#34;</span>) | [<span class="nt">.mpv</span>](<span class="na">https://example.com/file.mpv &#34;.mpv&#34;</span>) | [<span class="nt">.mpeg</span>](<span class="na">https://example.com/file.mpeg &#34;.mpeg&#34;</span>) | [<span class="nt">.mpg</span>](<span class="na">https://example.com/file.mpg &#34;.mpg&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Subtitle
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">.vtt</span>](<span class="na">https://example.com/file.vtt &#34;.vtt&#34;</span>) | [<span class="nt">.ttml</span>](<span class="na">https://example.com/file.ttml &#34;.ttml&#34;</span>) | [<span class="nt">.dfxp</span>](<span class="na">https://example.com/file.dfxp &#34;.dfxp&#34;</span>) | [<span class="nt">.srt</span>](<span class="na">https://example.com/file.srt &#34;.srt&#34;</span>) | [<span class="nt">.sub</span>](<span class="na">https://example.com/file.sub &#34;.sub&#34;</span>) | [<span class="nt">.sbv</span>](<span class="na">https://example.com/file.sbv &#34;.sbv&#34;</span>) | [<span class="nt">.scc</span>](<span class="na">https://example.com/file.scc &#34;.scc&#34;</span>) | [<span class="nt">.mks</span>](<span class="na">https://example.com/file.mks &#34;.mks&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Executables
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">.deb</span>](<span class="na">https://example.com/file.deb &#34;.deb&#34;</span>) | [<span class="nt">.apk</span>](<span class="na">https://example.com/file.apk &#34;.apk&#34;</span>) | [<span class="nt">.exe</span>](<span class="na">https://example.com/file.exe &#34;.exe&#34;</span>) | [<span class="nt">.com</span>](<span class="na">https://example.com/file.com &#34;.com&#34;</span>) | [<span class="nt">.msi</span>](<span class="na">https://example.com/file.msi &#34;.msi&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Scripts
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">.bat</span>](<span class="na">https://example.com/file.bat &#34;.bat&#34;</span>) | [<span class="nt">.sh</span>](<span class="na">https://example.com/file.sh &#34;.sh&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Fonts
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">.woff</span>](<span class="na">https://example.com/file.woff &#34;.woff&#34;</span>) | [<span class="nt">.woff2</span>](<span class="na">https://example.com/file.woff2 &#34;.woff2&#34;</span>) | [<span class="nt">.otf</span>](<span class="na">https://example.com/file.otf &#34;.otf&#34;</span>) | [<span class="nt">.ttf</span>](<span class="na">https://example.com/file.ttf &#34;.ttf&#34;</span>) | [<span class="nt">.ttc</span>](<span class="na">https://example.com/file.ttc &#34;.ttc&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Compressed files
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">.7z</span>](<span class="na">https://example.com/file.7z &#34;.7z&#34;</span>) | [<span class="nt">.7zip</span>](<span class="na">https://example.com/file.7zip &#34;.7zip&#34;</span>) | [<span class="nt">.tar</span>](<span class="na">https://example.com/file.tar &#34;.tar&#34;</span>) | [<span class="nt">.gz</span>](<span class="na">https://example.com/file.gz &#34;.gz&#34;</span>) | [<span class="nt">.gzip</span>](<span class="na">https://example.com/file.gzip &#34;.gzip&#34;</span>) | [<span class="nt">.bz2</span>](<span class="na">https://example.com/file.bz2 &#34;.bz2&#34;</span>) | [<span class="nt">.bzip2</span>](<span class="na">https://example.com/file.bzip2 &#34;.bzip2&#34;</span>) | [<span class="nt">.zip</span>](<span class="na">https://example.com/file.zip &#34;.zip&#34;</span>) | [<span class="nt">.rar</span>](<span class="na">https://example.com/file.rar &#34;.rar&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Disk images
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">.img</span>](<span class="na">https://example.com/file.img &#34;.img&#34;</span>) | [<span class="nt">.iso</span>](<span class="na">https://example.com/file.iso &#34;.iso&#34;</span>) | [<span class="nt">.dmg</span>](<span class="na">https://example.com/file.dmg &#34;.dmg&#34;</span>) | [<span class="nt">.mds</span>](<span class="na">https://example.com/file.mds &#34;.mds&#34;</span>) | [<span class="nt">.mdf</span>](<span class="na">https://example.com/file.mdf &#34;.mdf&#34;</span>) | [<span class="nt">.mdx</span>](<span class="na">https://example.com/file.mdx &#34;.mdx&#34;</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Image editing
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> [<span class="nt">.xcf</span>](<span class="na">https://example.com/file.xcf &#34;.xcf&#34;</span>) | [<span class="nt">.psd</span>](<span class="na">https://example.com/file.psd &#34;.psd&#34;</span>)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>
+<p>頁面渲染效果如下：</p>
+</li>
+<li>
+<p>External links</p>
+<ul>
+<li>This is an <a href="https://example.com/#fragment" title="https://example.com/#fragment" class="icon_external" rel="noopener external">external links</a>
+
+
+ Test&hellip;</li>
+</ul>
+</li>
+<li>
+<p>Chat</p>
+<ul>
+<li><a href="irc://example.com" title="irc://" class="icon_chat" rel="noopener external">irc://</a>
+
+
+ | <a href="ircs://example.com" title="ircs://" class="icon_chat" rel="noopener external">ircs://</a>
+
+
+ | <a href="irc6://example.com" title="irc6://" class="icon_chat" rel="noopener external">irc6://</a>
+
+
+ | <a href="xmpp://example.com" title="xmpp://" class="icon_chat" rel="noopener external">xmpp://</a>
+
+
+ | <a href="jabber://example.com" title="jabber://" class="icon_chat" rel="noopener external">jabber://</a>
+
+
+ | <a href="discord://example.com" title="discord://" class="icon_chat" rel="noopener external">discord://</a>
+
+
+ | <a href="skype://example.com" title="skype://" class="icon_chat" rel="noopener external">skype://</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>FTP</p>
+<ul>
+<li><a href="sftp://example.com" title="sftp://" class="icon_ftp" rel="noopener external">sftp://</a>
+
+
+ | <a href="ftp://example.com" title="ftp://" class="icon_ftp" rel="noopener external">ftp://</a>
+
+
+ | <a href="aftp://example.com" title="aftp://" class="icon_ftp" rel="noopener external">aftp://</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Magnet</p>
+<ul>
+<li><a href="magnet://example.com" title="magnet://" class="icon_magnet" rel="noopener external">magnet://</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Mail</p>
+<ul>
+<li><a href="" title="mailto:" class="icon_mail">mailto:</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Remote</p>
+<ul>
+<li><a href="telnet://example.com" title="telnet://" class="icon_remote" rel="noopener external">telnet://</a>
+
+
+ | <a href="ssh://example.com" title="ssh://" class="icon_remote" rel="noopener external">ssh://</a>
+
+
+ | <a href="git://example.com" title="git://" class="icon_remote" rel="noopener external">git://</a>
+
+
+ | <a href="svn://example.com" title="svn://" class="icon_remote" rel="noopener external">svn://</a>
+
+
+ | <a href="bzr://example.com" title="bzr://" class="icon_remote" rel="noopener external">bzr://</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Tel</p>
+<ul>
+<li><a href="" title="tel:" class="icon_tel">tel:</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Books</p>
+<ul>
+<li><a href="doi://example.com" title="doi://" class="icon_books" rel="noopener external">doi://</a>
+
+
+ | <a href="https://example.com/file.epub" title=".epub" class="icon_books" rel="noopener external">.epub</a>
+
+
+ | <a href="https://example.com/file.mobi" title=".mobi" class="icon_books" rel="noopener external">.mobi</a>
+
+
+ | <a href="https://example.com/file.pdf" title=".pdf" class="icon_books" rel="noopener external">.pdf</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Document</p>
+<ul>
+<li><a href="https://example.com/file.odt" title=".odt" class="icon_document" rel="noopener external">.odt</a>
+
+
+ | <a href="https://example.com/file.sdw" title=".sdw" class="icon_document" rel="noopener external">.sdw</a>
+
+
+ | <a href="https://example.com/file.sxw" title=".sxw" class="icon_document" rel="noopener external">.sxw</a>
+
+
+ | <a href="https://example.com/file.uof" title=".uof" class="icon_document" rel="noopener external">.uof</a>
+
+
+ | <a href="https://example.com/file.uot" title=".uot" class="icon_document" rel="noopener external">.uot</a>
+
+
+ | <a href="https://example.com/file.doc" title=".doc" class="icon_document" rel="noopener external">.doc</a>
+
+
+ | <a href="https://example.com/file.docx" title=".docx" class="icon_document" rel="noopener external">.docx</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Text</p>
+<ul>
+<li><a href="https://example.com/file.txt" title=".txt" class="icon_text" rel="noopener external">.txt</a>
+
+
+ | <a href="https://example.com/file.csv" title=".csv" class="icon_text" rel="noopener external">.csv</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Presentation</p>
+<ul>
+<li><a href="https://example.com/file.odp" title=".odp" class="icon_presentation" rel="noopener external">.odp</a>
+
+
+ | <a href="https://example.com/file.fodp" title=".fodp" class="icon_presentation" rel="noopener external">.fodp</a>
+
+
+ | <a href="https://example.com/file.sdd" title=".sdd" class="icon_presentation" rel="noopener external">.sdd</a>
+
+
+ | <a href="https://example.com/file.sdp" title=".sdp" class="icon_presentation" rel="noopener external">.sdp</a>
+
+
+ | <a href="https://example.com/file.sxi" title=".sxi" class="icon_presentation" rel="noopener external">.sxi</a>
+
+
+ | <a href="https://example.com/file.uop" title=".uop" class="icon_presentation" rel="noopener external">.uop</a>
+
+
+ | <a href="https://example.com/file.ppt" title=".ppt" class="icon_presentation" rel="noopener external">.ppt</a>
+
+
+ | <a href="https://example.com/file.pptx" title=".pptx" class="icon_presentation" rel="noopener external">.pptx</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Spreadsheet</p>
+<ul>
+<li><a href="https://example.com/file.ods" title=".ods" class="icon_spreadsheet" rel="noopener external">.ods</a>
+
+
+ | <a href="https://example.com/file.fods" title=".fods" class="icon_spreadsheet" rel="noopener external">.fods</a>
+
+
+ | <a href="https://example.com/file.sdc" title=".sdc" class="icon_spreadsheet" rel="noopener external">.sdc</a>
+
+
+ | <a href="https://example.com/file.sxc" title=".sxc" class="icon_spreadsheet" rel="noopener external">.sxc</a>
+
+
+ | <a href="https://example.com/file.uos" title=".uos" class="icon_spreadsheet" rel="noopener external">.uos</a>
+
+
+ | <a href="https://example.com/file.xls" title=".xls" class="icon_spreadsheet" rel="noopener external">.xls</a>
+
+
+ | <a href="https://example.com/file.xlsx" title=".xlsx" class="icon_spreadsheet" rel="noopener external">.xlsx</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Audio</p>
+<ul>
+<li><a href="https://example.com/file.flac" title=".flac" class="icon_audio" rel="noopener external">.flac</a>
+
+
+ | <a href="https://example.com/file.aac" title=".aac" class="icon_audio" rel="noopener external">.aac</a>
+
+
+ | <a href="https://example.com/file.mka" title=".mka" class="icon_audio" rel="noopener external">.mka</a>
+
+
+ | <a href="https://example.com/file.ogg" title=".ogg" class="icon_audio" rel="noopener external">.ogg</a>
+
+
+ | <a href="https://example.com/file.oga" title=".oga" class="icon_audio" rel="noopener external">.oga</a>
+
+
+ | <a href="https://example.com/file.opus" title=".opus" class="icon_audio" rel="noopener external">.opus</a>
+
+
+ | <a href="https://example.com/file.mp3" title=".mp3" class="icon_audio" rel="noopener external">.mp3</a>
+
+
+ | <a href="https://example.com/file.mpa" title=".mpa" class="icon_audio" rel="noopener external">.mpa</a>
+
+
+ | <a href="https://example.com/file.mid" title=".mid" class="icon_audio" rel="noopener external">.mid</a>
+
+
+ | <a href="https://example.com/file.midi" title=".midi" class="icon_audio" rel="noopener external">.midi</a>
+
+
+ | <a href="https://example.com/file.wav" title=".wav" class="icon_audio" rel="noopener external">.wav</a>
+
+
+ | <a href="https://example.com/file.wave" title=".wave" class="icon_audio" rel="noopener external">.wave</a>
+
+
+ | <a href="https://example.com/file.wma" title=".wma" class="icon_audio" rel="noopener external">.wma</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Video</p>
+<ul>
+<li><a href="https://example.com/file.av1" title=".av1" class="icon_video" rel="noopener external">.av1</a>
+
+
+ | <a href="https://example.com/file.webm" title=".webm" class="icon_video" rel="noopener external">.webm</a>
+
+
+ | <a href="https://example.com/file.xvid" title=".xvid" class="icon_video" rel="noopener external">.xvid</a>
+
+
+ | <a href="https://example.com/file.mkv" title=".mkv" class="icon_video" rel="noopener external">.mkv</a>
+
+
+ | <a href="https://example.com/file.mk3d" title=".mk3d" class="icon_video" rel="noopener external">.mk3d</a>
+
+
+ | <a href="https://example.com/file.ogm" title=".ogm" class="icon_video" rel="noopener external">.ogm</a>
+
+
+ | <a href="https://example.com/file.ogv" title=".ogv" class="icon_video" rel="noopener external">.ogv</a>
+
+
+ | <a href="https://example.com/file.divx" title=".divx" class="icon_video" rel="noopener external">.divx</a>
+
+
+ | <a href="https://example.com/file.avi" title=".avi" class="icon_video" rel="noopener external">.avi</a>
+
+
+ | <a href="https://example.com/file.mp4" title=".mp4" class="icon_video" rel="noopener external">.mp4</a>
+
+
+ | <a href="https://example.com/file.mpeg4" title=".mpeg4" class="icon_video" rel="noopener external">.mpeg4</a>
+
+
+ | <a href="https://example.com/file.mpv" title=".mpv" class="icon_video" rel="noopener external">.mpv</a>
+
+
+ | <a href="https://example.com/file.mpeg" title=".mpeg" class="icon_video" rel="noopener external">.mpeg</a>
+
+
+ | <a href="https://example.com/file.mpg" title=".mpg" class="icon_video" rel="noopener external">.mpg</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Subtitle</p>
+<ul>
+<li><a href="https://example.com/file.vtt" title=".vtt" class="icon_subtitle" rel="noopener external">.vtt</a>
+
+
+ | <a href="https://example.com/file.ttml" title=".ttml" class="icon_subtitle" rel="noopener external">.ttml</a>
+
+
+ | <a href="https://example.com/file.dfxp" title=".dfxp" class="icon_subtitle" rel="noopener external">.dfxp</a>
+
+
+ | <a href="https://example.com/file.srt" title=".srt" class="icon_subtitle" rel="noopener external">.srt</a>
+
+
+ | <a href="https://example.com/file.sub" title=".sub" class="icon_subtitle" rel="noopener external">.sub</a>
+
+
+ | <a href="https://example.com/file.sbv" title=".sbv" class="icon_subtitle" rel="noopener external">.sbv</a>
+
+
+ | <a href="https://example.com/file.scc" title=".scc" class="icon_subtitle" rel="noopener external">.scc</a>
+
+
+ | <a href="https://example.com/file.mks" title=".mks" class="icon_subtitle" rel="noopener external">.mks</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Executables</p>
+<ul>
+<li><a href="https://example.com/file.deb" title=".deb" class="icon_executable" rel="noopener external">.deb</a>
+
+
+ | <a href="https://example.com/file.apk" title=".apk" class="icon_executable" rel="noopener external">.apk</a>
+
+
+ | <a href="https://example.com/file.exe" title=".exe" class="icon_executable" rel="noopener external">.exe</a>
+
+
+ | <a href="https://example.com/file.com" title=".com" class="icon_executable" rel="noopener external">.com</a>
+
+
+ | <a href="https://example.com/file.msi" title=".msi" class="icon_executable" rel="noopener external">.msi</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Scripts</p>
+<ul>
+<li><a href="https://example.com/file.bat" title=".bat" class="icon_scripts" rel="noopener external">.bat</a>
+
+
+ | <a href="https://example.com/file.sh" title=".sh" class="icon_scripts" rel="noopener external">.sh</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Fonts</p>
+<ul>
+<li><a href="https://example.com/file.woff" title=".woff" class="icon_fonts" rel="noopener external">.woff</a>
+
+
+ | <a href="https://example.com/file.woff2" title=".woff2" class="icon_fonts" rel="noopener external">.woff2</a>
+
+
+ | <a href="https://example.com/file.otf" title=".otf" class="icon_fonts" rel="noopener external">.otf</a>
+
+
+ | <a href="https://example.com/file.ttf" title=".ttf" class="icon_fonts" rel="noopener external">.ttf</a>
+
+
+ | <a href="https://example.com/file.ttc" title=".ttc" class="icon_fonts" rel="noopener external">.ttc</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Compressed files</p>
+<ul>
+<li><a href="https://example.com/file.7z" title=".7z" class="icon_compressed" rel="noopener external">.7z</a>
+
+
+ | <a href="https://example.com/file.7zip" title=".7zip" class="icon_compressed" rel="noopener external">.7zip</a>
+
+
+ | <a href="https://example.com/file.tar" title=".tar" class="icon_compressed" rel="noopener external">.tar</a>
+
+
+ | <a href="https://example.com/file.gz" title=".gz" class="icon_compressed" rel="noopener external">.gz</a>
+
+
+ | <a href="https://example.com/file.gzip" title=".gzip" class="icon_compressed" rel="noopener external">.gzip</a>
+
+
+ | <a href="https://example.com/file.bz2" title=".bz2" class="icon_compressed" rel="noopener external">.bz2</a>
+
+
+ | <a href="https://example.com/file.bzip2" title=".bzip2" class="icon_compressed" rel="noopener external">.bzip2</a>
+
+
+ | <a href="https://example.com/file.zip" title=".zip" class="icon_compressed" rel="noopener external">.zip</a>
+
+
+ | <a href="https://example.com/file.rar" title=".rar" class="icon_compressed" rel="noopener external">.rar</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Disk images</p>
+<ul>
+<li><a href="https://example.com/file.img" title=".img" class="icon_diskimage" rel="noopener external">.img</a>
+
+
+ | <a href="https://example.com/file.iso" title=".iso" class="icon_diskimage" rel="noopener external">.iso</a>
+
+
+ | <a href="https://example.com/file.dmg" title=".dmg" class="icon_diskimage" rel="noopener external">.dmg</a>
+
+
+ | <a href="https://example.com/file.mds" title=".mds" class="icon_diskimage" rel="noopener external">.mds</a>
+
+
+ | <a href="https://example.com/file.mdf" title=".mdf" class="icon_diskimage" rel="noopener external">.mdf</a>
+
+
+ | <a href="https://example.com/file.mdx" title=".mdx" class="icon_diskimage" rel="noopener external">.mdx</a>
+
+
+</li>
+</ul>
+</li>
+<li>
+<p>Image editing</p>
+<ul>
+<li><a href="https://example.com/file.xcf" title=".xcf" class="icon_imagediting" rel="noopener external">.xcf</a>
+
+
+ | <a href="https://example.com/file.psd" title=".psd" class="icon_imagediting" rel="noopener external">.psd</a>
+
+
+</li>
+</ul>
+</li>
+</ul>
 <h2 id="地圖插件2022增加">地圖插件（2022增加）</h2>
-<p>採用 <a href="https://github.com/altrdev/hugo-leaflet#installation">hugo-leaf</a> 的方案，按其說明文檔，將相關文件歸併到模板對應位置即可實現。效果如下：</p>
+<p>採用 <a href="https://github.com/altrdev/hugo-leaflet#installation" title="hugo-leaf" class="icon_external" rel="noopener external">hugo-leaf</a>
+
+
+ 的方案，按其說明文檔，將相關文件歸併到模板對應位置即可實現。效果如下：</p>
 <pre tabindex="0"><code>{{&lt; leaflet-map mapHeight=&#34;500px&#34; mapWidth=&#34;100%&#34; mapLat=&#34;23.0511&#34; mapLon=&#34;113.39284&#34; &gt;}}
 {{&lt; /leaflet-map &gt;}}
 </code></pre><p>mapLon（Longitude）設定經度值，mapLat（Latitude）設定緯度值。</p>
@@ -2099,7 +2928,10 @@ if (!doNotTrack) {
 
 
 
-<p>按說明文檔，<a href="https://github.com/altrdev/hugo-leaflet#installation">hugo-leaf</a> 還可以在地圖標示 GPX 文件中的路線圖。</p>
+<p>按說明文檔，<a href="https://github.com/altrdev/hugo-leaflet#installation" title="hugo-leaf" class="icon_external" rel="noopener external">hugo-leaf</a>
+
+
+ 還可以在地圖標示 GPX 文件中的路線圖。</p>
 <h2 id="源代碼展示框">源代碼展示框</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2200,7 +3032,7 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><div class="notices success" >
-  success <a href="duoyu.ren">text</a>
+  success <a href="" title="text">text</a>
 </div>
 <div class="notices info" >
   info text
@@ -2286,7 +3118,10 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
   </div>
   </div>
 <h3 id="整合自-feelit-的提示樣式">整合自 FeelIt 的提示樣式</h3>
-<p>以下樣式整合自 <a href="https://feelit.khusika.dev/zh-cn/theme-documentation-extended-shortcodes/">FeelIt</a> 的 admonition shortcode.</p>
+<p>以下樣式整合自 <a href="https://feelit.khusika.dev/zh-cn/theme-documentation-extended-shortcodes/" title="FeelIt" class="icon_external" rel="noopener external">FeelIt</a>
+
+
+ 的 admonition shortcode.</p>
 <p><code>admonition</code> shortcode 支持 <strong>12</strong> 种 帮助你在页面中插入提示的横幅.</p>
 <p>一个 <code>admonition</code> 示例:</p>
 <div class="highlight"><div class="chroma">
@@ -2422,7 +3257,10 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
 </div>
 <p>樣式大致居中對齊，適用於傳統對仗詩歌。</p>
 <h2 id="父子目錄樣式">父子目錄樣式</h2>
-<p>本站圖書採父子列表樣式羅列章節目錄。在每本書文件夾內的 <code>_index.md</code> 中使用，<a href="https://learn.netlify.com/en/shortcodes/children/">用法</a>如下，效果見相應頁面的目錄樣式。</p>
+<p>本站圖書採父子列表樣式羅列章節目錄。在每本書文件夾內的 <code>_index.md</code> 中使用，<a href="https://learn.netlify.com/en/shortcodes/children/" title="用法" class="icon_external" rel="noopener external">用法</a>
+
+
+如下，效果見相應頁面的目錄樣式。</p>
 <table>
 <thead>
 <tr>
@@ -2450,7 +3288,10 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
 <tr>
 <td align="left">description</td>
 <td align="left">&ldquo;false&rdquo;</td>
-<td align="left">Allows you to include a short text under each page in the list.<br/>when no description exists for the page, children shortcode takes the first 70 words of your content. <a href="https://gohugo.io/content/summaries/">read more info about summaries on gohugo.io</a></td>
+<td align="left">Allows you to include a short text under each page in the list.<br/>when no description exists for the page, children shortcode takes the first 70 words of your content. <a href="https://gohugo.io/content/summaries/" title="read more info about summaries on gohugo.io" class="icon_external" rel="noopener external">read more info about summaries on gohugo.io</a>
+
+
+</td>
 </tr>
 <tr>
 <td align="left">depth</td>
@@ -2506,7 +3347,10 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
 <tr>
 <td align="left">pattern</td>
 <td align="left">&ldquo;.*&rdquo;</td>
-<td align="left">A regular expressions, used to filter the attachments by file name. <br/><br/>The <strong>pattern</strong> parameter value must be <a href="https://en.wikipedia.org/wiki/Regular_expression">regular expressions</a>.</td>
+<td align="left">A regular expressions, used to filter the attachments by file name. <br/><br/>The <strong>pattern</strong> parameter value must be <a href="https://en.wikipedia.org/wiki/Regular_expression" title="regular expressions" class="icon_external" rel="noopener external">regular expressions</a>
+
+
+.</td>
 </tr>
 </tbody>
 </table>
@@ -2723,7 +3567,10 @@ I’m happy for that. <rp> (</rp><rt>My heart is broken.</rt><rp>) </rp>
   </div>
 <h1 id="模板原有-shortcode-樣式">模板原有 shortcode 樣式</h1>
 <h2 id="katex">KaTeX</h2>
-<p>網頁顯示 LaTeX 數理公式，本是極爲迫切的需求。原模板採用 <a href="https://katex.org/">KaTeX</a> 渲染 Markdown 中的 LaTeX 公式。經測試，一些複雜公式的渲染，似乎沒有 MathJax 效果理想。 下爲簡易效果展示。</p>
+<p>網頁顯示 LaTeX 數理公式，本是極爲迫切的需求。原模板採用 <a href="https://katex.org/" title="KaTeX" class="icon_external" rel="noopener external">KaTeX</a>
+
+
+ 渲染 Markdown 中的 LaTeX 公式。經測試，一些複雜公式的渲染，似乎沒有 MathJax 效果理想。 下爲簡易效果展示。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -2900,7 +3747,7 @@ x = \begin{cases}
   }
 </script>
 
-<p style="font-family:LXGWWenKaiTC-Bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Friday, October 7, 2022, 20:22:02 by 王小花.</p>
+<p style="font-family:LXGWWenKaiTC-Bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Tuesday, January 31, 2023, 18:11:26 by 王小花.</p>
     </article>
     
     <script>
@@ -3465,6 +4312,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <ul>
     <li><a href="#本站新增樣式">本站新增樣式</a>
       <ul>
+        <li><a href="#外鏈圖標2023增加">外鏈圖標（2023增加）</a></li>
         <li><a href="#地圖插件2022增加">地圖插件（2022增加）</a></li>
         <li><a href="#源代碼展示框">源代碼展示框</a></li>
         <li><a href="#漢語拼音標註">漢語拼音標註</a></li>

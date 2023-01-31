@@ -1202,6 +1202,7 @@
 <link rel="stylesheet" href="/css/main.min.css">
 
 
+
     
 <meta name="description" content="TeX 中的中文索引製作方案，以 zhmakeindex 爲工具。" />
 
@@ -1758,7 +1759,7 @@ if (!doNotTrack) {
   
 &middot; <time class="single__info" title="Modified At"> 📝&nbsp;Oct 2, 2022 </time>
   
-&middot; 🔢 2346 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 5 min read</span>
+&middot; 🔢 2353 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 5 min read</span>
 <span class="single__info"> 
  &middot; 👀<span id="busuanzi_value_page_pv">...</span> views 
 </span>
@@ -1833,10 +1834,28 @@ if (!doNotTrack) {
   </div>
 </div>
 
-      <p>In some big documents, for example <a href="https://mengxianjun.org/2016/04/30/cedic/"><em>The Cangjie Chinese-English Dictionary</em></a>, it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the <a href="https://github.com/leo-liu/zhmakeindex">zhmakeindex</a> program that aims to sort Chinese index entries.</p>
+      <p>In some big documents, for example <a href="https://mengxianjun.org/2016/04/30/cedic/" title="&lt;em&gt;The Cangjie Chinese-English Dictionary&lt;/em&gt;" class="icon_external" rel="noopener external"><em>The Cangjie Chinese-English Dictionary</em></a>
+
+
+, it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the <a href="https://github.com/leo-liu/zhmakeindex" title="zhmakeindex" class="icon_external" rel="noopener external">zhmakeindex</a>
+
+
+ program that aims to sort Chinese index entries.</p>
 <h1 id="generating-latex-indices-separately">Gen­er­a­ting LaTeX Indices Separately</h1>
-<p>With the LaTeX in­dex gen­er­a­tor <a href="https://www.ctan.org/pkg/makeindex?lang=en">makeindex</a>, an index can be produced. If you want to create multiple indices in a book, you should use the <a href="https://www.ctan.org/pkg/imakeidx">imakeidx</a> package.</p>
-<p>In <a href="https://mengxianjun.org/2016/04/30/cedic/"><em>The Cangjie Chinese-English Dictionary</em></a>, there are six or seven indices in appendices, and the LaTeX package <a href="https://www.ctan.org/pkg/imakeidx">imakeidx</a> was used. &ldquo;The pack­age en­ables the user to pro­duce and type­set one or more in­dexes si­mul­ta­ne­ously with a doc­u­ment.&rdquo;</p>
+<p>With the LaTeX in­dex gen­er­a­tor <a href="https://www.ctan.org/pkg/makeindex?lang=en" title="makeindex" class="icon_external" rel="noopener external">makeindex</a>
+
+
+, an index can be produced. If you want to create multiple indices in a book, you should use the <a href="https://www.ctan.org/pkg/imakeidx" title="imakeidx" class="icon_external" rel="noopener external">imakeidx</a>
+
+
+ package.</p>
+<p>In <a href="https://mengxianjun.org/2016/04/30/cedic/" title="&lt;em&gt;The Cangjie Chinese-English Dictionary&lt;/em&gt;" class="icon_external" rel="noopener external"><em>The Cangjie Chinese-English Dictionary</em></a>
+
+
+, there are six or seven indices in appendices, and the LaTeX package <a href="https://www.ctan.org/pkg/imakeidx" title="imakeidx" class="icon_external" rel="noopener external">imakeidx</a>
+
+
+ was used. &ldquo;The pack­age en­ables the user to pro­duce and type­set one or more in­dexes si­mul­ta­ne­ously with a doc­u­ment.&rdquo;</p>
 <p>This package is invoked as usual by means of a <strong>\usepackage</strong> command in preamble.tex:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1846,11 +1865,38 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="na">[noautomatic]</span><span class="nb">{</span>imakeidx<span class="nb">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>The package option <strong><em>noautomatic</em></strong> disables the automatic splitting of the raw index files and running of the system programs. And then We can use the LaTeX index processor <a href="https://www.ctan.org/pkg/xindy?lang=en">texindy</a> and <a href="https://github.com/leo-liu/zhmakeindex">zhmakeindex</a> simultaneously to make Chinese indices and Other Indices <strong>separately</strong>.</p>
+</div><p>The package option <strong><em>noautomatic</em></strong> disables the automatic splitting of the raw index files and running of the system programs. And then We can use the LaTeX index processor <a href="https://www.ctan.org/pkg/xindy?lang=en" title="texindy" class="icon_external" rel="noopener external">texindy</a>
+
+
+ and <a href="https://github.com/leo-liu/zhmakeindex" title="zhmakeindex" class="icon_external" rel="noopener external">zhmakeindex</a>
+
+
+ simultaneously to make Chinese indices and Other Indices <strong>separately</strong>.</p>
 <h1 id="how-to-install-zhmakeindex-in-mainland-china">How to Install Zhmakeindex in Mainland China</h1>
-<p><a href="https://github.com/leo-liu/zhmakeindex">Zhmakeindex</a> is a program for making Chinese indices in a document generated with LaTeX. It is written by <a href="https://github.com/leo-liu">Leo Liu</a> in Google <a href="https://golang.org/">Go language</a>, and released with statically linked binary code. To run <a href="https://github.com/leo-liu/zhmakeindex">zhmakeindex</a>, we should first install Google <a href="https://golang.org/">Go language</a>, and then compile <a href="https://github.com/leo-liu/zhmakeindex">zhmakeindex</a> from the source code.</p>
+<p><a href="https://github.com/leo-liu/zhmakeindex" title="Zhmakeindex" class="icon_external" rel="noopener external">Zhmakeindex</a>
+
+
+ is a program for making Chinese indices in a document generated with LaTeX. It is written by <a href="https://github.com/leo-liu" title="Leo Liu" class="icon_external" rel="noopener external">Leo Liu</a>
+
+
+ in Google <a href="https://golang.org/" title="Go language" class="icon_external" rel="noopener external">Go language</a>
+
+
+, and released with statically linked binary code. To run <a href="https://github.com/leo-liu/zhmakeindex" title="zhmakeindex" class="icon_external" rel="noopener external">zhmakeindex</a>
+
+
+, we should first install Google <a href="https://golang.org/" title="Go language" class="icon_external" rel="noopener external">Go language</a>
+
+
+, and then compile <a href="https://github.com/leo-liu/zhmakeindex" title="zhmakeindex" class="icon_external" rel="noopener external">zhmakeindex</a>
+
+
+ from the source code.</p>
 <h2 id="installing-google-go-language">Installing Google Go Language</h2>
-<p>In Manjaro, <a href="https://github.com/golang/go/wiki/Ubuntu">golang</a> can be installed easily.</p>
+<p>In Manjaro, <a href="https://github.com/golang/go/wiki/Ubuntu" title="golang" class="icon_external" rel="noopener external">golang</a>
+
+
+ can be installed easily.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -1878,8 +1924,14 @@ if (!doNotTrack) {
 </div><h2 id="installing-golang-packages">Installing Golang Packages</h2>
 <p>To compile zhmakeindex, these Go packages should be installed:</p>
 <ul>
-<li><a href="https://godoc.org/golang.org/x/text">golang.org/x/text</a></li>
-<li><a href="https://github.com/yasushi-saito/rbtree">github.com/yasushi-saito/rbtree</a></li>
+<li><a href="https://godoc.org/golang.org/x/text" title="golang.org/x/text" class="icon_external" rel="noopener external">golang.org/x/text</a>
+
+
+</li>
+<li><a href="https://github.com/yasushi-saito/rbtree" title="github.com/yasushi-saito/rbtree" class="icon_external" rel="noopener external">github.com/yasushi-saito/rbtree</a>
+
+
+</li>
 </ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1891,8 +1943,17 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">$ go get github.com/yasushi-saito/rbtree
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>I do love our Great Country undoubtedly. But there is a wall named <em>The Great Firewall of China</em>, if you can&rsquo;t <strong>climb over the GFW</strong>, to install these packages will make you go insane. You can build a door to reach the source pages, for exemple <a href="https://github.com/shadowsocks">shadowsocks</a> and <a href="https://github.com/search?utf8=%E2%9C%93&amp;q=goagent">goagent</a>.</p>
-<p>If you can&rsquo;t climb over the Wall, <a href="http://www.ituring.com.cn/article/207412">here</a> is a way to install these packages:</p>
+</div><p>I do love our Great Country undoubtedly. But there is a wall named <em>The Great Firewall of China</em>, if you can&rsquo;t <strong>climb over the GFW</strong>, to install these packages will make you go insane. You can build a door to reach the source pages, for exemple <a href="https://github.com/shadowsocks" title="shadowsocks" class="icon_external" rel="noopener external">shadowsocks</a>
+
+
+ and <a href="https://github.com/search?utf8=%E2%9C%93&amp;q=goagent" title="goagent" class="icon_external" rel="noopener external">goagent</a>
+
+
+.</p>
+<p>If you can&rsquo;t climb over the Wall, <a href="http://www.ituring.com.cn/article/207412" title="here" class="icon_external" rel="noopener external">here</a>
+
+
+ is a way to install these packages:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -1984,7 +2045,13 @@ if (!doNotTrack) {
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h1 id="the-layout-of-index-entries">The Layout of Index Entries</h1>
-<p>Package <a href="https://www.ctan.org/pkg/imakeidx">imakeidx</a> can produce multiple indices and defines some others. For instance, the following commands may be used in preamble.tex file. For detailed information see the <a href="https://www.ctan.org/pkg/imakeidx">imakeidx</a> package documentation.</p>
+<p>Package <a href="https://www.ctan.org/pkg/imakeidx" title="imakeidx" class="icon_external" rel="noopener external">imakeidx</a>
+
+
+ can produce multiple indices and defines some others. For instance, the following commands may be used in preamble.tex file. For detailed information see the <a href="https://www.ctan.org/pkg/imakeidx" title="imakeidx" class="icon_external" rel="noopener external">imakeidx</a>
+
+
+ package documentation.</p>
 <h2 id="specific-package-commands">Specific Package Commands</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2073,7 +2140,13 @@ if (!doNotTrack) {
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="editing-and-using-xdy-style-files">Editing and Using .xdy style files</h2>
-<p>Some indices need to generate with <a href="https://www.ctan.org/pkg/xindy?lang=en">texindy</a> and in some cases we should edit personal .xdy files. Below is an example of a .xdy file. <a href="https://www.ctan.org/pkg/xindy?lang=en">Here</a> can find more detailed information about the usage of texindy.</p>
+<p>Some indices need to generate with <a href="https://www.ctan.org/pkg/xindy?lang=en" title="texindy" class="icon_external" rel="noopener external">texindy</a>
+
+
+ and in some cases we should edit personal .xdy files. Below is an example of a .xdy file. <a href="https://www.ctan.org/pkg/xindy?lang=en" title="Here" class="icon_external" rel="noopener external">Here</a>
+
+
+ can find more detailed information about the usage of texindy.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -2134,7 +2207,10 @@ if (!doNotTrack) {
 </div><p>The output file will be like below:</p>
 <p><img src="https://ooo.0o0.ooo/2016/10/15/5802233c6c202.png" alt="xdy style output" /></p>
 <h2 id="editing-and-using-ist-style-files">Editing and Using .ist style files</h2>
-<p>For sorting Chinese characters in .idx file, we can run command zhmakeindex in terminal and in some cases we should edit personal .ist files. Below is an example of a .ist file. <a href="http://www.latexstudio.net/archives/6363">Here</a> can find more detailed information about the usage of zhmkeindex.</p>
+<p>For sorting Chinese characters in .idx file, we can run command zhmakeindex in terminal and in some cases we should edit personal .ist files. Below is an example of a .ist file. <a href="http://www.latexstudio.net/archives/6363" title="Here" class="icon_external" rel="noopener external">Here</a>
+
+
+ can find more detailed information about the usage of zhmkeindex.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -2167,7 +2243,10 @@ if (!doNotTrack) {
 </div><p>The output file will be like below:</p>
 <p><img src="https://ooo.0o0.ooo/2016/10/15/580225f78baf4.png" alt="ist style output" /></p>
 <h1 id="another-example-on-index-page-layout">Another Example on Index Page Layout</h1>
-<p>With LaTaX package <a href="https://www.ctan.org/pkg/titleps?lang=en">titleps</a> we can set \sectionmark to the index entry. Below is an example that index entries are marked to page header.</p>
+<p>With LaTaX package <a href="https://www.ctan.org/pkg/titleps?lang=en" title="titleps" class="icon_external" rel="noopener external">titleps</a>
+
+
+ we can set \sectionmark to the index entry. Below is an example that index entries are marked to page header.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1

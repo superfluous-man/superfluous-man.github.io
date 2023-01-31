@@ -29,7 +29,7 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         <atom:modified>Sun, 02 Oct 2022 23:04:24 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20200521-diy-your-dictionary/</guid>
-        <description>大約四、五年前，本站二狗站長正式着手編輯一本符合自身喜好的自用字典。這些經歷記錄在《TeX 漢語字典模板》《編舟囈語》兩篇文章中。雖然大體的版</description>
+        <description>大約四、五年前，本站二狗站長正式着手編輯一本符合自身喜好的自用字典。這些經歷記錄在《TeX 漢語字典模板》 《編舟囈語》 兩篇文章中。雖然大體的版</description>
         
         <dc:creator>李二狗</dc:creator>
         <media:content url="https://duoyu.ren/images/articles/diydic.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -243,7 +243,7 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20161015-zhmakeindex/</guid>
-        <description>In some big documents, for example The Cangjie Chinese-English Dictionary, it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the zhmakeindex program that aims to sort Chinese index entries. Gen­er­a­ting LaTeX Indices Separately With</description>
+        <description>In some big documents, for example The Cangjie Chinese-English Dictionary , it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the zhmakeindex program that aims to sort Chinese index entries. Gen­er­a­ting LaTeX Indices Separately</description>
         
         <dc:creator>李二狗</dc:creator>
         <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -279,7 +279,7 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20160920-cang-jie-li-zi/</guid>
-        <description>導言 蒼頡檢字法，坊間亦稱「六代倉頡」，但其與通常所謂「三代倉頡」、「五代倉頡」差異較大，目的非僅供漢字輸入，而在完整解決漢字檢索及應用問題。</description>
+        <description>導言 蒼頡檢字法 ，坊間亦稱「六代倉頡」，但其與通常所謂「三代倉頡」、「五代倉頡」差異較大，目的非僅供漢字輸入，而在完整解決漢字檢索及應用問題。</description>
         
         <dc:creator>李二狗</dc:creator>
         <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
