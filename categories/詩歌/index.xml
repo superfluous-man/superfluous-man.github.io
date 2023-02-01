@@ -163,7 +163,7 @@
         <link>https://duoyu.ren/articles/20161211-tex-han-yu-shi-ci/</link>
         <pubDate>Sun, 11 Dec 2016 20:41:22 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <atom:modified>Wed, 01 Feb 2023 14:53:19 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20161211-tex-han-yu-shi-ci/</guid>
         <description>Typing some Chinese classical poems, I found most of the early examples are created for layouting English poems. Below I give a layout example of Tang poems anthology. Rather than a general solution, it&amp;rsquo;s just a particular example. Pls put below packages into the preamble of your document. 1 2 3 4 %漢字自動注音 \usepackage{xpinyin} %漢字注音設置 \xpinyinsetup{ratio = .4,font</description>
         

@@ -364,7 +364,7 @@
         <link>https://duoyu.ren/articles/20200521-diy-your-dictionary/</link>
         <pubDate>Thu, 21 May 2020 12:35:09 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sun, 02 Oct 2022 23:04:24 +0800</atom:modified>
+        <atom:modified>Wed, 01 Feb 2023 14:59:57 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20200521-diy-your-dictionary/</guid>
         <description>大約四、五年前，本站二狗站長正式着手編輯一本符合自身喜好的自用字典。這些經歷記錄在《TeX 漢語字典模板》 《編舟囈語》 兩篇文章中。雖然大體的版</description>
         
@@ -642,7 +642,7 @@
         <link>https://duoyu.ren/articles/20181216-tex-han-yu-zhi-pai/</link>
         <pubDate>Sun, 16 Dec 2018 18:03:24 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <atom:modified>Wed, 01 Feb 2023 15:13:20 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20181216-tex-han-yu-zhi-pai/</guid>
         <description>半個世紀以來，「橫排」逐漸成爲出版物排版的主流。十年前，境內還能偶爾看到一些出版社以「直排」方式出版一些古籍圖書。目下，僅有境外幾家出版社偶</description>
         
@@ -890,7 +890,7 @@
         <link>https://duoyu.ren/articles/20161211-tex-han-yu-shi-ci/</link>
         <pubDate>Sun, 11 Dec 2016 20:41:22 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <atom:modified>Wed, 01 Feb 2023 14:53:19 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20161211-tex-han-yu-shi-ci/</guid>
         <description>Typing some Chinese classical poems, I found most of the early examples are created for layouting English poems. Below I give a layout example of Tang poems anthology. Rather than a general solution, it&amp;rsquo;s just a particular example. Pls put below packages into the preamble of your document. 1 2 3 4 %漢字自動注音 \usepackage{xpinyin} %漢字注音設置 \xpinyinsetup{ratio = .4,font</description>
         
@@ -962,7 +962,7 @@
         <link>https://duoyu.ren/articles/20161015-zhmakeindex/</link>
         <pubDate>Sat, 15 Oct 2016 10:01:57 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <atom:modified>Wed, 01 Feb 2023 15:09:48 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20161015-zhmakeindex/</guid>
         <description>In some big documents, for example The Cangjie Chinese-English Dictionary , it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the zhmakeindex program that aims to sort Chinese index entries. Gen­er­a­ting LaTeX Indices Separately</description>
         
@@ -1102,7 +1102,7 @@
         <link>https://duoyu.ren/articles/20160430-tex-han-yu-zi-dian/</link>
         <pubDate>Sat, 30 Apr 2016 21:57:33 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <atom:modified>Wed, 01 Feb 2023 14:51:40 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20160430-tex-han-yu-zi-dian/</guid>
         <description>Full of Sadness in My Heart 這些天，一想到至死也不可能「獨立」「手工」「研編」出一部滿意的漢語辭書，便滿心傷悲。獨立者，不抄襲、不取藍本；手工者，較少依賴計</description>
         
