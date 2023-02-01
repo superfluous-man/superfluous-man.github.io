@@ -962,7 +962,7 @@
         <link>https://duoyu.ren/articles/20161015-zhmakeindex/</link>
         <pubDate>Sat, 15 Oct 2016 10:01:57 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 01 Feb 2023 15:09:48 +0800</atom:modified>
+        <atom:modified>Wed, 01 Feb 2023 18:46:51 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20161015-zhmakeindex/</guid>
         <description>In some big documents, for example The Cangjie Chinese-English Dictionary , it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the zhmakeindex program that aims to sort Chinese index entries. Gen­er­a­ting LaTeX Indices Separately</description>
         
