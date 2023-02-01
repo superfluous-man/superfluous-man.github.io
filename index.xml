@@ -2019,7 +2019,7 @@
         <link>https://duoyu.ren/articles/20230115-greek-fonts/</link>
         <pubDate>Sun, 15 Jan 2023 14:51:03 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 01 Feb 2023 18:16:13 +0800</atom:modified>
+        <atom:modified>Thu, 02 Feb 2023 00:59:22 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20230115-greek-fonts/</guid>
         <description>Intro 此前整理邏輯學材料，需要用希臘字母抽象替代某些對象時都是以 TeX 命令實現。近來折騰通史材料，常常遇到古希臘人名與書名，難以用 TeX 命令逐個字母輸入</description>
         
@@ -2561,7 +2561,7 @@
         <link>https://duoyu.ren/articles/20191015-demos/</link>
         <pubDate>Tue, 15 Oct 2019 00:57:29 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Tue, 31 Jan 2023 18:11:26 +0800</atom:modified>
+        <atom:modified>Thu, 02 Feb 2023 00:51:04 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20191015-demos/</guid>
         <description>本站新增樣式 參考衆多 Hugo shortcode 樣式案例，爲提高效率，本站新增以下幾種樣式。模板原有 shortcode 樣式在本文第二部分列出備查。 外鏈圖標（2023增加） 採用 im.youronly.one 的方</description>
         
