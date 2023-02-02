@@ -1249,7 +1249,7 @@
 <meta name="keywords" content="layout,shortcode">
 
 <meta name="created" content="2019-10-15T00:57:29&#43;0800">
-<meta name="modified" content="2023-02-02T00:51:04&#43;0800">
+<meta name="modified" content="2023-02-03T00:46:41&#43;0800">
 <meta property="article:published_time" content="2019-10-15T00:57:29&#43;0800">
 
 <meta name="author" content="李二狗">
@@ -1296,7 +1296,7 @@
     "@type": "WebPage",
     "headline": "內容版式 Demos",
     "datePublished": "2019-10-15T00:57:29+08:00",
-    "dateModified": "2023-02-02T00:51:04+08:00",
+    "dateModified": "2023-02-03T00:46:41+08:00",
     "url" : "https://duoyu.ren/articles/20191015-demos/",
     "description": "本站爲便於整理、排版圖文內容，結合 Hugo 的 shortcode 功能，製作若干便捷樣式，以提高 markdown 書寫的效率。本文爲這些設計的備份。",
     "keywords": ["layout","shortcode"],
@@ -1796,9 +1796,9 @@ if (!doNotTrack) {
 
 &middot; <time class="single__info" title="Written At">📅&nbsp;Oct 15, 2019 </time>
   
-&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Feb 2, 2023 </time>
+&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Feb 3, 2023 </time>
   
-&middot; 🔢 6178 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 13 min read</span>
+&middot; 🔢 6388 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 13 min read</span>
 <span class="single__info"> 
  &middot; 👀<span id="busuanzi_value_page_pv">...</span> views 
 </span>
@@ -1859,7 +1859,12 @@ if (!doNotTrack) {
     <li><a href="#本站新增樣式">本站新增樣式</a>
       <ul>
         <li><a href="#外鏈圖標2023增加">外鏈圖標（2023增加）</a></li>
-        <li><a href="#地圖插件2022增加">地圖插件（2022增加）</a></li>
+        <li><a href="#地圖插件2022增加">地圖插件（2022增加）</a>
+          <ul>
+            <li><a href="#leafleft">leafleft</a></li>
+            <li><a href="#高德地圖">高德地圖</a></li>
+          </ul>
+        </li>
         <li><a href="#源代碼展示框">源代碼展示框</a></li>
         <li><a href="#漢語拼音標註">漢語拼音標註</a></li>
         <li><a href="#備註及定義框">備註及定義框</a>
@@ -2721,6 +2726,7 @@ if (!doNotTrack) {
 </li>
 </ul>
 <h2 id="地圖插件2022增加">地圖插件（2022增加）</h2>
+<h3 id="leafleft">leafleft</h3>
 <p>採用 <a href="https://github.com/altrdev/hugo-leaflet#installation" title="hugo-leaf" class="icon_external" rel="noopener external">hugo-leaf</a>
 
 
@@ -2932,7 +2938,104 @@ if (!doNotTrack) {
 
 
  還可以在地圖標示 GPX 文件中的路線圖。</p>
-<h2 id="源代碼展示框">源代碼展示框</h2>
+<h3 id="高德地圖">高德地圖</h3>
+<pre tabindex="0"><code>{{&lt; gaode zoom=12 imgsrc=&#34;&#34; mapLat=&#34;23.0511&#34; mapLon=&#34;113.39284&#34; sLat=&#34;23.075569&#34; sLon=&#34;113.322348&#34; / &gt;}}
+</code></pre><p>mapLon（Longitude）設定終點經度值，mapLat（Latitude）設定終點緯度值。sLon（Longitude）設定起點經度值，sLat（Latitude）設定起點緯度值。imgsrc 是圖片鏈接，如標記地點風景照等，圖片尺幅不能很大。</p>
+<div class="gaodemap">
+<p class="gaodemap-title">Precise Location</p>
+<div id="map-container"></div>
+</div>
+
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=45d4de6fa2924ba1101a2601a11af173&&plugin=AMap.Scale,AMap.HawkEye,AMap.ToolBar,AMap.ControlBar"></script>
+
+<script>
+ 
+    var map = new AMap.Map('map-container', {
+        resizeEnable: true,
+        viewMode: '2D',
+        zoom:  12 ,
+        lang: "zh_en", 
+        center: ["113.39284","23.0511"] 
+    });
+     
+
+    
+    var startIcon = new AMap.Icon({
+        
+        size: new AMap.Size(25, 34),
+        
+        image: '//a.amap.com/jsapi_demos/static/demo-center/icons/dir-marker.png',
+        
+        imageSize: new AMap.Size(135, 40),
+        
+        imageOffset: new AMap.Pixel(-9, -3)
+    });
+
+    
+    var startMarker = new AMap.Marker({
+        position: new AMap.LngLat("113.322348","23.075569"),
+        icon: startIcon,
+        offset: new AMap.Pixel(-13, -30)
+    });
+
+    
+    var endIcon = new AMap.Icon({
+        size: new AMap.Size(25, 34),
+        image: '//a.amap.com/jsapi_demos/static/demo-center/icons/dir-marker.png',
+        imageSize: new AMap.Size(135, 40),
+        imageOffset: new AMap.Pixel(-95, -3)
+    });
+
+    
+    var endMarker = new AMap.Marker({
+        position: new AMap.LngLat("113.39284","23.0511"),
+        icon: endIcon,
+        offset: new AMap.Pixel(-13, -30)
+    });
+
+    
+    map.add([startMarker, endMarker]);  
+    
+     
+        var position = new AMap.LngLat("113.39284","23.0511");
+    var markerContent = '<img src="">';
+    var marker = new AMap.Marker({
+        position: position,
+        
+        content: markerContent,
+        
+        offset: new AMap.Pixel(17, -60)
+    });
+
+    
+    map.add(marker);
+    
+       
+    let scale = new AMap.Scale({
+        visible: true
+    })
+    
+    let toolBar = new AMap.ToolBar({
+        position: {
+            top: '110px',
+            left: '15px'
+        }
+    })
+
+    map.add(marker)
+    map.addControl(scale)
+    map.addControl(toolBar)
+    
+</script>
+ 
+
+
+
+
+
+<p>若只標記一個地點，則按下面的方式只設定mapLon（Longitude）經度值，mapLat（Latitude）緯度值。</p>
+<pre tabindex="0"><code>{{&lt; gaodea zoom=12 imgsrc=&#34;&#34; mapLat=&#34;23.0511&#34; mapLon=&#34;113.39284&#34; / &gt;}}
+</code></pre><h2 id="源代碼展示框">源代碼展示框</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -3747,7 +3850,7 @@ x = \begin{cases}
   }
 </script>
 
-<p style="font-family:LXGWWenKaiTC-Regular, SYHei Bold;font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Thursday, February 2, 2023, 00:51:04 by 王小花.</p>
+<p style="font-family:LXGWWenKaiTC-Regular, SYHei Bold;font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Friday, February 3, 2023, 00:46:41 by 王小花.</p>
     </article>
     
     <script>
@@ -4313,7 +4416,12 @@ document.addEventListener('DOMContentLoaded', function () {
     <li><a href="#本站新增樣式">本站新增樣式</a>
       <ul>
         <li><a href="#外鏈圖標2023增加">外鏈圖標（2023增加）</a></li>
-        <li><a href="#地圖插件2022增加">地圖插件（2022增加）</a></li>
+        <li><a href="#地圖插件2022增加">地圖插件（2022增加）</a>
+          <ul>
+            <li><a href="#leafleft">leafleft</a></li>
+            <li><a href="#高德地圖">高德地圖</a></li>
+          </ul>
+        </li>
         <li><a href="#源代碼展示框">源代碼展示框</a></li>
         <li><a href="#漢語拼音標註">漢語拼音標註</a></li>
         <li><a href="#備註及定義框">備註及定義框</a>
