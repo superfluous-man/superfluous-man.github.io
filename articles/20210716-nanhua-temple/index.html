@@ -1247,7 +1247,7 @@
 <meta name="keywords" content="poem">
 
 <meta name="created" content="2021-07-16T23:33:19&#43;0800">
-<meta name="modified" content="2022-10-07T23:00:54&#43;0800">
+<meta name="modified" content="2023-02-04T01:47:20&#43;0800">
 <meta property="article:published_time" content="2021-07-16T23:33:19&#43;0800">
 
 <meta name="author" content="李二苟">
@@ -1294,7 +1294,7 @@
     "@type": "WebPage",
     "headline": "過寶林寺",
     "datePublished": "2021-07-16T23:33:19+08:00",
-    "dateModified": "2022-10-07T23:00:54+08:00",
+    "dateModified": "2023-02-04T01:47:20+08:00",
     "url" : "https://duoyu.ren/articles/20210716-nanhua-temple/",
     "description": "無緣無故到南華。",
     "keywords": ["poem"],
@@ -1794,7 +1794,7 @@ if (!doNotTrack) {
 
 &middot; <time class="single__info" title="Written At">📅&nbsp;Jul 16, 2021 </time>
   
-&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Oct 7, 2022 </time>
+&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Feb 4, 2023 </time>
   
 &middot; 🔢 321 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 1 min read</span>
 <span class="single__info"> 
@@ -1840,6 +1840,88 @@ if (!doNotTrack) {
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
       
+<div class="gaodemap">
+<p class="gaodemap-title">Precise Location</p>
+<div id="map-container"></div>
+</div>
+
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=45d4de6fa2924ba1101a2601a11af173&&plugin=AMap.Scale,AMap.HawkEye,AMap.ToolBar,AMap.ControlBar"></script>
+
+<script>
+ 
+    var map = new AMap.Map('map-container', {
+        resizeEnable: true,
+        viewMode: '2D',
+        zoom:  13 ,
+        lang: "zh_en", 
+        center: ["113.63910850527903","24.649270313514634"]
+    });
+    
+        var marker = new AMap.Marker({
+            position: ["113.63910850527903","24.649270313514634"], 
+            offset: new AMap.Pixel(5, 5), 
+            icon: ico, 
+            zoom:  13 ,
+        });
+
+        marker.setTitle("當前位置");
+        marker.setLabel({
+            offset: new AMap.Pixel(10, -15),
+            content: ""
+        });
+
+        var ico = new AMap.Icon({
+            size: new AMap.Size(34, 40), 
+            image: '//a.amap.com/jsapi_demos/static/demo-center/icons/dir-via-marker.png', 
+            imageOffset: new AMap.Pixel(0, 0), 
+            imageSize: new AMap.Size(24, 30) 
+        });
+
+        map.add(marker); 
+   
+    
+    
+    
+    let scale = new AMap.Scale({
+        visible: true
+    })
+    
+    let toolBar = new AMap.ToolBar({
+        position: {
+            top: '110px',
+            left: '15px'
+        }
+    })
+
+    map.add(marker)
+    map.addControl(scale)
+    map.addControl(toolBar)
+    
+    
+     
+        var position = new AMap.LngLat("113.63910850527903","24.649270313514634");
+    var markerContent = '<img class="mapimage" src="https:\/\/s2.loli.net\/2023\/02\/04\/d2kW5JPEyZIRbFU.jpg">';
+    var markerdef = new AMap.Marker({
+        position: position,
+        
+        content: markerContent,
+        
+        offset: new AMap.Pixel(17, -60)
+    });
+
+    
+    map.add(markerdef);    
+    
+    
+    
+</script>
+ 
+
+
+
+
+<!--
+
 
 
 
@@ -1899,6 +1981,7 @@ if (!doNotTrack) {
 
 
 
+-->
 <p>假期歸鄉，走走停停。時經<z>韶關</z>，暫停二日。老友建議赴<z>丹霞山</z>一遊，吾謂<z>桂林</z>歸來不再遊覽南國山。老友又論證道，<z>桂林</z>山之美，「秀美」也；<z>仁化</z>山之美，「壯美」也，仍值得一遊。網上訂票，見<z>丹霞</z>陽元石果然「壯美」。惟上個月開會，領導強調要「言行檢點，注意形象」，念及此令，便轉念去拜佛燒香，總歸更加檢點一些。</p>
 <p><z>曲江</z>留聖蹟，我輩復登臨。一千多年前，六祖<z>慧能</z>在此地傳法，蔚爲壯觀，是爲「南宗」「正宗」。今<z>南華禪寺</z>（<zr>唐</zr><z>寶林寺</z>）即其遺蹟也。</p>
 <div class="poem">
@@ -1913,7 +1996,7 @@ if (!doNotTrack) {
 <p>（PS：<strong>三千里</strong>：吾鄉去務工地一千五百公里遠也。<strong>十八年</strong>：自離家讀書算起，十八年如斯夫。）</p>
 <p><img src="https://i.loli.net/2021/07/17/EHqMsXvtm4PjGrB.jpg" alt="liuzudian.jpg" /></p>
 
-<p style="font-family:LXGWWenKaiTC-Regular, SYHei Bold;font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Friday, October 7, 2022, 23:00:54 by 王小花.</p>
+<p style="font-family:LXGWWenKaiTC-Regular, SYHei Bold;font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Saturday, February 4, 2023, 01:47:20 by 王小花.</p>
     </article>
     
     <script>

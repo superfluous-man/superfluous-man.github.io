@@ -1247,7 +1247,7 @@
 <meta name="keywords" content="poem">
 
 <meta name="created" content="2020-03-23T12:56:30&#43;0800">
-<meta name="modified" content="2022-10-07T22:47:49&#43;0800">
+<meta name="modified" content="2023-02-04T01:44:44&#43;0800">
 <meta property="article:published_time" content="2020-03-23T12:56:30&#43;0800">
 
 <meta name="author" content="李二狗">
@@ -1294,7 +1294,7 @@
     "@type": "WebPage",
     "headline": "應當銘記的兩個月",
     "datePublished": "2020-03-23T12:56:30+08:00",
-    "dateModified": "2022-10-07T22:47:49+08:00",
+    "dateModified": "2023-02-04T01:44:44+08:00",
     "url" : "https://duoyu.ren/articles/20200323-letter-to-fang/",
     "description": "Nach Auschwitz ein Gedicht zu schreiben, ist barbarisch.",
     "keywords": ["poem"],
@@ -1794,7 +1794,7 @@ if (!doNotTrack) {
 
 &middot; <time class="single__info" title="Written At">📅&nbsp;Mar 23, 2020 </time>
   
-&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Oct 7, 2022 </time>
+&middot; <time class="single__info" title="Modified At"> 📝&nbsp;Feb 4, 2023 </time>
   
 &middot; 🔢 38 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 1 min read</span>
 <span class="single__info"> 
@@ -1840,6 +1840,88 @@ if (!doNotTrack) {
     <article class="single__contents" data-dir="ltr" data-ani="true">
       
       <p><img src="https://i.loli.net/2020/03/23/5QF1IUvihwEyCf8.jpg" alt="P1011707.JPG" /></p>
+
+<div class="gaodemap">
+<p class="gaodemap-title">Precise Location</p>
+<div id="map-container"></div>
+</div>
+
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=45d4de6fa2924ba1101a2601a11af173&&plugin=AMap.Scale,AMap.HawkEye,AMap.ToolBar,AMap.ControlBar"></script>
+
+<script>
+ 
+    var map = new AMap.Map('map-container', {
+        resizeEnable: true,
+        viewMode: '2D',
+        zoom:  14 ,
+        lang: "zh_en", 
+        center: ["114.28847434669231","30.54991655054522"]
+    });
+    
+        var marker = new AMap.Marker({
+            position: ["114.28847434669231","30.54991655054522"], 
+            offset: new AMap.Pixel(5, 5), 
+            icon: ico, 
+            zoom:  14 ,
+        });
+
+        marker.setTitle("當前位置");
+        marker.setLabel({
+            offset: new AMap.Pixel(10, -15),
+            content: ""
+        });
+
+        var ico = new AMap.Icon({
+            size: new AMap.Size(34, 40), 
+            image: '//a.amap.com/jsapi_demos/static/demo-center/icons/dir-via-marker.png', 
+            imageOffset: new AMap.Pixel(0, 0), 
+            imageSize: new AMap.Size(24, 30) 
+        });
+
+        map.add(marker); 
+   
+    
+    
+    
+    let scale = new AMap.Scale({
+        visible: true
+    })
+    
+    let toolBar = new AMap.ToolBar({
+        position: {
+            top: '110px',
+            left: '15px'
+        }
+    })
+
+    map.add(marker)
+    map.addControl(scale)
+    map.addControl(toolBar)
+    
+    
+     
+        var position = new AMap.LngLat("114.28847434669231","30.54991655054522");
+    var markerContent = '<img class="mapimage" src="https:\/\/s2.loli.net\/2023\/02\/04\/mkDZl1EO5qu7BIP.jpg">';
+    var markerdef = new AMap.Marker({
+        position: position,
+        
+        content: markerContent,
+        
+        offset: new AMap.Pixel(17, -60)
+    });
+
+    
+    map.add(markerdef);    
+    
+    
+    
+</script>
+ 
+
+
+
+
+<!-- 
 
 
 
@@ -1900,6 +1982,7 @@ if (!doNotTrack) {
 
 
 
+-->
 
 
 
@@ -1935,7 +2018,7 @@ if (!doNotTrack) {
 
 <p><img src="https://i.loli.net/2020/05/04/SCA4rdkUjEQJcFv.png" alt="LF.png" /></p>
 
-<p style="font-family:LXGWWenKaiTC-Regular, SYHei Bold;font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Friday, October 7, 2022, 22:47:49 by 王小花.</p>
+<p style="font-family:LXGWWenKaiTC-Regular, SYHei Bold;font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Saturday, February 4, 2023, 01:44:44 by 王小花.</p>
     </article>
     
     <script>
