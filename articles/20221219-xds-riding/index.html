@@ -1212,7 +1212,7 @@
 <meta name="keywords" content="riding">
 
 <meta name="created" content="2022-12-19T15:52:18&#43;0800">
-<meta name="modified" content="2023-02-03T17:31:34&#43;0800">
+<meta name="modified" content="2023-02-03T18:29:09&#43;0800">
 <meta property="article:published_time" content="2022-12-19T15:52:18&#43;0800">
 
 <meta name="author" content="李二苟">
@@ -1259,7 +1259,7 @@
     "@type": "WebPage",
     "headline": "XDS 小屌絲騎行紀",
     "datePublished": "2022-12-19T15:52:18+08:00",
-    "dateModified": "2023-02-03T17:31:34+08:00",
+    "dateModified": "2023-02-03T18:29:09+08:00",
     "url" : "https://duoyu.ren/articles/20221219-xds-riding/",
     "description": "第一輛入門公路車喜德盛騎行始末，騎行圖文站點搭建記錄。",
     "keywords": ["riding"],
@@ -1761,7 +1761,7 @@ if (!doNotTrack) {
   
 &middot; <time class="single__info" title="Modified At"> 📝&nbsp;Feb 3, 2023 </time>
   
-&middot; 🔢 1940 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 4 min read</span>
+&middot; 🔢 1942 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 4 min read</span>
 <span class="single__info"> 
  &middot; 👀<span id="busuanzi_value_page_pv">...</span> views 
 </span>
@@ -1996,6 +1996,87 @@ if (!doNotTrack) {
 <p>最近多聽了幾遍，加之經新冠考驗，纔明白這通俗的詞句，最終要表達的其實是「下輩子好歹要睜開眼，把恩來報償」。盲藝人恨於無法報償自然饋贈之恩、人情冷暖之恩。</p>
 <p>對，報恩。</p>
 <p>於是反求諸己，三十多年來因苟且而「盲目」，何嘗不是「瞎瞎地」活着啊：辜負了天地、人情之恩。雖然自己靈魂早已閉目塞聽苟且地作聾啞狀，但肉體卻不必盲目，大可睜開眼睛看看這人間的美好。</p>
+
+<div class="gaodemap">
+<p class="gaodemap-title">Precise Location</p>
+<div id="map-container"></div>
+</div>
+
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=45d4de6fa2924ba1101a2601a11af173&&plugin=AMap.Scale,AMap.HawkEye,AMap.ToolBar,AMap.ControlBar"></script>
+
+<script>
+ 
+    var map = new AMap.Map('map-container', {
+        resizeEnable: true,
+        viewMode: '2D',
+        zoom:  11 ,
+        lang: "zh_en", 
+        center: ["113.87","23.64"]
+    });
+    
+        var marker = new AMap.Marker({
+            position: ["113.87","23.64"], 
+            offset: new AMap.Pixel(5, 5), 
+            icon: ico, 
+            zoom:  11 ,
+        });
+
+        marker.setTitle("當前位置");
+        marker.setLabel({
+            offset: new AMap.Pixel(10, -15),
+            content: ""
+        });
+
+        var ico = new AMap.Icon({
+            size: new AMap.Size(34, 40), 
+            image: '//a.amap.com/jsapi_demos/static/demo-center/icons/dir-via-marker.png', 
+            imageOffset: new AMap.Pixel(0, 0), 
+            imageSize: new AMap.Size(24, 30) 
+        });
+
+        map.add(marker); 
+   
+    
+    
+    
+    let scale = new AMap.Scale({
+        visible: true
+    })
+    
+    let toolBar = new AMap.ToolBar({
+        position: {
+            top: '110px',
+            left: '15px'
+        }
+    })
+
+    map.add(marker)
+    map.addControl(scale)
+    map.addControl(toolBar)
+    
+    
+     
+        var position = new AMap.LngLat("113.87","23.64");
+    var markerContent = '<img class="mapimage" src="https:\/\/s2.loli.net\/2023\/02\/03\/4DGEnoXSHerq2m3.jpg">';
+    var markerdef = new AMap.Marker({
+        position: position,
+        
+        content: markerContent,
+        
+        offset: new AMap.Pixel(17, -60)
+    });
+
+    
+    map.add(markerdef);    
+    
+    
+    
+</script>
+ 
+
+
+
+
 <h1 id="取法同好">取法同好</h1>
 <p>本站 <a href="https://superfluous-man.github.io/lifestyle/" title="Lifestyle" class="icon_external" rel="noopener external">Lifestyle</a>
 
@@ -2025,7 +2106,7 @@ if (!doNotTrack) {
 
 <p>單車從小屌絲牌更新到渡邊（わたなべ）牌了！（車型很好看，爲買菜做醜了）</p>
 
-<p style="font-family:LXGWWenKaiTC-Regular, SYHei Bold;font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Friday, February 3, 2023, 17:31:34 by 王小花.</p>
+<p style="font-family:LXGWWenKaiTC-Regular, SYHei Bold;font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Friday, February 3, 2023, 18:29:09 by 王小花.</p>
     </article>
     
     <script>
