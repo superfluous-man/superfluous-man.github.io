@@ -2030,6 +2030,7 @@ if (!doNotTrack) {
     
   
     <div id="giscus"></div>
+
 <script type="text/javascript">
         let giscusTheme = localStorage.getItem("pref-theme") === "dark" ? 'dark_dimmed' : 'light'; 
         let giscusAttributes = {
@@ -2049,6 +2050,7 @@ if (!doNotTrack) {
         let giscusScript = document.createElement("script");
         Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
         var article = document.getElementsByTagName("article")[0].appendChild(giscusScript);
+        
         function changeGiscusTheme () {
             const theme = localStorage.getItem("pref-theme") === "dark" ?  'light' : 'dark_dimmed'
 
@@ -2064,10 +2066,17 @@ if (!doNotTrack) {
         }
         });
         }
-        const toggle = document.querySelector('#theme-toggle'); 
+
+
+
+
+
+        
+        
+        const toggle = document.querySelectorAll('.select-theme__item');
         if (toggle){
         toggle.addEventListener('click', changeGiscusTheme)
-        }
+        }   
         
 </script>
  
