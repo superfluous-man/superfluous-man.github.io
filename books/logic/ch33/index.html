@@ -543,6 +543,14 @@
             theme: selectedThemeVariant === "dark" || selectedThemeVariant === "hacker" ? 'photon-dark' : selectedThemeVariant === 'kimbie' ? 'github-dark-orange' : 'github-light',
           }, 'https://utteranc.es');
         }
+        
+
+
+
+
+
+
+
       });
     }) : null;
   
@@ -1935,8 +1943,7 @@ if (!doNotTrack) {
 
     
   
-    <div id="utterances"></div>
-<noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterances.</a></noscript>
+    <div id="giscus"></div>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     try {
@@ -1945,20 +1952,25 @@ if (!doNotTrack) {
       
       var repo = JSON.parse("\"superfluous-man.github.io\"");
       var localTheme = localStorage.getItem('theme');
-      var utterTheme = localTheme === "dark" || localTheme === "hacker" ? 'photon-dark' : localTheme === 'kimbie' ? 'github-dark-orange' : 'github-light'
+      var gisTheme = localTheme === "dark_protanopia" || localTheme === "hacker" ? 'dark_high_contrast' : localTheme === 'kimbie' ? 'dark_protanopia' : 'light_high_contrast'
 
       var myScript = document.createElement('script');
-      myScript.setAttribute('src', 'https://utteranc.es/client.js');
-      myScript.setAttribute('repo', `${owner}/${repo}`);
-      myScript.setAttribute('issue-term', 'pathname');
-      myScript.setAttribute('theme', utterTheme);
+      myScript.setAttribute('src', 'https://giscus.app/client.js');
+      myScript.setAttribute('data-repo', `${owner}/${repo}`);
+      myScript.setAttribute('data-theme', gisTheme);
+      myScript.setAttribute('data-mapping', 'pathname');
+      myScript.setAttribute('data-lang', 'en');
+      myScript.setAttribute('data-input-position', 'top');
+      myScript.setAttribute('data-strict', '0');
+      myScript.setAttribute('data-reactions-enabled', '1');
+      myScript.setAttribute('data-emit-metadata', '0');
       myScript.setAttribute('crossorigin', 'anonymous');
       myScript.setAttribute('async', '');
 
       myScript.onload = function() {
       }
 
-      document.getElementById('utterances').appendChild(myScript);
+      document.getElementById('giscus').appendChild(myScript);
     } catch (err) {
       console.log(err);
     }
@@ -1966,6 +1978,7 @@ if (!doNotTrack) {
 </script>
 
   
+
 
     <div class="modal micromodal-slide" id="modal" aria-hidden="true">
   <div class="modal__overlay" tabindex="-1" data-micromodal-close>
