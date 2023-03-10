@@ -2020,57 +2020,18 @@ if (!doNotTrack) {
     
   
     <div id="giscus"></div>
-
-<script type="text/javascript">
-        let giscusTheme = localStorage.getItem("pref-theme") === "dark" ? 'dark_dimmed' : 'light'; 
-        let giscusAttributes = {
-            "src": "https://giscus.app/client.js",
-            "data-repo": "superfluous-man/superfluous-man.github.io",
-            "data-mapping": "pathname",
-            "data-reactions-enabled": "1",
-            "data-emit-metadata": "0",
-            "data-theme": giscusTheme === null ? "light" : giscusTheme,
-            "data-lang": "en",
-            "data-input-position": "top",
-            "crossorigin": "anonymous",
-            "data-loading": "lazy",
-            "async": "",
-        };
-
-        let giscusScript = document.createElement("script");
-        Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
-        var article = document.getElementsByTagName("article")[0].appendChild(giscusScript);
-        
-        function changeGiscusTheme () {
-            const theme = localStorage.getItem("pref-theme") === "dark" ?  'light' : 'dark_dimmed'
-
-            function sendMessage(message) {
-                const iframe = document.querySelector('iframe.giscus-frame');
-                if (!iframe) return;
-                iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-            }
-
-        sendMessage({
-        setConfig: {
-        theme: theme
-        }
-        });
-        }
-
-
-
-
-
-        
-        
-        const toggle = document.querySelectorAll('.select-theme__item');
-        if (toggle){
-        toggle.addEventListener('click', changeGiscusTheme)
-        }   
-        
-</script>
- 
- 
+    <script src="https://giscus.app/client.js"
+        data-repo="superfluous-man/superfluous-man.github.io"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+          async>
+    </script> 
 
 
 
