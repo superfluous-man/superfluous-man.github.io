@@ -13,7 +13,7 @@
     <language>en</language>
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
     <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
-    <copyright>&amp;copy;2020-{year}, All Rights Reserved</copyright>
+    <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
     <lastBuildDate>Tue, 15 Oct 2019 00:57:29 +0800</lastBuildDate>
     
         <atom:link href="https://duoyu.ren/tags/layout/index.xml" rel="self" type="application/rss+xml" />
@@ -27,7 +27,7 @@
         <link>https://duoyu.ren/articles/20191015-demos/</link>
         <pubDate>Tue, 15 Oct 2019 00:57:29 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Tue, 14 Mar 2023 23:39:31 +0800</atom:modified>
+        <atom:modified>Wed, 15 Mar 2023 16:40:55 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20191015-demos/</guid>
         <description>本站新增樣式 參考衆多 Hugo shortcode 樣式案例，爲提高效率，本站新增以下幾種樣式。模板原有 shortcode 樣式在本文第二部分列出備查。 外鏈圖標（2023增加） 採用 im.youronly.one 的方</description>
         
