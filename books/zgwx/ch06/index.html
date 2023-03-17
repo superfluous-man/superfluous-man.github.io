@@ -27,7 +27,114 @@
 
  
  
+
+<style>
  
+
+main {
+counter-reset: h1;
+}
+
+h1 {
+counter-reset : h2;
+	margin: 0rem 0 0.4rem 0;
+	padding: 0;
+      text-rendering: optimizeLegibility; 
+      color: red;
+         text-indent: 0rem;
+         font-size: 26px;
+         font-family: "Sarasa-Heavy", "SYHei Heavy", sans-serif;
+	line-height: 36px;
+        padding: 9px 0px 5px 0%;
+	background: url("/images/author/secpig.png") no-repeat left;
+        font-style: normal;
+        font-weight: normal;
+        
+    background: url('https://i.loli.net/2020/09/01/6PBqUGe2nzrJahQ.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+h2 {
+counter-reset : h3;
+	margin: 0rem 0 0.4rem 0;
+      padding: 0;
+      color: inherit;
+      text-rendering: optimizeLegibility; 
+        color: themed("title-color");
+        font-size: 24px;
+        font-family: "Sarasa", "SYHei Regular", sans-serif;
+	line-height: 32px;
+         text-align: left;
+	font-style: normal;
+        font-weight: bold;
+}
+
+h3 {
+counter-reset : h4;
+	margin: 0rem 0 0.4rem 0;
+            padding: 0;
+      color: inherit;
+      text-rendering: optimizeLegibility; 
+        color: themed("title-color");
+        font-size: 20px;
+        font-family: "Sarasa", "SYHei Regular", sans-serif;
+	line-height: 28px;
+	font-style: normal;
+        font-weight: bold;
+}
+
+h4 {
+counter-reset : h5;
+	margin: 0rem 0 0.4rem 0;
+       padding: 0;
+      color: inherit;
+      text-rendering: optimizeLegibility; 
+        color: themed("title-color");
+        font-family: "Sarasa", "SYHei Regular", sans-serif;
+	font-size: 20px;
+	line-height: 28px;
+	font-style: normal;
+        font-weight: bold;
+}
+
+h5 {
+counter-reset : h6;
+}
+
+
+article[autonumbering] h1:before {
+content : '§6.'counter(h1,decimal) " ";
+counter-increment : h1;
+}
+
+
+article[autonumbering] h2:before {
+	content : '§6.'counter(h1,decimal) "." counter(h2,decimal) " ";
+	counter-increment : h2;
+}
+article[autonumbering] h3:before {
+content : '§6.'counter(h1,decimal) "." counter(h2,decimal) "." counter(h3,decimal) " ";
+counter-increment : h3;
+}
+article[autonumbering] h4:before {
+content : '§6.'counter(h1,decimal) "." counter(h2,decimal) "." counter(h3,decimal) "." counter(h4,decimal) " ";
+counter-increment : h4;
+}
+  
+h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.nocount:before, h6.nocount:before {
+	content : "";
+	counter-increment : none;
+}
+
+
+
+</style>
+
+
+
 <script>
   "use strict";
 
