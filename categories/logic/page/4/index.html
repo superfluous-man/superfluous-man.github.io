@@ -40,21 +40,22 @@ counter-reset : h2;
 	margin: 0rem 0 0.4rem 0;
 	padding: 0;
       text-rendering: optimizeLegibility; 
-      color: red;
+       
          text-indent: 0rem;
          font-size: 26px;
          font-family: "Sarasa-Heavy", "SYHei Heavy", sans-serif;
 	line-height: 36px;
-        padding: 9px 0px 5px 0%;
-	background: url("/images/author/secpig.png") no-repeat left;
+         
         font-style: normal;
-        font-weight: normal;
-        
+        font-weight: normal;      
     background: url('https://i.loli.net/2020/09/01/6PBqUGe2nzrJahQ.png');
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
-
+    margin-bottom: 15px;
+@include themify($themes) {
+	color: themed("title-color");  
+	}
 }
 
 h2 {
@@ -63,13 +64,15 @@ counter-reset : h3;
       padding: 0;
       color: inherit;
       text-rendering: optimizeLegibility; 
-        color: themed("title-color");
-        font-size: 24px;
-        font-family: "Sarasa", "SYHei Regular", sans-serif;
-	line-height: 32px;
+        font-size: 20px;
+         font-family: "Sarasa-Heavy", "SYHei Heavy", sans-serif;
+	line-height: 28px;
          text-align: left;
-	font-style: normal;
-        font-weight: bold;
+        font-style: normal;
+        font-weight: normal;  
+@include themify($themes) {
+	color: themed("title-color");  
+	}
 }
 
 h3 {
@@ -78,12 +81,14 @@ counter-reset : h4;
             padding: 0;
       color: inherit;
       text-rendering: optimizeLegibility; 
-        color: themed("title-color");
         font-size: 20px;
-        font-family: "Sarasa", "SYHei Regular", sans-serif;
+        font-family: "Sarasa-Heavy", "SYHei Heavy", sans-serif;
 	line-height: 28px;
-	font-style: normal;
-        font-weight: bold;
+        font-style: normal;
+        font-weight: normal; 
+@include themify($themes) {
+	color: themed("title-color");  
+	}
 }
 
 h4 {
@@ -93,11 +98,14 @@ counter-reset : h5;
       color: inherit;
       text-rendering: optimizeLegibility; 
         color: themed("title-color");
-        font-family: "Sarasa", "SYHei Regular", sans-serif;
+        font-family: "Sarasa-Heavy", "SYHei Heavy", sans-serif;
 	font-size: 20px;
 	line-height: 28px;
-	font-style: normal;
-        font-weight: bold;
+        font-style: normal;
+        font-weight: normal; 
+        @include themify($themes) {
+	color: themed("title-color");  
+	}
 }
 
 h5 {
@@ -1317,7 +1325,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 
 
 <meta name="created" content="2020-09-01T05:38:22&#43;0800">
-<meta name="modified" content="2023-03-18T02:12:08&#43;0800">
+<meta name="modified" content="2023-03-18T14:28:49&#43;0800">
 <meta property="article:published_time" content="2020-09-01T05:38:22&#43;0800">
 
 <meta name="author" content="Duōyú Rén">
