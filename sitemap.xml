@@ -158,8 +158,20 @@
     <loc>https://duoyu.ren/books/logic/ch33/</loc>
     <lastmod>2022-10-07T02:21:36+08:00</lastmod>
   </url><url>
+    <loc>https://duoyu.ren/reading/20160417-chang-jian/</loc>
+    <lastmod>2023-03-20T19:07:23+08:00</lastmod>
+  </url><url>
     <loc>https://duoyu.ren/categories/</loc>
-    <lastmod>2023-03-18T14:28:49+08:00</lastmod>
+    <lastmod>2023-03-20T19:07:23+08:00</lastmod>
+  </url><url>
+    <loc>https://duoyu.ren/tags/poem/</loc>
+    <lastmod>2023-03-20T19:07:23+08:00</lastmod>
+  </url><url>
+    <loc>https://duoyu.ren/tags/</loc>
+    <lastmod>2023-03-20T19:07:23+08:00</lastmod>
+  </url><url>
+    <loc>https://duoyu.ren/categories/%E5%8F%A4%E5%85%B8/</loc>
+    <lastmod>2023-03-20T19:07:23+08:00</lastmod>
   </url><url>
     <loc>https://duoyu.ren/tags/fonts/</loc>
     <lastmod>2023-03-14T00:33:49+08:00</lastmod>
@@ -174,9 +186,6 @@
     <lastmod>2023-03-14T00:33:49+08:00</lastmod>
   </url><url>
     <loc>https://duoyu.ren/series/</loc>
-    <lastmod>2023-03-18T14:28:49+08:00</lastmod>
-  </url><url>
-    <loc>https://duoyu.ren/tags/</loc>
     <lastmod>2023-03-18T14:28:49+08:00</lastmod>
   </url><url>
     <loc>https://duoyu.ren/articles/20230115-greek-fonts/</loc>
@@ -196,9 +205,6 @@
   </url><url>
     <loc>https://duoyu.ren/articles/20220304-sexuality-and-class/</loc>
     <lastmod>2022-10-07T22:29:37+08:00</lastmod>
-  </url><url>
-    <loc>https://duoyu.ren/tags/poem/</loc>
-    <lastmod>2023-02-04T01:47:20+08:00</lastmod>
   </url><url>
     <loc>https://duoyu.ren/articles/20210719-zhuda/</loc>
     <lastmod>2023-02-04T01:12:58+08:00</lastmod>
@@ -407,9 +413,6 @@
     <loc>https://duoyu.ren/tags/confucius/</loc>
     <lastmod>2022-10-02T04:56:38+08:00</lastmod>
   </url><url>
-    <loc>https://duoyu.ren/categories/%E5%8F%A4%E5%85%B8/</loc>
-    <lastmod>2022-10-02T04:56:38+08:00</lastmod>
-  </url><url>
     <loc>https://duoyu.ren/series/%E5%8F%A4%E8%AA%9E%E8%BE%AF/</loc>
     <lastmod>2022-10-02T04:56:38+08:00</lastmod>
   </url><url>
@@ -442,6 +445,9 @@
   </url><url>
     <loc>https://duoyu.ren/presentation/</loc>
     <lastmod>2022-10-02T04:56:38+08:00</lastmod>
+  </url><url>
+    <loc>https://duoyu.ren/reading/</loc>
+    <lastmod>2023-03-20T19:06:20+08:00</lastmod>
   </url><url>
     <loc>https://duoyu.ren/teaching/</loc>
     <lastmod>2022-10-03T05:47:37+08:00</lastmod>

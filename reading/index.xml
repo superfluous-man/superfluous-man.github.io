@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Readings on Duōyú Rén</title>
+    <link>https://duoyu.ren/reading/</link>
+    <description>Recent content in Readings on Duōyú Rén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
+    <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
+    <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
+    
+        <atom:link href="https://duoyu.ren/reading/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>《題破山寺後禪院》英譯六種</title>
+        <link>https://duoyu.ren/reading/20160417-chang-jian/</link>
+        <pubDate>Mon, 17 Apr 2023 19:09:56 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Mon, 20 Mar 2023 19:07:23 +0800</atom:modified>
+        <guid>https://duoyu.ren/reading/20160417-chang-jian/</guid>
+        <description>近授影視聲音創作，無意提及常建《題破山寺後禪院》意境轉化與聲音創作問題。問及諸生，皆以「有我之境」轉換此詩意境，深違向之所識。一週蒐集資料，</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>poem</category>
+            
+          
+        
+        
+          
+            
+              <category>古典</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
