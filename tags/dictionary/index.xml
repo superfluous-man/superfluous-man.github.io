@@ -14,7 +14,7 @@
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
     <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 21 May 2020 12:35:09 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Mar 2023 17:16:53 +0800</lastBuildDate>
     
         <atom:link href="https://duoyu.ren/tags/dictionary/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,16 +23,54 @@
 
       
       <item>
+        <title>懷爾德通用英語詞典</title>
+        <link>https://duoyu.ren/reading/20230325-wyld-dic/</link>
+        <pubDate>Fri, 24 Mar 2023 17:16:53 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Fri, 24 Mar 2023 22:32:04 +0800</atom:modified>
+        <guid>https://duoyu.ren/reading/20230325-wyld-dic/</guid>
+        <description>Wyld&amp;rsquo;s dictionary is known for its comprehensive coverage of regional dialects and slang, making it a valuable resource for anyone studying the historical development and evolution of the English language. It also contains many entries on archaic and obsolete words, which can be useful for researchers and scholars in fields such as literature, history, and linguistics. If you are interested in studying the historical development of the English language or</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren//images/reading/wyld.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>妄評</category>
+            
+          
+            
+              <category>dictionary</category>
+            
+          
+        
+        
+          
+            
+              <category>閱讀</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
         <title>編不如抄，抄不如竊：徒手攢一本字典</title>
         <link>https://duoyu.ren/articles/20200521-diy-your-dictionary/</link>
         <pubDate>Thu, 21 May 2020 12:35:09 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 01 Feb 2023 14:59:57 +0800</atom:modified>
+        <atom:modified>Fri, 24 Mar 2023 23:20:24 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20200521-diy-your-dictionary/</guid>
         <description>大約四、五年前，本站二狗站長正式着手編輯一本符合自身喜好的自用字典。這些經歷記錄在《TeX 漢語字典模板》 《編舟囈語》 兩篇文章中。雖然大體的版</description>
         
         <dc:creator>李二狗</dc:creator>
-        <media:content url="https://duoyu.ren/images/articles/diydic.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren//images/articles/diydic.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
