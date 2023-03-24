@@ -14,7 +14,7 @@
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
     <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 15 Oct 2019 00:57:29 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Mar 2023 17:16:53 +0800</lastBuildDate>
     
         <atom:link href="https://duoyu.ren/tags/shortcode/index.xml" rel="self" type="application/rss+xml" />
     
@@ -635,6 +635,40 @@
       </item>
       
       <item>
+        <title>懷爾德通用英語詞典</title>
+        <link>https://duoyu.ren/reading/20230325-wyld-dic/</link>
+        <pubDate>Fri, 24 Mar 2023 17:16:53 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Fri, 24 Mar 2023 17:17:22 +0800</atom:modified>
+        <guid>https://duoyu.ren/reading/20230325-wyld-dic/</guid>
+        <description></description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/reading/xiezuo.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+          
+            
+              <category>shortcode</category>
+            
+          
+        
+        
+          
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
         <title>內容版式 Demos</title>
         <link>https://duoyu.ren/articles/20191015-demos/</link>
         <pubDate>Tue, 15 Oct 2019 00:57:29 +0800</pubDate>
@@ -679,7 +713,7 @@
         <link>https://duoyu.ren/books/art/</link>
         <pubDate>Tue, 17 Sep 2019 22:27:42 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sun, 12 Mar 2023 21:18:03 +0800</atom:modified>
+        <atom:modified>Fri, 24 Mar 2023 17:33:23 +0800</atom:modified>
         <guid>https://duoyu.ren/books/art/</guid>
         <description>第 01 章 第 02 章 第 03 章 第 04 章 第 05 章 第 06 章 本筆記主要參考（chāoxí）以下課本整理： ⦿ 主要參考文獻 ⦿ 徐明, 2008. 符号逻辑讲义[M].武汉:武汉大学出</description>
         
