@@ -14,31 +14,13 @@
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
     <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 17 Apr 2023 19:09:56 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Mar 2023 17:16:29 +0800</lastBuildDate>
     
         <atom:link href="https://duoyu.ren/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
-      
-      <item>
-        <title>古典</title>
-        <link>https://duoyu.ren/categories/%E5%8F%A4%E5%85%B8/</link>
-        <pubDate>Mon, 17 Apr 2023 19:09:56 +0800</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        
-        <guid>https://duoyu.ren/categories/%E5%8F%A4%E5%85%B8/</guid>
-        <description></description>
-        
-        <dc:creator>Duōyú Rén</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
       
       <item>
         <title>雜記</title>
@@ -245,6 +227,24 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         
         <guid>https://duoyu.ren/categories/%E5%82%B3%E6%92%AD/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>古典</title>
+        <link>https://duoyu.ren/categories/%E5%8F%A4%E5%85%B8/</link>
+        <pubDate>Sun, 05 Jun 2016 21:39:35 +0000</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/categories/%E5%8F%A4%E5%85%B8/</guid>
         <description></description>
         
         <dc:creator>Duōyú Rén</dc:creator>

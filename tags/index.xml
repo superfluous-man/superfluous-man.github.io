@@ -14,31 +14,13 @@
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
     <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 17 Apr 2023 19:09:56 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Mar 2023 17:16:53 +0800</lastBuildDate>
     
         <atom:link href="https://duoyu.ren/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
-      
-      <item>
-        <title>poem</title>
-        <link>https://duoyu.ren/tags/poem/</link>
-        <pubDate>Mon, 17 Apr 2023 19:09:56 +0800</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        
-        <guid>https://duoyu.ren/tags/poem/</guid>
-        <description></description>
-        
-        <dc:creator>Duōyú Rén</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
       
       <item>
         <title>shortcode</title>
@@ -137,6 +119,24 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         
         <guid>https://duoyu.ren/tags/essay/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>poem</title>
+        <link>https://duoyu.ren/tags/poem/</link>
+        <pubDate>Mon, 19 Jul 2021 07:08:23 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/tags/poem/</guid>
         <description></description>
         
         <dc:creator>Duōyú Rén</dc:creator>
