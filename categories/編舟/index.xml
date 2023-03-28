@@ -169,7 +169,7 @@
         <link>https://duoyu.ren/articles/20170717-cang-jie-zi-ma/</link>
         <pubDate>Mon, 17 Jul 2017 21:47:22 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <atom:modified>Sun, 26 Mar 2023 22:45:49 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20170717-cang-jie-zi-ma/</guid>
         <description>僕在工廠務工，偶然需要使用 CorelDraw 排版些圖文。遂突發奇想，以此物採笨辦法打散漢字，拆筆畫手動着色，製作蒼頡檢字法五頁簡易入門文檔，僅供習者參考。全</description>
         
@@ -205,7 +205,7 @@
         <link>https://duoyu.ren/articles/20170513-mathjax-test/</link>
         <pubDate>Sat, 13 May 2017 09:29:32 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <atom:modified>Sun, 26 Mar 2023 22:45:43 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20170513-mathjax-test/</guid>
         <description>本頁面測試 MathJax 渲染網頁上的 $\LaTeX$ 公式。MathJax 與 Hugo 匹配使用時，因與 emph 等標籤衝突，$\LaTeX$ 源碼中的下標和閉區間符號等可能有時需要稍加調</description>
         
@@ -241,7 +241,7 @@
         <link>https://duoyu.ren/articles/20161015-zhmakeindex/</link>
         <pubDate>Sat, 15 Oct 2016 10:01:57 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 01 Feb 2023 18:46:51 +0800</atom:modified>
+        <atom:modified>Sun, 26 Mar 2023 22:45:31 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20161015-zhmakeindex/</guid>
         <description>In some big documents, for example The Cangjie Chinese-English Dictionary , it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the zhmakeindex program that aims to sort Chinese index entries. Gen­er­a­ting LaTeX Indices Separately</description>
         
@@ -277,7 +277,7 @@
         <link>https://duoyu.ren/articles/20160920-cang-jie-li-zi/</link>
         <pubDate>Tue, 20 Sep 2016 17:56:18 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <atom:modified>Sun, 26 Mar 2023 22:45:25 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20160920-cang-jie-li-zi/</guid>
         <description>導言 蒼頡檢字法 ，坊間亦稱「六代倉頡」，但其與通常所謂「三代倉頡」、「五代倉頡」差異較大，目的非僅供漢字輸入，而在完整解決漢字檢索及應用問題。</description>
         
@@ -313,7 +313,7 @@
         <link>https://duoyu.ren/articles/20160430-tex-han-yu-zi-dian/</link>
         <pubDate>Sat, 30 Apr 2016 21:57:33 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 01 Feb 2023 14:51:40 +0800</atom:modified>
+        <atom:modified>Sun, 26 Mar 2023 22:45:12 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20160430-tex-han-yu-zi-dian/</guid>
         <description>Full of Sadness in My Heart 這些天，一想到至死也不可能「獨立」「手工」「研編」出一部滿意的漢語辭書，便滿心傷悲。獨立者，不抄襲、不取藍本；手工者，較少依賴計</description>
         

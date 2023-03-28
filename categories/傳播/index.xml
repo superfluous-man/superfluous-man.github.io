@@ -27,7 +27,7 @@
         <link>https://duoyu.ren/articles/20161124-tikz-mcquail-figures/</link>
         <pubDate>Thu, 24 Nov 2016 18:13:38 +0000</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Sun, 02 Oct 2022 04:56:38 +0800</atom:modified>
+        <atom:modified>Sun, 26 Mar 2023 22:45:35 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20161124-tikz-mcquail-figures/</guid>
         <description>Last month re-composed the classic Textbook, McQuail&amp;rsquo;s Mass Communication Theory , the following are some tikz examples in re-making book illustrations. To try these examples, pls put below codes into the preamble of your document. 1 2 \usepackage{tikz} % Required for drawing custom shapes \usetikzlibrary{arrows,calc,fit,matrix,positioning,shapes,shadows,trees,mindmap,tikzmark,arrows.meta} Positioning Map Figure The Output: The codes: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18</description>
         
