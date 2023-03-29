@@ -1,0 +1,224 @@
+body{
+        font-family:"LXGWWenKaiTC-Regular", "LXGWWenKai-Regular", sans-serif;
+        margin:0;
+        color:#212529;
+        text-align:left;
+        background-color:#F2F2F2} 
+p{
+        margin-top:0;
+        font-family:"LXGWWenKaiTC-Regular", "LXGWWenKai-Regular", sans-serif;
+        margin-bottom:0.55rem;
+        font-size:1.2rem;
+        line-height:2rem;
+        text-align:justify;
+        text-justify:inter-ideograph
+}
+
+nav {
+  height: 40px;
+  font-family: "LXGWWenKaiTC-Regular", "LXGWWenKai-Regular", sans-serif;
+}
+main {
+  min-height: calc(100vh - 100px);
+}
+.side-bar {
+  width: 25px;
+  position: fixed;
+  top: 70px;
+}
+footer {
+  font-size: 0.9em;
+  margin-left: 35px;
+}
+.nav-menu {
+  color: #0E6251;
+  font-size: 1.5em;
+}
+.nav-menu:hover {
+  color: #DC143C;
+  cursor: pointer;
+}
+.nav-menu-disabled {
+  color: #4e4f50 !important;
+  font-size: 1.5em;
+}
+a:hover {
+  text-decoration: none;
+}
+.book-cover {
+  color: white;
+  background-color: #24242499;
+}
+.bookTitle {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
+.bookAuthor {
+  position: absolute;
+  bottom: 2%;
+  right: 5%;
+}
+.show {
+  transition: all 0.1s;
+}
+.hanging {
+  padding-left: 15px;
+  text-indent: -15px;
+}
+#copiedMessage {
+  position: fixed;
+  display: table-cell;
+  line-height: 100px;
+  width: 224px;
+  height: 100px;
+  text-align: center;
+  top: calc(50% - 50px);
+  left: calc(50% - 112px);
+  transition: all 1s;
+}
+
+/** Chapter Title Style: http://squeeze.jp/lab/sample-page/heading-design-css-only/ **/
+/* 05.アメリカンな(?)吹き出し */
+#heading05{
+	position:relative;
+	margin-right:-0.525em;
+	margin-left:-0.525em;
+	padding:10px 20px;
+	color:#0E6251;
+	background:#fff;
+	text-shadow:
+		1px 1px 0 #fff,
+		2px 2px 0 #999;
+	border-top:#0E6251 solid 5px;
+	border-bottom:#0E6251 solid 3px;
+    background-image: -webkit-gradient(linear, left top, right bottom,
+			from( rgba(255, 255, 255, 0.0)), 
+			color-stop(0.4, rgba(255, 255, 255, 0.0)), 
+			color-stop(0.4, rgba(0, 0, 0, 0.1)), 
+			color-stop(0.6, rgba(0, 0, 0, 0.1)), 
+			color-stop(0.6, rgba(255, 255, 255, 0.0)),
+			to(				rgba(255, 255, 255, 0.0))
+			);
+	background-image: -webkit-linear-gradient(top -45deg,
+			transparent 40%,
+            rgba(0, 0, 0, 0.1) 40%,
+            rgba(0, 0, 0, 0.1) 60%,
+            transparent 60%
+			);
+	background-image: -moz-linear-gradient(top -45deg,
+			transparent 40%,
+            rgba(0, 0, 0, 0.1) 40%,
+            rgba(0, 0, 0, 0.1) 60%,
+            transparent 60%
+			);
+	background-image: -o-linear-gradient(top -45deg,
+			transparent 40%,
+            rgba(0, 0, 0, 0.1) 40%,
+            rgba(0, 0, 0, 0.1) 60%,
+            transparent 60%
+			);
+	background-image: linear-gradient(to bottom -45deg,
+			transparent 40%,
+            rgba(0, 0, 0, 0.1) 40%,
+            rgba(0, 0, 0, 0.1) 60%,
+            transparent 60%
+			);
+	background-size:4px 4px;
+}
+#heading05:before{
+	content:" ";
+	position:absolute;
+	top:100%;
+	left:18px;
+	width:0;
+	height:0;
+	border-width:18px;
+	border-style:solid;
+	border-color:transparent;
+	border-top-color:#0E6251;
+}
+#heading05:after{
+	content:" ";
+	position:absolute;
+	top:100%;
+	left:22px;
+	width:0;
+	height:0;
+	border-width:14px;
+	border-style:solid;
+	border-color:transparent;
+	border-top-color:#F2F2F2;
+	z-index:1;
+}
+
+
+/**CARD in HomePage i.e in index.html **/
+
+.card {
+      display: inline-grid;
+      grid-template-columns: 300px;
+      grid-template-rows: 210px 210px 80px;
+      grid-template-areas: "image" "text" "stats";
+      border-radius: 18px;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+      width: 300px;
+}
+.card-image {
+      grid-area: image;
+}
+.card-text {
+      grid-area: text;
+}
+.card-stats {
+      grid-area: stats; 
+}
+.card-image {
+      grid-area: image;
+      background: url("https://i.loli.net/2019/11/26/SE2YJrbpiA5dknZ.jpg"); /** https://i.loli.net/2019/11/25/nyQCaszASMiOUNb.png **/
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      background-size: cover;
+}
+.card-text {
+      grid-area: text;
+      margin: 7px;
+}
+.card-text .date {
+      color: rgb(255, 7, 110);
+      font-size:17px;
+}
+.card-text p {
+  padding: 0em 0.3em 0.3em 0.3em;
+      margin-top:-.8em;
+      text-align:left;
+      font-size:1rem;
+      line-height:1.5rem;
+}
+.card-stats {
+      grid-area: stats; 
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      background: rgb(255, 7, 110);
+}  
+.card-stats .stat {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+      padding:10px;
+}
+.card:hover {
+      transform: scale(1.15);
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card {
+    ...
+      transition: 0.5s ease;
+      cursor: pointer;
+      margin:33px;
+}
