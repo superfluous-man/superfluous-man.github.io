@@ -14,13 +14,31 @@
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
     <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 24 Mar 2023 17:16:53 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Mar 2023 21:56:48 +0800</lastBuildDate>
     
         <atom:link href="https://duoyu.ren/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>隨想</title>
+        <link>https://duoyu.ren/categories/%E9%9A%A8%E6%83%B3/</link>
+        <pubDate>Wed, 29 Mar 2023 21:56:48 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        
+        <guid>https://duoyu.ren/categories/%E9%9A%A8%E6%83%B3/</guid>
+        <description></description>
+        
+        <dc:creator>Duōyú Rén</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>閱讀</title>
@@ -65,24 +83,6 @@
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         
         <guid>https://duoyu.ren/categories/%E5%82%99%E5%BF%98/</guid>
-        <description></description>
-        
-        <dc:creator>Duōyú Rén</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>隨想</title>
-        <link>https://duoyu.ren/categories/%E9%9A%A8%E6%83%B3/</link>
-        <pubDate>Mon, 19 Dec 2022 15:52:18 +0800</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        
-        <guid>https://duoyu.ren/categories/%E9%9A%A8%E6%83%B3/</guid>
         <description></description>
         
         <dc:creator>Duōyú Rén</dc:creator>
