@@ -1,0 +1,55 @@
+
+/* 自定義頁面字體  (要在 header.html 中添加 href="{{ "./css/fonts.css" | relURL }}" 以引用本 css 設置的內容)*/
+
+@font-face {/* 霞鹜文楷旧字形Regular */
+  font-family: 'LXGWWenKaiTC-Regular';
+  src: url('fonts/LXGWWenKaiTC-Regular.eot');
+  src: url('fonts/LXGWWenKaiTC-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/LXGWWenKaiTC-Regular.woff2') format('woff2'),
+       url('fonts/LXGWWenKaiTC-Regular.woff') format('woff'),
+       url('fonts/LXGWWenKaiTC-Regular.ttf') format('truetype'),
+       url('fonts/LXGWWenKaiTC-Regular.svg#LXGWWenKaiTC-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {/* 霞鹜文楷旧字形Bold */
+  font-family: 'LXGWWenKaiTC-Regular';
+  src: url('fonts/LXGWWenKaiTC-Bold.eot');
+  src: url('fonts/LXGWWenKaiTC-Bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/LXGWWenKaiTC-Bold.woff2') format('woff2'),
+       url('fonts/LXGWWenKaiTC-Bold.woff') format('woff'),
+       url('fonts/LXGWWenKaiTC-Bold.ttf') format('truetype'),
+       url('fonts/LXGWWenKaiTC-Bold.svg#LXGWWenKaiTC-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {/* 霞鹜文楷 Regular */
+  font-family: 'LXGWWenKai-Regular';
+  src: url('fonts/LXGWWenKai-Regular.eot');
+  src: url('fonts/LXGWWenKai-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/LXGWWenKai-Regular.woff2') format('woff2'),
+       url('fonts/LXGWWenKai-Regular.woff') format('woff'),
+       url('fonts/LXGWWenKai-Regular.ttf') format('truetype'),
+       url('fonts/LXGWWenKai-Regular.svg#LXGWWenKai-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {/* fontawesome-webfont */
+  font-family: 'Awesome5Free';
+  src: url('fonts/fontawesome-webfont.eot');
+  src: url('fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/fontawesome-webfont.woff2') format('woff2'),
+       url('fonts/fontawesome-webfont.woff') format('woff'),
+       url('fonts/fontawesome-webfont.ttf') format('truetype'),
+       url('fonts/fontawesome-webfont.svg#fontawesome-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} 
+

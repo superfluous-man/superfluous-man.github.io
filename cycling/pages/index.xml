@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on 窮遊記</title>
+    <link>https://duoyu.ren/cycling/pages/</link>
+    <description>Recent content in Pages on 窮遊記</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language><atom:link href="https://duoyu.ren/cycling/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About The Site</title>
+      <link>https://duoyu.ren/cycling/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duoyu.ren/cycling/about/</guid>
+      <description>關於本站組建緣起，已在主站的《XDS 小屌絲騎行紀》 一文中有所陳述。此地特感謝イロハカ ，他的騎行站點爲本站樣式提供了啓發和直接幫助。イロハカ長</description>
+    </item>
+    
+    <item>
+      <title>当サイトに掲載されている広告について</title>
+      <link>https://duoyu.ren/cycling/privacy_policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duoyu.ren/cycling/privacy_policy/</guid>
+      <description>当サイトに掲載されている広告について 当サイトでは、第三者配信の広告サービス（Googleアドセンス、Amazonアソシエイト）を利用していま</description>
+    </item>
+    
+  </channel>
+</rss>
