@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Russian on Duōyú Rén</title>
+    <link>https://duoyu.ren/tags/russian/</link>
+    <description>Recent content in Russian on Duōyú Rén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
+    <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
+    <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 05 May 2016 18:30:51 +0800</lastBuildDate>
+    
+        <atom:link href="https://duoyu.ren/tags/russian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>《法學拉丁文教程》序言</title>
+        <link>https://duoyu.ren/articles/20160505-fa-xue-la-ding-yu/</link>
+        <pubDate>Thu, 05 May 2016 18:30:51 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Wed, 29 Mar 2023 17:45:43 +0800</atom:modified>
+        <guid>https://duoyu.ren/articles/20160505-fa-xue-la-ding-yu/</guid>
+        <description>編譯此書，始於 2010 年暑假，課餘斷斷續續點滴翻譯，中間亦有法大某博鼓勵譯完。不過，因對羅馬法術語生疏，至 2013 年暑假也只翻譯到第二章。時變事遷，幾經</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Russian</category>
+            
+          
+            
+              <category>translation</category>
+            
+          
+        
+        
+          
+            
+              <category>譯文</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

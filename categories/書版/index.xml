@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>書版 on Duōyú Rén</title>
+    <link>https://duoyu.ren/categories/%E6%9B%B8%E7%89%88/</link>
+    <description>Recent content in 書版 on Duōyú Rén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
+    <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
+    <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 21 May 2020 12:35:09 +0800</lastBuildDate>
+    
+        <atom:link href="https://duoyu.ren/categories/%E6%9B%B8%E7%89%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>編不如抄，抄不如竊：徒手攢一本字典</title>
+        <link>https://duoyu.ren/articles/20200521-diy-your-dictionary/</link>
+        <pubDate>Thu, 21 May 2020 12:35:09 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Wed, 29 Mar 2023 17:38:33 +0800</atom:modified>
+        <guid>https://duoyu.ren/articles/20200521-diy-your-dictionary/</guid>
+        <description>大約四、五年前，本站二狗站長正式着手編輯一本符合自身喜好的自用字典。這些經歷記錄在《TeX 漢語字典模板》 《編舟囈語》 兩篇文章中。雖然大體的版</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/https://s2.loli.net/2023/03/26/iLJsm5bA8FxBhaE.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>dictionary</category>
+            
+          
+            
+              <category>TeX</category>
+            
+          
+        
+        
+          
+            
+              <category>書版</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>基於 XeLaTeX 的中文直書方案</title>
+        <link>https://duoyu.ren/articles/20181216-tex-han-yu-zhi-pai/</link>
+        <pubDate>Sun, 16 Dec 2018 18:03:24 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Wed, 29 Mar 2023 17:42:37 +0800</atom:modified>
+        <guid>https://duoyu.ren/articles/20181216-tex-han-yu-zhi-pai/</guid>
+        <description>半個世紀以來，「橫排」逐漸成爲出版物排版的主流。十年前，境內還能偶爾看到一些出版社以「直排」方式出版一些古籍圖書。目下，僅有境外幾家出版社偶</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/https://s2.loli.net/2023/03/26/zyFeLs2mi4Hdw8k.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>TeX</category>
+            
+          
+        
+        
+          
+            
+              <category>書版</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>清世何須憂廟廊——漢語詩詞 LaTeX 樣式</title>
+        <link>https://duoyu.ren/articles/20161211-tex-han-yu-shi-ci/</link>
+        <pubDate>Sun, 11 Dec 2016 20:41:22 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Wed, 29 Mar 2023 17:44:17 +0800</atom:modified>
+        <guid>https://duoyu.ren/articles/20161211-tex-han-yu-shi-ci/</guid>
+        <description>Typing some Chinese classical poems, I found most of the early examples are created for layouting English poems. Below I give a layout example of Tang poems anthology. Rather than a general solution, it&amp;rsquo;s just a particular example. Pls put below packages into the preamble of your document. 1 2 3 4 %漢字自動注音 \usepackage{xpinyin} %漢字注音設置 \xpinyinsetup{ratio = .4,font</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>TeX</category>
+            
+          
+        
+        
+          
+            
+              <category>書版</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Tikz Examples in Re-composing McQuail&#39;s Textbook</title>
+        <link>https://duoyu.ren/articles/20161124-tikz-mcquail-figures/</link>
+        <pubDate>Thu, 24 Nov 2016 18:13:38 +0000</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Wed, 29 Mar 2023 17:44:24 +0800</atom:modified>
+        <guid>https://duoyu.ren/articles/20161124-tikz-mcquail-figures/</guid>
+        <description>Last month re-composed the classic Textbook, McQuail&amp;rsquo;s Mass Communication Theory , the following are some tikz examples in re-making book illustrations. To try these examples, pls put below codes into the preamble of your document. 1 2 \usepackage{tikz} % Required for drawing custom shapes \usetikzlibrary{arrows,calc,fit,matrix,positioning,shapes,shadows,trees,mindmap,tikzmark,arrows.meta} Positioning Map Figure The Output: The codes: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>TeX</category>
+            
+          
+        
+        
+          
+            
+              <category>書版</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Zhmakeindex and the Indices Creating of Chinese Books</title>
+        <link>https://duoyu.ren/articles/20161015-zhmakeindex/</link>
+        <pubDate>Sat, 15 Oct 2016 10:01:57 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Wed, 29 Mar 2023 17:44:30 +0800</atom:modified>
+        <guid>https://duoyu.ren/articles/20161015-zhmakeindex/</guid>
+        <description>In some big documents, for example The Cangjie Chinese-English Dictionary , it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the zhmakeindex program that aims to sort Chinese index entries. Gen­er­a­ting LaTeX Indices Separately</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>TeX</category>
+            
+          
+        
+        
+          
+            
+              <category>書版</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>TeX 漢語字典模板</title>
+        <link>https://duoyu.ren/articles/20160430-tex-han-yu-zi-dian/</link>
+        <pubDate>Sat, 30 Apr 2016 21:57:33 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Wed, 29 Mar 2023 17:28:34 +0800</atom:modified>
+        <guid>https://duoyu.ren/articles/20160430-tex-han-yu-zi-dian/</guid>
+        <description>Full of Sadness in My Heart 這些天，一想到至死也不可能「獨立」「手工」「研編」出一部滿意的漢語辭書，便滿心傷悲。獨立者，不抄襲、不取藍本；手工者，較少依賴計</description>
+        
+        <dc:creator>李二狗</dc:creator>
+        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>TeX</category>
+            
+          
+        
+        
+          
+            
+              <category>書版</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

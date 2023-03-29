@@ -14,7 +14,7 @@
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
     <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 15 Jan 2023 14:51:03 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2020 22:16:30 +0800</lastBuildDate>
     
         <atom:link href="https://duoyu.ren/series/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,84 +23,12 @@
 
       
       <item>
-        <title>Fonts</title>
-        <link>https://duoyu.ren/series/fonts/</link>
-        <pubDate>Sun, 15 Jan 2023 14:51:03 +0800</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        
-        <guid>https://duoyu.ren/series/fonts/</guid>
-        <description></description>
-        
-        <dc:creator>Duōyú Rén</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>logic</title>
         <link>https://duoyu.ren/series/logic/</link>
         <pubDate>Mon, 07 Sep 2020 22:16:30 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
         
         <guid>https://duoyu.ren/series/logic/</guid>
-        <description></description>
-        
-        <dc:creator>Duōyú Rén</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>書版</title>
-        <link>https://duoyu.ren/series/%E6%9B%B8%E7%89%88/</link>
-        <pubDate>Tue, 15 Oct 2019 00:57:29 +0800</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        
-        <guid>https://duoyu.ren/series/%E6%9B%B8%E7%89%88/</guid>
-        <description></description>
-        
-        <dc:creator>Duōyú Rén</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>輸入法</title>
-        <link>https://duoyu.ren/series/%E8%BC%B8%E5%85%A5%E6%B3%95/</link>
-        <pubDate>Mon, 17 Jul 2017 21:47:22 +0800</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        
-        <guid>https://duoyu.ren/series/%E8%BC%B8%E5%85%A5%E6%B3%95/</guid>
-        <description></description>
-        
-        <dc:creator>Duōyú Rén</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>古語辯</title>
-        <link>https://duoyu.ren/series/%E5%8F%A4%E8%AA%9E%E8%BE%AF/</link>
-        <pubDate>Sun, 05 Jun 2016 21:39:35 +0000</pubDate>
-        <author>logos@duoyu.ren (Duōyú Rén)</author>
-        
-        <guid>https://duoyu.ren/series/%E5%8F%A4%E8%AA%9E%E8%BE%AF/</guid>
         <description></description>
         
         <dc:creator>Duōyú Rén</dc:creator>
