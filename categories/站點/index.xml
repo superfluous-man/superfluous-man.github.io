@@ -61,12 +61,12 @@
         <link>https://duoyu.ren/articles/20170513-mathjax-test/</link>
         <pubDate>Sat, 13 May 2017 09:29:32 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:44:09 +0800</atom:modified>
+        <atom:modified>Thu, 30 Mar 2023 13:26:34 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20170513-mathjax-test/</guid>
         <description>本頁面測試 MathJax 渲染網頁上的 $\LaTeX$ 公式。MathJax 與 Hugo 匹配使用時，因與 emph 等標籤衝突，$\LaTeX$ 源碼中的下標和閉區間符號等可能有時需要稍加調</description>
         
         <dc:creator>李二狗</dc:creator>
-        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren//images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

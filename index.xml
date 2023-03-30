@@ -2915,12 +2915,12 @@
         <link>https://duoyu.ren/articles/20170513-mathjax-test/</link>
         <pubDate>Sat, 13 May 2017 09:29:32 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:44:09 +0800</atom:modified>
+        <atom:modified>Thu, 30 Mar 2023 13:26:34 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20170513-mathjax-test/</guid>
         <description>本頁面測試 MathJax 渲染網頁上的 $\LaTeX$ 公式。MathJax 與 Hugo 匹配使用時，因與 emph 等標籤衝突，$\LaTeX$ 源碼中的下標和閉區間符號等可能有時需要稍加調</description>
         
         <dc:creator>李二狗</dc:creator>
-        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren//images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -2949,12 +2949,12 @@
         <link>https://duoyu.ren/articles/20161211-tex-han-yu-shi-ci/</link>
         <pubDate>Sun, 11 Dec 2016 20:41:22 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:44:17 +0800</atom:modified>
+        <atom:modified>Thu, 30 Mar 2023 13:26:42 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20161211-tex-han-yu-shi-ci/</guid>
         <description>Typing some Chinese classical poems, I found most of the early examples are created for layouting English poems. Below I give a layout example of Tang poems anthology. Rather than a general solution, it&amp;rsquo;s just a particular example. Pls put below packages into the preamble of your document. 1 2 3 4 %漢字自動注音 \usepackage{xpinyin} %漢字注音設置 \xpinyinsetup{ratio = .4,font</description>
         
         <dc:creator>李二狗</dc:creator>
-        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren//images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -2983,12 +2983,12 @@
         <link>https://duoyu.ren/articles/20161124-tikz-mcquail-figures/</link>
         <pubDate>Thu, 24 Nov 2016 18:13:38 +0000</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:44:24 +0800</atom:modified>
+        <atom:modified>Thu, 30 Mar 2023 13:29:57 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20161124-tikz-mcquail-figures/</guid>
         <description>Last month re-composed the classic Textbook, McQuail&amp;rsquo;s Mass Communication Theory , the following are some tikz examples in re-making book illustrations. To try these examples, pls put below codes into the preamble of your document. 1 2 \usepackage{tikz} % Required for drawing custom shapes \usetikzlibrary{arrows,calc,fit,matrix,positioning,shapes,shadows,trees,mindmap,tikzmark,arrows.meta} Positioning Map Figure The Output: The codes: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18</description>
         
         <dc:creator>李二狗</dc:creator>
-        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren//images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -3017,12 +3017,12 @@
         <link>https://duoyu.ren/articles/20161015-zhmakeindex/</link>
         <pubDate>Sat, 15 Oct 2016 10:01:57 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:44:30 +0800</atom:modified>
+        <atom:modified>Thu, 30 Mar 2023 13:30:05 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20161015-zhmakeindex/</guid>
         <description>In some big documents, for example The Cangjie Chinese-English Dictionary , it is necessary both for authors and readers to create one or two keywords lists in the book appendices. These lists can help to find information quite efficiently. In this article, I introduce the zhmakeindex program that aims to sort Chinese index entries. Gen­er­a­ting LaTeX Indices Separately</description>
         
         <dc:creator>李二狗</dc:creator>
-        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren//images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -3051,12 +3051,12 @@
         <link>https://duoyu.ren/articles/20160920-cang-jie-li-zi/</link>
         <pubDate>Tue, 20 Sep 2016 17:56:18 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:46:23 +0800</atom:modified>
+        <atom:modified>Thu, 30 Mar 2023 13:30:43 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20160920-cang-jie-li-zi/</guid>
         <description>導言 蒼頡檢字法 ，坊間亦稱「六代倉頡」，但其與通常所謂「三代倉頡」、「五代倉頡」差異較大，目的非僅供漢字輸入，而在完整解決漢字檢索及應用問題。</description>
         
         <dc:creator>李二狗</dc:creator>
-        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren/https://s2.loli.net/2023/03/30/k3poLU7fPgHsdFD.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -3085,12 +3085,12 @@
         <link>https://duoyu.ren/articles/20160605-kong-zi-zong-lu-xian/</link>
         <pubDate>Sun, 05 Jun 2016 21:39:35 +0000</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:46:06 +0800</atom:modified>
+        <atom:modified>Thu, 30 Mar 2023 13:33:14 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20160605-kong-zi-zong-lu-xian/</guid>
         <description>作者按語 此文純粹爲「安利」學生多寫作業而編造。因某日課後，一三級漢文二班某生曰「一個『怎麼就高興了呢』講了兩節課」，有必要記錄整個「說服」以</description>
         
         <dc:creator>李二狗</dc:creator>
-        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren/https://s2.loli.net/2023/03/30/ZLFcwE5Colz9T2X.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -3119,12 +3119,12 @@
         <link>https://duoyu.ren/articles/20160505-fa-xue-la-ding-yu/</link>
         <pubDate>Thu, 05 May 2016 18:30:51 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:45:43 +0800</atom:modified>
+        <atom:modified>Thu, 30 Mar 2023 13:39:56 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20160505-fa-xue-la-ding-yu/</guid>
-        <description>編譯此書，始於 2010 年暑假，課餘斷斷續續點滴翻譯，中間亦有法大某博鼓勵譯完。不過，因對羅馬法術語生疏，至 2013 年暑假也只翻譯到第二章。時變事遷，幾經</description>
+        <description>The Role of Humanities in Legal Education 法學敎育 在目前俄國人文敎育體系中日漸重要。這與社會對法律專家的需求增加有關，伴隨著法學敎育質量的上昇、人文通識課程敎育的加強，</description>
         
         <dc:creator>李二狗</dc:creator>
-        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren/https://s2.loli.net/2023/03/30/J9c7tSeYv65ToGi.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -3157,12 +3157,12 @@
         <link>https://duoyu.ren/articles/20160430-tex-han-yu-zi-dian/</link>
         <pubDate>Sat, 30 Apr 2016 21:57:33 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:28:34 +0800</atom:modified>
+        <atom:modified>Thu, 30 Mar 2023 13:40:43 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20160430-tex-han-yu-zi-dian/</guid>
         <description>Full of Sadness in My Heart 這些天，一想到至死也不可能「獨立」「手工」「研編」出一部滿意的漢語辭書，便滿心傷悲。獨立者，不抄襲、不取藍本；手工者，較少依賴計</description>
         
         <dc:creator>李二狗</dc:creator>
-        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren//images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -3191,12 +3191,12 @@
         <link>https://duoyu.ren/articles/20160417-chang-jian/</link>
         <pubDate>Sun, 17 Apr 2016 19:09:56 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:45:30 +0800</atom:modified>
+        <atom:modified>Thu, 30 Mar 2023 13:46:24 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20160417-chang-jian/</guid>
-        <description>近授影視聲音創作，無意提及常建《題破山寺後禪院》意境轉化與聲音創作問題。問及諸生，皆以「有我之境」轉換此詩意境，深違向之所識。一週蒐集資料，</description>
+        <description>近授影視聲音創作，提及常建《題破山寺後禪院》意境轉化與配音創作問題。以「清晨入古寺」之境界聲音爲例，問諸生如欸配音。回答皆以「有我之境」轉換</description>
         
         <dc:creator>李二狗</dc:creator>
-        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren/https://s2.loli.net/2023/03/30/omkBDWNzusMqIe5.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -3229,12 +3229,12 @@
         <link>https://duoyu.ren/articles/20160409-elegist/</link>
         <pubDate>Sat, 09 Apr 2016 19:41:40 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:45:01 +0800</atom:modified>
+        <atom:modified>Thu, 30 Mar 2023 13:49:08 +0800</atom:modified>
         <guid>https://duoyu.ren/articles/20160409-elegist/</guid>
         <description>曾氏門徒 晚清李伯元《南亭筆記》卷八錄有幾則曾文正軼事，其一《曾國藩包作輓聯》，內載其爲「平日之友」作輓聯之事。 曾與湯海秋稱莫逆交，後忽割席。</description>
         
         <dc:creator>李二狗</dc:creator>
-        <media:content url="https://duoyu.ren/images/author/avatar.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duoyu.ren/https://s2.loli.net/2023/03/30/U97wcvSCm1BtYoK.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
