@@ -420,6 +420,13 @@
     "text": "12.3 Building a phylogenetic reconstruction\n\n12.3.1 Evolutionary substitution model\n\n\n12.3.2 Maximum likelihood\n\n\n12.3.3 Bayesian inference"
   },
   {
+    "objectID": "chs-intuitionistic/phylogenomics.html",
+    "href": "chs-intuitionistic/phylogenomics.html",
+    "title": "13  Phylogenomics",
+    "section": "",
+    "text": "The Page:  ... Visitors,  ... Views; The Site:  ...,  ...."
+  },
+  {
     "objectID": "chs-meta/genome-assembly.html#the-problem-of-assembling-genomes",
     "href": "chs-meta/genome-assembly.html#the-problem-of-assembling-genomes",
     "title": "14  Genome assembly",
@@ -662,13 +669,6 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "The Page: 🏄 ... Visitors 👀 ... Views; The Site: 🏄 ... Visitors 👀 ... Views.\n\n\n\n\n\n\nAllesina, S., & Wilmes, M. (2019). Computing skills for\nbiologists. https://doi.org/10.2307/j.ctvc77jrc\n\n\nBrandies, P. A., & Hogg, C. J. (2021). Ten simple rules for getting\nstarted with command-line bioinformatics. In PLoS Computational\nBiology (No. 2; Vol. 17, p. e1008645). Public Library of Science\nSan Francisco, CA USA.\n\n\nBrown, T. A. (2018). Genomes 4. Garland science.\n\n\nDudley, J. T., & Butte, A. J. (2009). A quick guide for developing\neffective bioinformatics programming skills. In PLOS computational\nbiology (No. 12; Vol. 5, p. e1000589). Public Library of Science\nSan Francisco, USA.\n\n\nMäkinen, V., Belazzougui, D., Cunial, F., & Tomescu, A. I. (2015).\nGenome-scale algorithm design. Cambridge University Press.\n\n\nMeneely, P. M., Hoang, R. D., Okeke, I. N., & Heston, K. (2017).\nGenetics: Genes, genomes, and evolution. Oxford University\nPress.\n\n\nPerkel, J. M. et al. (2021). Five reasons why researchers should learn\nto love the command line. Nature, 590(7844), 173–174."
-  },
-  {
-    "objectID": "chs-intuitionistic/phylogenomics.html",
-    "href": "chs-intuitionistic/phylogenomics.html",
-    "title": "13  Phylogenomics",
-    "section": "",
-    "text": "The Page:  ... Visitors,  ... Views; The Site:  ...,  ...."
+    "text": "The Page:  ... Visitors,  ... Views; The Site:  ...,  ....\n\n\n\n\n\n\n\nAllesina, S., & Wilmes, M. (2019). Computing skills for\nbiologists. https://doi.org/10.2307/j.ctvc77jrc\n\n\nBrandies, P. A., & Hogg, C. J. (2021). Ten simple rules for getting\nstarted with command-line bioinformatics. In PLoS Computational\nBiology (No. 2; Vol. 17, p. e1008645). Public Library of Science\nSan Francisco, CA USA.\n\n\nBrown, T. A. (2018). Genomes 4. Garland science.\n\n\nDudley, J. T., & Butte, A. J. (2009). A quick guide for developing\neffective bioinformatics programming skills. In PLOS computational\nbiology (No. 12; Vol. 5, p. e1000589). Public Library of Science\nSan Francisco, USA.\n\n\nMäkinen, V., Belazzougui, D., Cunial, F., & Tomescu, A. I. (2015).\nGenome-scale algorithm design. Cambridge University Press.\n\n\nMeneely, P. M., Hoang, R. D., Okeke, I. N., & Heston, K. (2017).\nGenetics: Genes, genomes, and evolution. Oxford University\nPress.\n\n\nPerkel, J. M. et al. (2021). Five reasons why researchers should learn\nto love the command line. Nature, 590(7844), 173–174."
   }
 ]
