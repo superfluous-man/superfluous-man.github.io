@@ -23,6 +23,8 @@
 
 
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
  
 
  
@@ -1378,7 +1380,10 @@ if (!doNotTrack) {
 
 
 
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+  <script defer src="https://busuanzi.9420.ltd/js"></script>
+
 
 
     
@@ -1818,7 +1823,10 @@ if (!doNotTrack) {
   
 &middot; 🔢 91 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 1 min read</span>
 <span class="single__info"> 
- &middot; 👀<span id="busuanzi_value_page_pv">...</span> views 
+ 
+</span>
+<span class="single__info"> 
+ &middot; 🏄 <span id="busuanzi_page_uv">...</span> visitors  &middot; 👀 <span id="busuanzi_page_pv">...</span> views 
 </span>
 </div>
 
@@ -2496,8 +2504,8 @@ document.addEventListener('DOMContentLoaded', function () {
     
     
     
-    var enableBusuanzi = JSON.parse("true");
-    var busuanziPagePV = JSON.parse("true");
+    var enableBusuanzi = JSON.parse("false");
+    var busuanziPagePV = JSON.parse("false");
     
     if (enableBusuanzi && busuanziPagePV) {
       var pagePvElem = document.querySelector('#busuanzi_value_page_pv');
@@ -2505,6 +2513,26 @@ document.addEventListener('DOMContentLoaded', function () {
     }    
     
 
+    
+    
+    
+    var enableBusuanziAlt = JSON.parse("true");
+    var busuanziAltPagePV = JSON.parse("true");
+    
+    if (enableBusuanziAlt && busuanziAltPagePV) {
+      var pagePvElem = document.querySelector('#busuanzi_page_pv');
+      pagePvElem.textContent = pagePvElem.textContent.replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+    }    
+    
+    
+    var enableBusuanziAlt = JSON.parse("true");
+    var busuanziAltPageUV = JSON.parse("true");
+    
+    if (enableBusuanziAlt && busuanziAltPageUV) {
+      var pageUvElem = document.querySelector('#busuanzi_page_uv');
+      pageUvElem.textContent = pageUvElem.textContent.replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+    }  =================================================================
+    
 
     
     
@@ -3055,6 +3083,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     <div class="footer__poweredby">
         
+
+        
   <div class="busuanzi">
     
     
@@ -3062,7 +3092,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <span class="busuanzi__item--label">
           Total Visitors
         </span>
-        <span id="busuanzi_value_site_uv" class="busuanzi__item--number">...</span>
+        <span id="busuanzi_site_uv" class="busuanzi__item--number">...</span>
       </div>
     
 
@@ -3071,11 +3101,12 @@ document.addEventListener('DOMContentLoaded', function () {
         <span class="busuanzi__item--label">
           Total Views
         </span>
-        <span id="busuanzi_value_site_pv" class="busuanzi__item--number">...</span>
+        <span id="busuanzi_site_pv" class="busuanzi__item--number">...</span>
       </div>
     
 
   </div>
+
 
                 
             <p class="caption">
@@ -3089,6 +3120,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
     </div> 
 </footer>
+
         </div>
         
 
