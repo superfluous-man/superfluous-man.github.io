@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.3.290">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>Baby Logic - References</title>
+<title>Baby Logic - 2&nbsp; Version control</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,50 +17,68 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
-
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./HISTORY.html" rel="prev">
-<link href="./figs/avatar.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
-<script id="quarto-search-options" type="application/json">{
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chs-propositional/package-managers.html" rel="next">
+<link href="../chs-propositional/welcome-to-command-line.html" rel="prev">
+<link href="../figs/avatar.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script src="../site_libs/quarto-contrib/nutshell-1.0.0/nutshell.min.js"></script>
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -81,18 +96,17 @@ div.csl-indent {
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit"
   }
-}</script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" data-external="1">
+}</script><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" data-external="1">
 <style type="text/css">
 @font-face {
 font-family: 'xkcd Script';
 src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 }
 </style>
-
-
-<meta name="citation_title" content="References">
-<meta name="citation_fulltext_html_url" content="https://duoyu.ren/logic//references.html">
+<link href="../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
+<script src="../site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+<meta name="citation_title" content="[[2]{.chapter-number}&nbsp; [Version control]{.chapter-title}]{#sec-vcs .quarto-section-identifier}">
+<meta name="citation_fulltext_html_url" content="https://duoyu.ren/logic//chs-propositional/git-and-github.html">
 <meta name="citation_language" content="en">
 <meta name="citation_reference" content="citation_title=Literate programming;,citation_author=Donald E. Knuth;,citation_publication_date=1984-05;,citation_cover_date=1984-05;,citation_year=1984;,citation_fulltext_html_url=https://doi.org/10.1093/comjnl/27.2.97;,citation_issue=2;,citation_doi=10.1093/comjnl/27.2.97;,citation_issn=0010-4620;,citation_volume=27;,citation_journal_title=Comput. J.;,citation_publisher=Oxford University Press, Inc.;">
 <meta name="citation_reference" content="citation_title=Computing skills for biologists;,citation_author=Stefano Allesina;,citation_author=Madlen Wilmes;,citation_publication_date=2019-01-15;,citation_cover_date=2019-01-15;,citation_year=2019;,citation_fulltext_html_url=http://dx.doi.org/10.2307/j.ctvc77jrc;,citation_doi=10.2307/j.ctvc77jrc;">
@@ -104,41 +118,33 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 <meta name="citation_reference" content="citation_title=Five reasons why researchers should learn to love the command line;,citation_author=Jeffrey M Perkel;,citation_author=others;,citation_publication_date=2021;,citation_cover_date=2021;,citation_year=2021;,citation_issue=7844;,citation_volume=590;,citation_journal_title=Nature;,citation_publisher=Nature;">
 <meta name="citation_reference" content="citation_title=Ten simple rules for getting started with command-line bioinformatics;,citation_author=Parice A Brandies;,citation_author=Carolyn J Hogg;,citation_publication_date=2021;,citation_cover_date=2021;,citation_year=2021;,citation_volume=17;,citation_journal_title=PLoS Computational Biology;,citation_publisher=Public Library of Science San Francisco, CA USA;">
 </head>
-
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
+  <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./references.html">References</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chs-propositional/welcome-to-command-line.html">{{&lt; fa book &gt;}} Propositional</a></li><li class="breadcrumb-item"><a href="../chs-propositional/git-and-github.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Version control</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
-  </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-center sidebar-header sidebar-header-stacked">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./figs/avatar.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-center sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../figs/avatar.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none"></a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Baby Logic</a> 
+      <a href="../">Baby Logic</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://duoyu.ren/" title="Homepage" class="quarto-navigation-tool px-1" aria-label="Homepage"><i class="bi bi-house-heart"></i></a>
     <div class="dropdown">
       <a href="" title="Menu" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Menu"><i class="bi bi-menu-up"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
+<li>
             <a class="dropdown-item sidebar-tools-main-item" href="https://duoyu.ren/">
             Related Books
             </a>
@@ -154,9 +160,9 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
             </a>
           </li>
       </ul>
-    </div>
+</div>
     <a href="https://github.com/superfluous-man/baby-logic" title="GitHub organization" class="quarto-navigation-tool px-1" aria-label="GitHub organization"><i class="bi bi-github"></i></a>
-    <a href="./Baby-Logic.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="../Baby-Logic.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
@@ -168,15 +174,15 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+  <a href="../intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction</span></a>
   </div>
 </li>
@@ -188,33 +194,33 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-propositional/welcome-to-command-line.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-propositional/welcome-to-command-line.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The command line</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-propositional/git-and-github.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-propositional/git-and-github.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Version control</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-propositional/package-managers.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-propositional/package-managers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Package managers</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-propositional/hpc-notions.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-propositional/hpc-notions.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Notions of HPC</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
@@ -223,27 +229,27 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-predicate/algorithm-thinking.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-predicate/algorithm-thinking.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Algorithm thinking</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-predicate/algorithm-techniques.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-predicate/algorithm-techniques.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Algorithm techniques</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-predicate/data-structures.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-predicate/data-structures.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Data structures</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
@@ -252,33 +258,33 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-modal/introduction-to-sequence-analysis.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-modal/introduction-to-sequence-analysis.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Sequence analysis</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-modal/sanger-analysis.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-modal/sanger-analysis.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Sanger analysis</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-modal/sequence-alignments.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-modal/sequence-alignments.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Sequence alignments</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-modal/NGS-TGS-principles.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-modal/NGS-TGS-principles.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">NGS and TGS: principles</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
@@ -287,21 +293,21 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-intuitionistic/phylogenetic-reconstructions.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-intuitionistic/phylogenetic-reconstructions.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Phylogenetics</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-intuitionistic/phylogenomics.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-intuitionistic/phylogenomics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Phylogenomics</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
@@ -310,33 +316,33 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-meta/genome-assembly.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-meta/genome-assembly.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Genome assembly</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-meta/genome-annotation.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-meta/genome-annotation.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Genome annotation</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-meta/variant-calling-analysis.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-meta/variant-calling-analysis.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Variant calling analysis</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-meta/comparative-genomics.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-meta/comparative-genomics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Comparative genomics</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
@@ -345,15 +351,15 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chs-application/metagenomic-sequencing.html" class="sidebar-item-text sidebar-link">
+  <a href="../chs-application/metagenomic-sequencing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Metagenomic sequencing</span></span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
@@ -362,39 +368,53 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">
+<li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./HISTORY.html" class="sidebar-item-text sidebar-link">
+  <a href="../HISTORY.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">History</span></a>
   </div>
 </li>
       </ul>
-  </li>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link active">
+  <a href="../references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
     </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+</div>
+</nav><div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+<li><a href="#version-control-systems" id="toc-version-control-systems" class="nav-link active" data-scroll-target="#version-control-systems"><span class="header-section-number">2.1</span> Version control systems</a></li>
+  <li>
+<a href="#git-installation-and-configuration" id="toc-git-installation-and-configuration" class="nav-link" data-scroll-target="#git-installation-and-configuration"><span class="header-section-number">2.2</span> Git installation and configuration</a>
+  <ul class="collapse">
+<li><a href="#the-basics" id="toc-the-basics" class="nav-link" data-scroll-target="#the-basics"><span class="header-section-number">2.2.1</span> The basics</a></li>
+  <li><a href="#the-local-workflow" id="toc-the-local-workflow" class="nav-link" data-scroll-target="#the-local-workflow"><span class="header-section-number">2.2.2</span> The local workflow</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#exploring-github" id="toc-exploring-github" class="nav-link" data-scroll-target="#exploring-github"><span class="header-section-number">2.3</span> Exploring GitHub</a>
+  <ul class="collapse">
+<li><a href="#forking-and-collaborate" id="toc-forking-and-collaborate" class="nav-link" data-scroll-target="#forking-and-collaborate"><span class="header-section-number">2.3.1</span> Forking and collaborate</a></li>
+  <li><a href="#branching-and-merging" id="toc-branching-and-merging" class="nav-link" data-scroll-target="#branching-and-merging"><span class="header-section-number">2.3.2</span> Branching and merging</a></li>
+  </ul>
+</li>
+  </ul></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-<script defer="" src="https://busuanzi.9420.ltd/js"></script>
-<span class="busuanzi"> <!-- busuanziAltPageUV -->
-<b>The Page</b>: 🏄 <b><span id="busuanzi_page_uv">...</span></b> Visitors 👀 <b><span id="busuanzi_page_pv">...</span></b> Views; <b>The Site</b>: 🏄 <b><span id="busuanzi_site_uv">...</span></b> Visitors 👀 <b><span id="busuanzi_site_pv">...</span></b> Views.
+<main class="content page-columns page-full" id="quarto-document-content"><script defer="" src="https://busuanzi.9420.ltd/js"></script><span class="busuanzi"> <!-- busuanziAltPageUV -->
+<i class="fa-solid fa-handshake"></i> <b>The Page</b>: <i class="fa-solid fa-users"></i> <b style="color:red;"><span id="busuanzi_page_uv">...</span></b> Visitors, <i class="fa-solid fa-eye"></i> <b style="color:red;"><span id="busuanzi_page_pv">...</span></b> Views; <b>The Site</b>: <i class="fa-solid fa-users"></i> <b><span id="busuanzi_site_uv">...</span></b>, <i class="fa-solid fa-eye"></i> <b><span id="busuanzi_site_pv">...</span></b>.
 </span>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">References</h1>
+<header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title"><span id="sec-vcs" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Version control</span></span></h1>
 </div>
 
 
@@ -407,47 +427,92 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
   </div>
   
 
-</header>
+</header><blockquote class="blockquote">
+<p>Here we will first address what is version control, its importance and basics on the local workflow.</p>
+<p>Later we will introduce GitHub and explore more advanced commands for the collaboration workflow</p>
+</blockquote>
+<section id="version-control-systems" class="level2" data-number="2.1"><h2 data-number="2.1" class="anchored" data-anchor-id="version-control-systems">
+<span class="header-section-number">2.1</span> Version control systems</h2>
+<p>As its name suggests, a version control system (VCS) allow you to keep record of the changes happening while working files and directories. Several VCSs have been created but the most popular is <a href="https://git-scm.com">git</a>. It is characterized by being a <strong>distributed</strong> VCS, which means that changes history are recorded locally (whether in a user laptop or user account) in contrast to other <strong>centralized</strong> VCSs that changes are saved on a shared machine or server.</p>
+<p>So, why bother to learn a VCS in bioinformatics? Well there are many reasons, but to highlight some of them: i) Since VCSs allow you to record changes, you can always trace back the steps made in ana analysis, which is nice for the <strong>reproducibility</strong> of your work. ii) a system like git could be coupled with a shared-centralized server as it is <a href="https://github.com">GitHub</a> (we’ll talk about it <a href="../chs-command-line/git-and-github.qmd#exploring-github">later</a> and then one could <strong>share and collaborate</strong>, expanding the extent of your research and iii) following the structures and command from git its at first overwhelming and demands consistency and order, then when scaling a project it will payoff this stepping curve of learning by keeping the <strong>efficiency</strong> of your work.</p>
+</section><section id="git-installation-and-configuration" class="level2" data-number="2.2"><h2 data-number="2.2" class="anchored" data-anchor-id="git-installation-and-configuration">
+<span class="header-section-number">2.2</span> Git installation and configuration</h2>
+<p>Installation could proceed from the official page of <a href="https://git-scm.com">git</a>. If working from WSL it has the binaries preinstalled, so you can jump directly to the configuration. The second step is to configure your user name and an email. with the following lines:</p>
+<div class="cell" data-hash="git-and-github_cache/html/unnamed-chunk-1_7172d27396f9ea6dca70525f6f7e6f11">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Your Name"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email user@eafit.edu.co</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>You could always user the preferred e-mail. More configurations are available, for instance the preferred editor to work with and so on, you can explore by asking for help <code>git config --help</code> or <code>git config --list</code>.</p>
+<section id="the-basics" class="level3" data-number="2.2.1"><h3 data-number="2.2.1" class="anchored" data-anchor-id="the-basics">
+<span class="header-section-number">2.2.1</span> The basics</h3>
+<p>There are at least <strong>six</strong> basic commands. Three of them allow recording local changes (<code>git init</code>, <code>git add</code> and <code>git commit</code>) and the other three help you to inspect the state of the changes (<code>git status</code>, <code>git diff</code> and <code>git log</code>), we will dive into the detail in the following lines. So, to start recording changes in a directory you must <strong>initialize</strong> the directory (which will now be called repository) using <code>git init</code>. This is a one-time command to get started.</p>
+</section><section id="the-local-workflow" class="level3" data-number="2.2.2"><h3 data-number="2.2.2" class="anchored" data-anchor-id="the-local-workflow">
+<span class="header-section-number">2.2.2</span> The local workflow</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="imgs-cli/gitlocal.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Local workflow of a git project adding and committing changes"><img src="imgs-cli/gitlocal.png" class="quarto-discovered-preview-image img-fluid figure-img" style="width:60.0%"></a></p>
+<p></p><figcaption class="figure-caption">Local workflow of a git project adding and committing changes</figcaption><p></p>
+</figure>
+</div>
+<p>#local-workflow</p>
+</section></section><section id="exploring-github" class="level2 page-columns page-full" data-number="2.3"><h2 data-number="2.3" class="anchored" data-anchor-id="exploring-github">
+<span class="header-section-number">2.3</span> Exploring GitHub</h2>
+<p>As mention before, one of the great advantages that git can later achieve is to collaborate. However, to get into that a sharable server must allow users to have a common ground, and this is what <a href="https://github.com/home">GitHub</a> allow. GitHub is a web platform where the local repositories become public and any user can access to the controlled versions of an image of your repo. The famous pet is the octocat <span class="quarto-unresolved-ref">?fig-octocat</span></p>
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
-<div id="ref-allesina2019" class="csl-entry" role="listitem">
-Allesina, S., &amp; Wilmes, M. (2019). <em>Computing skills for
-biologists</em>. <a href="https://doi.org/10.2307/j.ctvc77jrc">https://doi.org/10.2307/j.ctvc77jrc</a>
+<div class="no-row-height column-margin column-container"><div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="imgs-cli/octocat.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="The octocat from GitHub"><img src="imgs-cli/octocat.png" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">The octocat from GitHub</figcaption><p></p>
+</figure>
+</div></div><p>To enable the communication with a remote repo, git has encoded many specific commands, once the repos are <strong>cloned</strong> a simple workflow from the own local and remote repos is made possible thanks to two simple commands <code>git push</code> and <code>git pull</code>.</p>
+<p>There a several ways to starting out a remote project, whether it starts from a local folder or whether it starts from a remote repo. The second strategy is sometimes easier as you just need to later <code>git clone</code> the remote into a local folder. To do so every repo has its own code-icon <i class="fa-solid fa-code fa-scriptsize" aria-label="code"></i> to later copy the repo link and later hit <code>git clone &lt;https...&gt;</code> on the desired folder. Now you got a linked copy of the remote on your machine.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div id="ref-brandies2021" class="csl-entry" role="listitem">
-Brandies, P. A., &amp; Hogg, C. J. (2021). Ten simple rules for getting
-started with command-line bioinformatics. In <em>PLoS Computational
-Biology</em> (No. 2; Vol. 17, p. e1008645). Public Library of Science
-San Francisco, CA USA.
-</div>
-<div id="ref-brown2018" class="csl-entry" role="listitem">
-Brown, T. A. (2018). <em>Genomes 4</em>. Garland science.
-</div>
-<div id="ref-dudley2009" class="csl-entry" role="listitem">
-Dudley, J. T., &amp; Butte, A. J. (2009). A quick guide for developing
-effective bioinformatics programming skills. In <em>PLOS computational
-biology</em> (No. 12; Vol. 5, p. e1000589). Public Library of Science
-San Francisco, USA.
-</div>
-<div id="ref-makinen2015" class="csl-entry" role="listitem">
-Mäkinen, V., Belazzougui, D., Cunial, F., &amp; Tomescu, A. I. (2015).
-<em>Genome-scale algorithm design</em>. Cambridge University Press.
-</div>
-<div id="ref-meneely2017" class="csl-entry" role="listitem">
-Meneely, P. M., Hoang, R. D., Okeke, I. N., &amp; Heston, K. (2017).
-<em>Genetics: Genes, genomes, and evolution</em>. Oxford University
-Press.
-</div>
-<div id="ref-perkel2021" class="csl-entry" role="listitem">
-Perkel, J. M. et al. (2021). Five reasons why researchers should learn
-to love the command line. <em>Nature</em>, <em>590</em>(7844), 173–174.
+<div class="callout-title-container flex-fill">
+Caution
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>But before working on a remote and pushing your first commits, it is common to find an error regarding the remote branch (also called <em>origin</em>). There are several ways to avoid this caveat, but a very anticipated way is to configure git</p>
+<div class="cell" data-hash="git-and-github_cache/html/unnamed-chunk-2_77e373859d7b92b53deb2930dbfc592c">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> push.autoSetupRemote true</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This will save you from every time typing <code>git push --set-upstream origin &lt;main&gt;</code> when working on a new remote repo.</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="imgs-cli/gitcloning.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="The cloning workflow in brief"><img src="imgs-cli/gitcloning.png" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">The cloning workflow in brief</figcaption><p></p>
+</figure>
+</div>
+<p>Cloning is therefore the process of creating a local copy of remote repository, that is a machine version of the remote repo, later all the common local workflow is carried out normally <span class="quarto-unresolved-ref">?fig-cloning</span></p>
+
+<div class="no-row-height column-margin column-container"><div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you want to keep a file out of synchronization git provides a simple way to do so by creating a <code>.gitignore</code> file having the the paths to the files to keep in your local machine</p>
+</div>
+</div></div><section id="forking-and-collaborate" class="level3" data-number="2.3.1"><h3 data-number="2.3.1" class="anchored" data-anchor-id="forking-and-collaborate">
+<span class="header-section-number">2.3.1</span> Forking and collaborate</h3>
+<p>Basic collaboration on an open repository is a three-step process. First you need to <code>fork</code> the repo, this will create a mirror copy of the repo in your GitHub profile. In a second step, a simple <code>clone</code> of the repo will generate a copy of the forked repo on your local machine, so you can freely work and make your mistakes and push them to your forked repo that belongs to your account. In a third step, once they are on the remote repo you will have to create a <code>pull request</code> (PR), as its name suggest: you are <strong>asking</strong> the owners of the original to consider your changes <span class="quarto-unresolved-ref">?fig-forking</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="imgs-cli/gitforking.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="A common collaborative workflow from GitHub, using fork, clone and pull requests"><img src="imgs-cli/gitforking.png" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">A common collaborative workflow from GitHub, using fork, clone and pull requests</figcaption><p></p>
+</figure>
+</div>
+</section><section id="branching-and-merging" class="level3" data-number="2.3.2"><h3 data-number="2.3.2" class="anchored" data-anchor-id="branching-and-merging">
+<span class="header-section-number">2.3.2</span> Branching and merging</h3>
 
 
-
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -794,21 +859,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-<script src="https://giscus.app/client.js" data-repo="superfluous-man/superfluous-man.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyMDczNTg4MzE=" data-category="General" data-category-id="DIC_kwDODFwLb84CUwjx" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
-</script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./HISTORY.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">History</span>
+</script><script src="https://giscus.app/client.js" data-repo="superfluous-man/superfluous-man.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyMDczNTg4MzE=" data-category="General" data-category-id="DIC_kwDODFwLb84CUwjx" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script><nav class="page-navigation"><div class="nav-page nav-page-previous">
+      <a href="../chs-propositional/welcome-to-command-line.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The command line</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../chs-propositional/package-managers.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Package managers</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
+<footer class="footer"><div class="nav-footer">
     <div class="nav-footer-left">
       &nbsp;
     </div>   
@@ -817,8 +881,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>
   </div>
-</footer>
-
+</footer><script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":true,"openEffect":"zoom","descPosition":"bottom"});</script>
 
 
 </body></html>
