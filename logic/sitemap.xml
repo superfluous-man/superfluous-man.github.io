@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://duoyu.ren/logic/index.html</loc>
-    <lastmod>2023-03-31T15:28:26.174Z</lastmod>
-  </url>
-  <url>
     <loc>https://duoyu.ren/logic/intro.html</loc>
-    <lastmod>2023-03-31T14:15:30.717Z</lastmod>
+    <lastmod>2023-03-31T16:27:03.260Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-propositional/welcome-to-command-line.html</loc>
-    <lastmod>2023-03-31T15:25:45.314Z</lastmod>
+    <lastmod>2023-03-31T16:23:30.960Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-propositional/git-and-github.html</loc>
-    <lastmod>2023-03-31T15:22:41.817Z</lastmod>
+    <lastmod>2023-03-31T16:23:34.940Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-propositional/package-managers.html</loc>
-    <lastmod>2023-03-31T07:33:06.904Z</lastmod>
+    <lastmod>2023-03-31T16:25:35.040Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-propositional/hpc-notions.html</loc>
-    <lastmod>2023-03-31T07:33:06.914Z</lastmod>
+    <lastmod>2023-03-31T16:25:41.477Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-predicate/algorithm-thinking.html</loc>
-    <lastmod>2023-03-31T07:33:06.924Z</lastmod>
+    <lastmod>2023-03-31T16:24:22.370Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-predicate/algorithm-techniques.html</loc>
-    <lastmod>2023-03-31T07:33:06.930Z</lastmod>
+    <lastmod>2023-03-31T16:24:30.304Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-predicate/data-structures.html</loc>
-    <lastmod>2023-03-31T07:33:06.940Z</lastmod>
+    <lastmod>2023-03-31T16:10:57.097Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-modal/introduction-to-sequence-analysis.html</loc>
-    <lastmod>2023-03-31T07:41:44.157Z</lastmod>
+    <lastmod>2023-03-31T16:24:33.100Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-modal/sanger-analysis.html</loc>
-    <lastmod>2023-03-31T07:41:53.487Z</lastmod>
+    <lastmod>2023-03-31T16:24:47.430Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-modal/sequence-alignments.html</loc>
-    <lastmod>2023-03-31T07:33:06.974Z</lastmod>
+    <lastmod>2023-03-31T16:23:02.287Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-modal/NGS-TGS-principles.html</loc>
-    <lastmod>2023-03-31T07:33:06.980Z</lastmod>
+    <lastmod>2023-03-31T16:10:57.137Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-intuitionistic/phylogenetic-reconstructions.html</loc>
-    <lastmod>2023-03-31T07:33:06.990Z</lastmod>
+    <lastmod>2023-03-31T16:10:57.144Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-intuitionistic/phylogenomics.html</loc>
-    <lastmod>2023-03-31T07:33:06.997Z</lastmod>
+    <lastmod>2023-03-31T16:10:57.150Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-meta/genome-assembly.html</loc>
-    <lastmod>2023-03-31T07:33:07.007Z</lastmod>
+    <lastmod>2023-03-31T16:10:57.160Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-meta/genome-annotation.html</loc>
-    <lastmod>2023-03-31T07:33:07.017Z</lastmod>
+    <lastmod>2023-03-31T16:10:57.170Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-meta/variant-calling-analysis.html</loc>
-    <lastmod>2023-03-31T07:33:07.024Z</lastmod>
+    <lastmod>2023-03-31T16:10:57.177Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-meta/comparative-genomics.html</loc>
-    <lastmod>2023-03-31T07:33:07.030Z</lastmod>
+    <lastmod>2023-03-31T16:10:57.184Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-application/metagenomic-sequencing.html</loc>
-    <lastmod>2023-03-31T07:33:07.040Z</lastmod>
+    <lastmod>2023-03-31T16:10:57.190Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/HISTORY.html</loc>
-    <lastmod>2023-03-31T07:33:07.050Z</lastmod>
+    <lastmod>2023-03-31T16:10:57.200Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/references.html</loc>
-    <lastmod>2023-03-31T07:33:07.057Z</lastmod>
+    <lastmod>2023-03-31T16:10:57.207Z</lastmod>
+  </url>
+  <url>
+    <loc>https://duoyu.ren/logic/index.html</loc>
+    <lastmod>2023-03-31T16:28:05.057Z</lastmod>
   </url>
 </urlset>

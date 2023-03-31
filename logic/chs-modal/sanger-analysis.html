@@ -113,7 +113,8 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chs-modal/introduction-to-sequence-analysis.html">{{&lt; fa book &gt;}} Modal</a></li><li class="breadcrumb-item"><a href="../chs-modal/sanger-analysis.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Sanger analysis</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chs-modal/introduction-to-sequence-analysis.html">{{&lt; fa book &gt;}} Modal
+</a></li><li class="breadcrumb-item"><a href="../chs-modal/sanger-analysis.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Sanger analysis</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -177,7 +178,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text"><i class="fa-solid fa-book" aria-label="book"></i> Propositional</span></a>
+ <span class="menu-text">Propositional</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -423,14 +424,14 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 <p>Back in 70s there two different methods aiming to determine the base sequences of DNA and they basically operated at the level of base per base reconstruction of the information. The most used during those days was so called <a href="https://en.wikipedia.org/wiki/Maxam%E2%80%93Gilbert_sequencing">:Maxam-Gilbert</a> method and the second one was precisely the chain termination method or dideoxy sequencing or more commonly nowadays <a href="https://en.wikipedia.org/wiki/Sanger_sequencing">:Sanger sequencing</a>. Both methods named after their creators. It was, however the Sanger method the one that gradually became the facto method and continue to be the standard for the next thirty years. In fact, assembled genomes before the 2000s were sequenced with Sanger method, which included the first draft of the Human genome and many other organism <span class="citation" data-cites="brown2018">Brown (<a href="../references.html#ref-brown2018" role="doc-biblioref">2018</a>)</span>.</p>
 
 <div class="no-row-height column-margin column-container"><div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="imgs-seqan/dna-pol.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="A globular structure of a bacterial DNA polymerase"><img src="imgs-seqan/dna-pol.png" class="quarto-discovered-preview-image img-fluid figure-img"></a></p>
+<figure class="figure"><p><a href="imgs-seqan/dna-pol.png" class="lightbox" title="A globular structure of a bacterial DNA polymerase" data-gallery="quarto-lightbox-gallery-1"><img src="imgs-seqan/dna-pol.png" class="quarto-discovered-preview-image img-fluid figure-img"></a></p>
 <p></p><figcaption class="figure-caption">A globular structure of a bacterial DNA polymerase</figcaption><p></p>
 </figure>
 </div></div><section id="the-chain-termination-method" class="level3 page-columns page-full" data-number="9.1.1"><h3 data-number="9.1.1" class="anchored" data-anchor-id="the-chain-termination-method">
 <span class="header-section-number">9.1.1</span> The chain termination method</h3>
 <p>To under stand the chain termination method is important have a clear view of the DNA structure and chemical reaction that enable its polymerization. Whe the</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="imgs-seqan/dideoxy-reaction.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="The deoxy-ribose and dideoxy-ribose and consequences on the polymerization of a DNA strand"><img src="imgs-seqan/dideoxy-reaction.png" class="img-fluid figure-img"></a></p>
+<figure class="figure"><p><a href="imgs-seqan/dideoxy-reaction.png" class="lightbox" title="The deoxy-ribose and dideoxy-ribose and consequences on the polymerization of a DNA strand" data-gallery="quarto-lightbox-gallery-2"><img src="imgs-seqan/dideoxy-reaction.png" class="img-fluid figure-img"></a></p>
 <p></p><figcaption class="figure-caption">The deoxy-ribose and dideoxy-ribose and consequences on the polymerization of a DNA strand</figcaption><p></p>
 </figure>
 </div>
@@ -486,7 +487,7 @@ END_SEQUENCE</code></pre>
 </div>
 <p>However the most used file is the binary version <code>AB1</code> which could be red out from different programs including <a href="">cutepeaks</a>. It displays the DNA sequence along with its quality peak in each position <span class="quarto-unresolved-ref">?fig-ab1-trace</span></p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="imgs-seqan/ab1-trace.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="A graphic of the AB1 file format from a Sanger sequencing project displayed in cutepeaks software"><img src="imgs-seqan/ab1-trace.png" class="img-fluid figure-img"></a></p>
+<figure class="figure"><p><a href="imgs-seqan/ab1-trace.png" class="lightbox" title="A graphic of the AB1 file format from a Sanger sequencing project displayed in cutepeaks software" data-gallery="quarto-lightbox-gallery-3"><img src="imgs-seqan/ab1-trace.png" class="img-fluid figure-img"></a></p>
 <p></p><figcaption class="figure-caption">A graphic of the <code>AB1</code> file format from a Sanger sequencing project displayed in cutepeaks software</figcaption><p></p>
 </figure>
 </div>
@@ -508,7 +509,7 @@ tail -n 1 seq.fasta |
 <span class="header-section-number">9.4</span> The 16S rRNA and its relevance for sequencing</h2>
 
 <div class="no-row-height column-margin column-container"><div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="imgs-seqan/16-rRNA.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Bacillus subtilis subsp. subtilis str. 168 bacterial SSU 16S rRNA"><img src="imgs-seqan/16-rRNA.png" class="img-fluid figure-img" style="width:80.0%"></a></p>
+<figure class="figure"><p><a href="imgs-seqan/16-rRNA.png" class="lightbox" title="Bacillus subtilis subsp. subtilis str. 168 bacterial SSU 16S rRNA" data-gallery="quarto-lightbox-gallery-4"><img src="imgs-seqan/16-rRNA.png" class="img-fluid figure-img" style="width:80.0%"></a></p>
 <p></p><figcaption class="figure-caption"><em>Bacillus subtilis</em> subsp. <em>subtilis</em> str. 168 bacterial SSU 16S rRNA</figcaption><p></p>
 </figure>
 </div></div><div class="callout callout-style-default callout-warning callout-titled">
@@ -896,12 +897,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Made with <a href="https://quarto.org/">Quarto</a>. Under <a href="https://github.com/camilogarciabotero/biocomp-book/blob/main/LICENSE">GNU GPL 3.0</a>. Buy me coffee <a href="https://www.paypal.com/paypalme/"><i class="fa-solid fa-mug-saucer" aria-label="mug-saucer"></i></a> and visit me at <a href="https://duoyu.ren/"><i class="fa-solid fa-house" aria-label="house"></i></a></div>
+    <div class="nav-footer-center"><span class="faux-block">Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a></span>. Under <a href="https://github.com/camilogarciabotero/biocomp-book/blob/main/LICENSE">GNU GPL 3.0</a>. Visit me at <a href="https://duoyu.ren/"><i class="fa-solid fa-house" aria-label="house"></i></a>.</div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
-</footer><script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":true,"descPosition":"bottom","closeEffect":"zoom"});</script>
+</footer><script>var lightboxQuarto = GLightbox({"loop":true,"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","selector":".lightbox"});</script>
 
 
 </body></html>
