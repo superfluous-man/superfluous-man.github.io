@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Baby Logic - 12&nbsp; Phylogenetics</title>
+<title>Baby Logic - 4&nbsp; Phylogenetics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../chs-intuitionistic/phylogenomics.html" rel="next">
-<link href="../chs-modal/NGS-TGS-principles.html" rel="prev">
+<link href="../chs-meta/genome-assembly.html" rel="next">
+<link href="../chs-modal/introduction-to-sequence-analysis.html" rel="prev">
 <link href="../figs/avatar.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -78,18 +78,6 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 </style>
 
 
-<meta name="citation_title" content="[[12]{.chapter-number}&nbsp; [Phylogenetics]{.chapter-title}]{#sec-phylogenetics .quarto-section-identifier}">
-<meta name="citation_fulltext_html_url" content="https://duoyu.ren/logic//chs-intuitionistic/phylogenetic-reconstructions.html">
-<meta name="citation_language" content="en">
-<meta name="citation_reference" content="citation_title=Literate programming;,citation_author=Donald E. Knuth;,citation_publication_date=1984-05;,citation_cover_date=1984-05;,citation_year=1984;,citation_fulltext_html_url=https://doi.org/10.1093/comjnl/27.2.97;,citation_issue=2;,citation_doi=10.1093/comjnl/27.2.97;,citation_issn=0010-4620;,citation_volume=27;,citation_journal_title=Comput. J.;,citation_publisher=Oxford University Press, Inc.;">
-<meta name="citation_reference" content="citation_title=Computing skills for biologists;,citation_author=Stefano Allesina;,citation_author=Madlen Wilmes;,citation_publication_date=2019-01-15;,citation_cover_date=2019-01-15;,citation_year=2019;,citation_fulltext_html_url=http://dx.doi.org/10.2307/j.ctvc77jrc;,citation_doi=10.2307/j.ctvc77jrc;">
-<meta name="citation_reference" content="citation_title=Genetics: Genes, genomes, and evolution;,citation_author=Philip Mark Meneely;,citation_author=Rachel Dawes Hoang;,citation_author=Iruka N Okeke;,citation_author=Katherine Heston;,citation_publication_date=2017;,citation_cover_date=2017;,citation_year=2017;">
-<meta name="citation_reference" content="citation_title=Genomes 4;,citation_author=Terence A Brown;,citation_publication_date=2018;,citation_cover_date=2018;,citation_year=2018;">
-<meta name="citation_reference" content="citation_title=Long walk to genomics: History and current approaches to genome sequencing and assembly;,citation_author=Alice Maria Giani;,citation_author=Guido Roberto Gallo;,citation_author=Luca Gianfranceschi;,citation_author=Giulio Formenti;,citation_publication_date=2020;,citation_cover_date=2020;,citation_year=2020;,citation_volume=18;,citation_journal_title=Computational and Structural Biotechnology Journal;,citation_publisher=Elsevier;">
-<meta name="citation_reference" content="citation_title=Genome-scale algorithm design;,citation_author=Veli Mäkinen;,citation_author=Djamal Belazzougui;,citation_author=Fabio Cunial;,citation_author=Alexandru I Tomescu;,citation_publication_date=2015;,citation_cover_date=2015;,citation_year=2015;">
-<meta name="citation_reference" content="citation_title=A quick guide for developing effective bioinformatics programming skills;,citation_author=Joel T Dudley;,citation_author=Atul J Butte;,citation_publication_date=2009;,citation_cover_date=2009;,citation_year=2009;,citation_volume=5;,citation_journal_title=PLOS computational biology;,citation_publisher=Public Library of Science San Francisco, USA;">
-<meta name="citation_reference" content="citation_title=Five reasons why researchers should learn to love the command line;,citation_author=Jeffrey M Perkel;,citation_author=others;,citation_publication_date=2021;,citation_cover_date=2021;,citation_year=2021;,citation_issue=7844;,citation_volume=590;,citation_journal_title=Nature;,citation_publisher=Nature;">
-<meta name="citation_reference" content="citation_title=Ten simple rules for getting started with command-line bioinformatics;,citation_author=Parice A Brandies;,citation_author=Carolyn J Hogg;,citation_publication_date=2021;,citation_cover_date=2021;,citation_year=2021;,citation_volume=17;,citation_journal_title=PLoS Computational Biology;,citation_publisher=Public Library of Science San Francisco, CA USA;">
 </head>
 
 <body class="nav-sidebar floating">
@@ -102,7 +90,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
       <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chs-intuitionistic/phylogenetic-reconstructions.html">Intuitionistic
-</a></li><li class="breadcrumb-item"><a href="../chs-intuitionistic/phylogenetic-reconstructions.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Phylogenetics</span></a></li></ol></nav>
+</a></li><li class="breadcrumb-item"><a href="../chs-intuitionistic/phylogenetic-reconstructions.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Phylogenetics</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -183,24 +171,6 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The command line</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-propositional/git-and-github.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Version control</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-propositional/package-managers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Package managers</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-propositional/hpc-notions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Notions of HPC</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -215,19 +185,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chs-predicate/algorithm-thinking.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Algorithm thinking</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-predicate/algorithm-techniques.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Algorithm techniques</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-predicate/data-structures.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Data structures</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Algorithm thinking</span></span></a>
   </div>
 </li>
       </ul>
@@ -244,25 +202,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chs-modal/introduction-to-sequence-analysis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Sequence analysis</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-modal/sanger-analysis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Sanger analysis</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-modal/sequence-alignments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Sequence alignments</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-modal/NGS-TGS-principles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">NGS and TGS&nbsp;: principles</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sequence analysis</span></span></a>
   </div>
 </li>
       </ul>
@@ -279,13 +219,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chs-intuitionistic/phylogenetic-reconstructions.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Phylogenetics</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-intuitionistic/phylogenomics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Phylogenomics</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Phylogenetics</span></span></a>
   </div>
 </li>
       </ul>
@@ -302,25 +236,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chs-meta/genome-assembly.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Genome assembly</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-meta/genome-annotation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Genome annotation</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-meta/variant-calling-analysis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Variant calling analysis</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-meta/comparative-genomics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Comparative genomics</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Genome assembly</span></span></a>
   </div>
 </li>
       </ul>
@@ -337,7 +253,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chs-application/metagenomic-sequencing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Metagenomic sequencing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Metagenomic sequencing</span></span></a>
   </div>
 </li>
       </ul>
@@ -375,13 +291,13 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#what-is-a-phylogenetic-tree" id="toc-what-is-a-phylogenetic-tree" class="nav-link active" data-scroll-target="#what-is-a-phylogenetic-tree"><span class="header-section-number">12.1</span> What is a phylogenetic tree</a></li>
-  <li><a href="#mehtods-for-phylogenetic-reconstruction" id="toc-mehtods-for-phylogenetic-reconstruction" class="nav-link" data-scroll-target="#mehtods-for-phylogenetic-reconstruction"><span class="header-section-number">12.2</span> Mehtods for phylogenetic reconstruction</a></li>
-  <li><a href="#building-a-phylogenetic-reconstruction" id="toc-building-a-phylogenetic-reconstruction" class="nav-link" data-scroll-target="#building-a-phylogenetic-reconstruction"><span class="header-section-number">12.3</span> Building a phylogenetic reconstruction</a>
+  <li><a href="#what-is-a-phylogenetic-tree" id="toc-what-is-a-phylogenetic-tree" class="nav-link active" data-scroll-target="#what-is-a-phylogenetic-tree"><span class="header-section-number">4.1</span> What is a phylogenetic tree</a></li>
+  <li><a href="#mehtods-for-phylogenetic-reconstruction" id="toc-mehtods-for-phylogenetic-reconstruction" class="nav-link" data-scroll-target="#mehtods-for-phylogenetic-reconstruction"><span class="header-section-number">4.2</span> Mehtods for phylogenetic reconstruction</a></li>
+  <li><a href="#building-a-phylogenetic-reconstruction" id="toc-building-a-phylogenetic-reconstruction" class="nav-link" data-scroll-target="#building-a-phylogenetic-reconstruction"><span class="header-section-number">4.3</span> Building a phylogenetic reconstruction</a>
   <ul class="collapse">
-  <li><a href="#evolutionary-substitution-model" id="toc-evolutionary-substitution-model" class="nav-link" data-scroll-target="#evolutionary-substitution-model"><span class="header-section-number">12.3.1</span> Evolutionary substitution model</a></li>
-  <li><a href="#maximum-likelihood" id="toc-maximum-likelihood" class="nav-link" data-scroll-target="#maximum-likelihood"><span class="header-section-number">12.3.2</span> Maximum likelihood</a></li>
-  <li><a href="#bayesian-inference" id="toc-bayesian-inference" class="nav-link" data-scroll-target="#bayesian-inference"><span class="header-section-number">12.3.3</span> Bayesian inference</a></li>
+  <li><a href="#evolutionary-substitution-model" id="toc-evolutionary-substitution-model" class="nav-link" data-scroll-target="#evolutionary-substitution-model"><span class="header-section-number">4.3.1</span> Evolutionary substitution model</a></li>
+  <li><a href="#maximum-likelihood" id="toc-maximum-likelihood" class="nav-link" data-scroll-target="#maximum-likelihood"><span class="header-section-number">4.3.2</span> Maximum likelihood</a></li>
+  <li><a href="#bayesian-inference" id="toc-bayesian-inference" class="nav-link" data-scroll-target="#bayesian-inference"><span class="header-section-number">4.3.3</span> Bayesian inference</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -397,7 +313,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-phylogenetics" class="quarto-section-identifier"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Phylogenetics</span></span></h1>
+<h1 class="title"><span id="sec-phylogenetics" class="quarto-section-identifier"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Phylogenetics</span></span></h1>
 </div>
 
 
@@ -412,22 +328,22 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 
 </header>
 
-<section id="what-is-a-phylogenetic-tree" class="level2" data-number="12.1">
-<h2 data-number="12.1" class="anchored" data-anchor-id="what-is-a-phylogenetic-tree"><span class="header-section-number">12.1</span> What is a phylogenetic tree</h2>
+<section id="what-is-a-phylogenetic-tree" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="what-is-a-phylogenetic-tree"><span class="header-section-number">4.1</span> What is a phylogenetic tree</h2>
 </section>
-<section id="mehtods-for-phylogenetic-reconstruction" class="level2" data-number="12.2">
-<h2 data-number="12.2" class="anchored" data-anchor-id="mehtods-for-phylogenetic-reconstruction"><span class="header-section-number">12.2</span> Mehtods for phylogenetic reconstruction</h2>
+<section id="mehtods-for-phylogenetic-reconstruction" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="mehtods-for-phylogenetic-reconstruction"><span class="header-section-number">4.2</span> Mehtods for phylogenetic reconstruction</h2>
 </section>
-<section id="building-a-phylogenetic-reconstruction" class="level2" data-number="12.3">
-<h2 data-number="12.3" class="anchored" data-anchor-id="building-a-phylogenetic-reconstruction"><span class="header-section-number">12.3</span> Building a phylogenetic reconstruction</h2>
-<section id="evolutionary-substitution-model" class="level3" data-number="12.3.1">
-<h3 data-number="12.3.1" class="anchored" data-anchor-id="evolutionary-substitution-model"><span class="header-section-number">12.3.1</span> Evolutionary substitution model</h3>
+<section id="building-a-phylogenetic-reconstruction" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="building-a-phylogenetic-reconstruction"><span class="header-section-number">4.3</span> Building a phylogenetic reconstruction</h2>
+<section id="evolutionary-substitution-model" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="evolutionary-substitution-model"><span class="header-section-number">4.3.1</span> Evolutionary substitution model</h3>
 </section>
-<section id="maximum-likelihood" class="level3" data-number="12.3.2">
-<h3 data-number="12.3.2" class="anchored" data-anchor-id="maximum-likelihood"><span class="header-section-number">12.3.2</span> Maximum likelihood</h3>
+<section id="maximum-likelihood" class="level3" data-number="4.3.2">
+<h3 data-number="4.3.2" class="anchored" data-anchor-id="maximum-likelihood"><span class="header-section-number">4.3.2</span> Maximum likelihood</h3>
 </section>
-<section id="bayesian-inference" class="level3" data-number="12.3.3">
-<h3 data-number="12.3.3" class="anchored" data-anchor-id="bayesian-inference"><span class="header-section-number">12.3.3</span> Bayesian inference</h3>
+<section id="bayesian-inference" class="level3" data-number="4.3.3">
+<h3 data-number="4.3.3" class="anchored" data-anchor-id="bayesian-inference"><span class="header-section-number">4.3.3</span> Bayesian inference</h3>
 
 
 </section>
@@ -786,13 +702,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chs-modal/NGS-TGS-principles.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">NGS and TGS&nbsp;: principles</span></span>
+      <a href="../chs-modal/introduction-to-sequence-analysis.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sequence analysis</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../chs-intuitionistic/phylogenomics.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Phylogenomics</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../chs-meta/genome-assembly.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Genome assembly</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

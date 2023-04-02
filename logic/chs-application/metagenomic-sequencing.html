@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Baby Logic - 18&nbsp; Metagenomic sequencing</title>
+<title>Baby Logic - 6&nbsp; Metagenomic sequencing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../chs-zz/HISTORY.html" rel="next">
-<link href="../chs-meta/comparative-genomics.html" rel="prev">
+<link href="../chs-meta/genome-assembly.html" rel="prev">
 <link href="../figs/avatar.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -78,18 +78,6 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 </style>
 
 
-<meta name="citation_title" content="[[18]{.chapter-number}&nbsp; [Metagenomic sequencing]{.chapter-title}]{#sec-metagenomic-sequencing .quarto-section-identifier}">
-<meta name="citation_fulltext_html_url" content="https://duoyu.ren/logic//chs-application/metagenomic-sequencing.html">
-<meta name="citation_language" content="en">
-<meta name="citation_reference" content="citation_title=Literate programming;,citation_author=Donald E. Knuth;,citation_publication_date=1984-05;,citation_cover_date=1984-05;,citation_year=1984;,citation_fulltext_html_url=https://doi.org/10.1093/comjnl/27.2.97;,citation_issue=2;,citation_doi=10.1093/comjnl/27.2.97;,citation_issn=0010-4620;,citation_volume=27;,citation_journal_title=Comput. J.;,citation_publisher=Oxford University Press, Inc.;">
-<meta name="citation_reference" content="citation_title=Computing skills for biologists;,citation_author=Stefano Allesina;,citation_author=Madlen Wilmes;,citation_publication_date=2019-01-15;,citation_cover_date=2019-01-15;,citation_year=2019;,citation_fulltext_html_url=http://dx.doi.org/10.2307/j.ctvc77jrc;,citation_doi=10.2307/j.ctvc77jrc;">
-<meta name="citation_reference" content="citation_title=Genetics: Genes, genomes, and evolution;,citation_author=Philip Mark Meneely;,citation_author=Rachel Dawes Hoang;,citation_author=Iruka N Okeke;,citation_author=Katherine Heston;,citation_publication_date=2017;,citation_cover_date=2017;,citation_year=2017;">
-<meta name="citation_reference" content="citation_title=Genomes 4;,citation_author=Terence A Brown;,citation_publication_date=2018;,citation_cover_date=2018;,citation_year=2018;">
-<meta name="citation_reference" content="citation_title=Long walk to genomics: History and current approaches to genome sequencing and assembly;,citation_author=Alice Maria Giani;,citation_author=Guido Roberto Gallo;,citation_author=Luca Gianfranceschi;,citation_author=Giulio Formenti;,citation_publication_date=2020;,citation_cover_date=2020;,citation_year=2020;,citation_volume=18;,citation_journal_title=Computational and Structural Biotechnology Journal;,citation_publisher=Elsevier;">
-<meta name="citation_reference" content="citation_title=Genome-scale algorithm design;,citation_author=Veli Mäkinen;,citation_author=Djamal Belazzougui;,citation_author=Fabio Cunial;,citation_author=Alexandru I Tomescu;,citation_publication_date=2015;,citation_cover_date=2015;,citation_year=2015;">
-<meta name="citation_reference" content="citation_title=A quick guide for developing effective bioinformatics programming skills;,citation_author=Joel T Dudley;,citation_author=Atul J Butte;,citation_publication_date=2009;,citation_cover_date=2009;,citation_year=2009;,citation_volume=5;,citation_journal_title=PLOS computational biology;,citation_publisher=Public Library of Science San Francisco, USA;">
-<meta name="citation_reference" content="citation_title=Five reasons why researchers should learn to love the command line;,citation_author=Jeffrey M Perkel;,citation_author=others;,citation_publication_date=2021;,citation_cover_date=2021;,citation_year=2021;,citation_issue=7844;,citation_volume=590;,citation_journal_title=Nature;,citation_publisher=Nature;">
-<meta name="citation_reference" content="citation_title=Ten simple rules for getting started with command-line bioinformatics;,citation_author=Parice A Brandies;,citation_author=Carolyn J Hogg;,citation_publication_date=2021;,citation_cover_date=2021;,citation_year=2021;,citation_volume=17;,citation_journal_title=PLoS Computational Biology;,citation_publisher=Public Library of Science San Francisco, CA USA;">
 </head>
 
 <body class="nav-sidebar floating slimcontent">
@@ -102,7 +90,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
       <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chs-application/metagenomic-sequencing.html">Application
-</a></li><li class="breadcrumb-item"><a href="../chs-application/metagenomic-sequencing.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Metagenomic sequencing</span></a></li></ol></nav>
+</a></li><li class="breadcrumb-item"><a href="../chs-application/metagenomic-sequencing.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Metagenomic sequencing</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -183,24 +171,6 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The command line</span></span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-propositional/git-and-github.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Version control</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-propositional/package-managers.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Package managers</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-propositional/hpc-notions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Notions of HPC</span></span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -215,19 +185,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chs-predicate/algorithm-thinking.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Algorithm thinking</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-predicate/algorithm-techniques.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Algorithm techniques</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-predicate/data-structures.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Data structures</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Algorithm thinking</span></span></a>
   </div>
 </li>
       </ul>
@@ -244,25 +202,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chs-modal/introduction-to-sequence-analysis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Sequence analysis</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-modal/sanger-analysis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Sanger analysis</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-modal/sequence-alignments.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Sequence alignments</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-modal/NGS-TGS-principles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">NGS and TGS&nbsp;: principles</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sequence analysis</span></span></a>
   </div>
 </li>
       </ul>
@@ -279,13 +219,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chs-intuitionistic/phylogenetic-reconstructions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Phylogenetics</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-intuitionistic/phylogenomics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Phylogenomics</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Phylogenetics</span></span></a>
   </div>
 </li>
       </ul>
@@ -302,25 +236,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chs-meta/genome-assembly.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Genome assembly</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-meta/genome-annotation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Genome annotation</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-meta/variant-calling-analysis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Variant calling analysis</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chs-meta/comparative-genomics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Comparative genomics</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Genome assembly</span></span></a>
   </div>
 </li>
       </ul>
@@ -337,7 +253,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chs-application/metagenomic-sequencing.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Metagenomic sequencing</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Metagenomic sequencing</span></span></a>
   </div>
 </li>
       </ul>
@@ -375,11 +291,11 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#designing-the-experiment" id="toc-designing-the-experiment" class="nav-link active" data-scroll-target="#designing-the-experiment"><span class="header-section-number">18.1</span> Designing the experiment</a></li>
-  <li><a href="#dna-extraction-and-sequencing-illumina" id="toc-dna-extraction-and-sequencing-illumina" class="nav-link" data-scroll-target="#dna-extraction-and-sequencing-illumina"><span class="header-section-number">18.2</span> DNA extraction and Sequencing (Illumina)</a></li>
-  <li><a href="#denoising" id="toc-denoising" class="nav-link" data-scroll-target="#denoising"><span class="header-section-number">18.3</span> Denoising</a></li>
-  <li><a href="#chimera" id="toc-chimera" class="nav-link" data-scroll-target="#chimera"><span class="header-section-number">18.4</span> Chimera</a></li>
-  <li><a href="#taxonomic-annotation" id="toc-taxonomic-annotation" class="nav-link" data-scroll-target="#taxonomic-annotation"><span class="header-section-number">18.5</span> Taxonomic annotation</a></li>
+  <li><a href="#designing-the-experiment" id="toc-designing-the-experiment" class="nav-link active" data-scroll-target="#designing-the-experiment"><span class="header-section-number">6.1</span> Designing the experiment</a></li>
+  <li><a href="#dna-extraction-and-sequencing-illumina" id="toc-dna-extraction-and-sequencing-illumina" class="nav-link" data-scroll-target="#dna-extraction-and-sequencing-illumina"><span class="header-section-number">6.2</span> DNA extraction and Sequencing (Illumina)</a></li>
+  <li><a href="#denoising" id="toc-denoising" class="nav-link" data-scroll-target="#denoising"><span class="header-section-number">6.3</span> Denoising</a></li>
+  <li><a href="#chimera" id="toc-chimera" class="nav-link" data-scroll-target="#chimera"><span class="header-section-number">6.4</span> Chimera</a></li>
+  <li><a href="#taxonomic-annotation" id="toc-taxonomic-annotation" class="nav-link" data-scroll-target="#taxonomic-annotation"><span class="header-section-number">6.5</span> Taxonomic annotation</a></li>
   </ul>
 </nav>
     </div>
@@ -394,7 +310,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-metagenomic-sequencing" class="quarto-section-identifier"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Metagenomic sequencing</span></span></h1>
+<h1 class="title"><span id="sec-metagenomic-sequencing" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Metagenomic sequencing</span></span></h1>
 </div>
 
 
@@ -415,19 +331,19 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 <p>Some differences&nbsp;:</p>
 <p>Metagenomic | Metataxonomic expensive | cheap more samples| less specific regions | random regions</p>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="">See the paper from Torsten Seeman, Gilbert, Meyer - A guide from sampling data analysis</span></div></div>
-<section id="designing-the-experiment" class="level2" data-number="18.1">
-<h2 data-number="18.1" class="anchored" data-anchor-id="designing-the-experiment"><span class="header-section-number">18.1</span> Designing the experiment</h2>
+<section id="designing-the-experiment" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="designing-the-experiment"><span class="header-section-number">6.1</span> Designing the experiment</h2>
 <p>Stablish the basic experimental unit and the appropriate replicates, control, <span style="white-space:nowrap">randomization !</span></p>
 <p>It is important to have metadata of the experiment in a plant microbial community is common to have pH, geo-reference, temperature, etc.</p>
 <p>In metataxonomic we analyses hypervariable regions (V3-V4) and compare relative abundance to identify which is the most informative (abundance, richness)</p>
 </section>
-<section id="dna-extraction-and-sequencing-illumina" class="level2" data-number="18.2">
-<h2 data-number="18.2" class="anchored" data-anchor-id="dna-extraction-and-sequencing-illumina"><span class="header-section-number">18.2</span> DNA extraction and Sequencing (Illumina)</h2>
+<section id="dna-extraction-and-sequencing-illumina" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="dna-extraction-and-sequencing-illumina"><span class="header-section-number">6.2</span> DNA extraction and Sequencing (Illumina)</h2>
 <p><span></span></p>
 <p>Followed common sequencing is also important to make quality check of the data</p>
 </section>
-<section id="denoising" class="level2" data-number="18.3">
-<h2 data-number="18.3" class="anchored" data-anchor-id="denoising"><span class="header-section-number">18.3</span> Denoising</h2>
+<section id="denoising" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="denoising"><span class="header-section-number">6.3</span> Denoising</h2>
 <p>There are several way to define OTUs (97-99 % of similarity) for instance&nbsp;:</p>
 <ul>
 <li><p>It is defined operational unit of species or species groups (be careful to assign a sequence as an species)</p></li>
@@ -435,12 +351,12 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 </ul>
 <p>Pipelines for OTUs or ASVs are Quimme and Silva and deNBI</p>
 </section>
-<section id="chimera" class="level2" data-number="18.4">
-<h2 data-number="18.4" class="anchored" data-anchor-id="chimera"><span class="header-section-number">18.4</span> Chimera</h2>
+<section id="chimera" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="chimera"><span class="header-section-number">6.4</span> Chimera</h2>
 <p>Reads that result from combinations in the sequencing</p>
 </section>
-<section id="taxonomic-annotation" class="level2" data-number="18.5">
-<h2 data-number="18.5" class="anchored" data-anchor-id="taxonomic-annotation"><span class="header-section-number">18.5</span> Taxonomic annotation</h2>
+<section id="taxonomic-annotation" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="taxonomic-annotation"><span class="header-section-number">6.5</span> Taxonomic annotation</h2>
 <p>Using Silva or deNBI</p>
 
 
@@ -799,8 +715,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chs-meta/comparative-genomics.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Comparative genomics</span></span>
+      <a href="../chs-meta/genome-assembly.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Genome assembly</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
