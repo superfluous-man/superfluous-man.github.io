@@ -24,11 +24,11 @@
       
       <item>
         <title>廿六種希臘文排版字體</title>
-        <link>https://duoyu.ren/articles/20230115-greek-fonts/</link>
+        <link>https://duoyu.ren/essay/20230115-greek-fonts/</link>
         <pubDate>Sun, 15 Jan 2023 14:51:03 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:48:26 +0800</atom:modified>
-        <guid>https://duoyu.ren/articles/20230115-greek-fonts/</guid>
+        <atom:modified>Wed, 05 Apr 2023 22:51:20 +0800</atom:modified>
+        <guid>https://duoyu.ren/essay/20230115-greek-fonts/</guid>
         <description>Intro 此前整理邏輯學材料，需要用希臘字母抽象替代某些對象時都是以 TeX 命令實現。近來折騰通史材料，常常遇到古希臘人名與書名，難以用 TeX 命令逐個字母輸入</description>
         
         <dc:creator>李二苟</dc:creator>
@@ -62,11 +62,11 @@
       
       <item>
         <title>「基础写作」试题解答与评分标准说明</title>
-        <link>https://duoyu.ren/articles/20200107-fen-shu-shuo-ming/</link>
+        <link>https://duoyu.ren/essay/20200107-fen-shu-shuo-ming/</link>
         <pubDate>Tue, 07 Jan 2020 22:41:40 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:49:13 +0800</atom:modified>
-        <guid>https://duoyu.ren/articles/20200107-fen-shu-shuo-ming/</guid>
+        <atom:modified>Wed, 05 Apr 2023 22:52:49 +0800</atom:modified>
+        <guid>https://duoyu.ren/essay/20200107-fen-shu-shuo-ming/</guid>
         <description>课程分数公布后，许多同学对「基础写作」卷面分数有疑问。为了防止大家想不开，特在此公布试题解答与评分标准，并就相关问题略加解释，希望能够取得大</description>
         
         <dc:creator>李二狗</dc:creator>
@@ -96,11 +96,11 @@
       
       <item>
         <title>毕业论文写作近期、远期要做的事情</title>
-        <link>https://duoyu.ren/articles/20191123-lun-wen-hui-yi/</link>
+        <link>https://duoyu.ren/essay/20191123-lun-wen-hui-yi/</link>
         <pubDate>Sat, 23 Nov 2019 14:50:28 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:49:17 +0800</atom:modified>
-        <guid>https://duoyu.ren/articles/20191123-lun-wen-hui-yi/</guid>
+        <atom:modified>Wed, 05 Apr 2023 22:52:57 +0800</atom:modified>
+        <guid>https://duoyu.ren/essay/20191123-lun-wen-hui-yi/</guid>
         <description>学士论文写作，仅作为一次写作训练与逻辑训练，勉强可作为一次科学研究训练。论文写作的最低要求是「把话说清楚」。论文初稿应当「文从字顺」，语言表</description>
         
         <dc:creator>李二狗</dc:creator>
@@ -130,11 +130,11 @@
       
       <item>
         <title>蒼頡檢字法簡易入門文檔</title>
-        <link>https://duoyu.ren/articles/20170717-cang-jie-zi-ma/</link>
+        <link>https://duoyu.ren/essay/20170717-cang-jie-zi-ma/</link>
         <pubDate>Mon, 17 Jul 2017 21:47:22 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Thu, 30 Mar 2023 13:13:54 +0800</atom:modified>
-        <guid>https://duoyu.ren/articles/20170717-cang-jie-zi-ma/</guid>
+        <atom:modified>Wed, 05 Apr 2023 22:54:08 +0800</atom:modified>
+        <guid>https://duoyu.ren/essay/20170717-cang-jie-zi-ma/</guid>
         <description>僕在工廠務工，偶然需要使用 CorelDraw 排版些圖文。遂突發奇想，以此物採笨辦法打散漢字，拆筆畫手動着色，製作蒼頡檢字法五頁簡易入門文檔，僅供習者參考。全</description>
         
         <dc:creator>李二狗</dc:creator>
@@ -164,11 +164,11 @@
       
       <item>
         <title>蒼頡檢字法字根典型字選</title>
-        <link>https://duoyu.ren/articles/20160920-cang-jie-li-zi/</link>
+        <link>https://duoyu.ren/essay/20160920-cang-jie-li-zi/</link>
         <pubDate>Tue, 20 Sep 2016 17:56:18 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Thu, 30 Mar 2023 13:30:43 +0800</atom:modified>
-        <guid>https://duoyu.ren/articles/20160920-cang-jie-li-zi/</guid>
+        <atom:modified>Wed, 05 Apr 2023 22:51:00 +0800</atom:modified>
+        <guid>https://duoyu.ren/essay/20160920-cang-jie-li-zi/</guid>
         <description>導言 蒼頡檢字法 ，坊間亦稱「六代倉頡」，但其與通常所謂「三代倉頡」、「五代倉頡」差異較大，目的非僅供漢字輸入，而在完整解決漢字檢索及應用問題。</description>
         
         <dc:creator>李二狗</dc:creator>

@@ -24,11 +24,11 @@
       
       <item>
         <title>廿六種希臘文排版字體</title>
-        <link>https://duoyu.ren/articles/20230115-greek-fonts/</link>
+        <link>https://duoyu.ren/essay/20230115-greek-fonts/</link>
         <pubDate>Sun, 15 Jan 2023 14:51:03 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:48:26 +0800</atom:modified>
-        <guid>https://duoyu.ren/articles/20230115-greek-fonts/</guid>
+        <atom:modified>Wed, 05 Apr 2023 22:51:20 +0800</atom:modified>
+        <guid>https://duoyu.ren/essay/20230115-greek-fonts/</guid>
         <description>Intro 此前整理邏輯學材料，需要用希臘字母抽象替代某些對象時都是以 TeX 命令實現。近來折騰通史材料，常常遇到古希臘人名與書名，難以用 TeX 命令逐個字母輸入</description>
         
         <dc:creator>李二苟</dc:creator>

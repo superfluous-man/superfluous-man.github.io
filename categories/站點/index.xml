@@ -24,11 +24,11 @@
       
       <item>
         <title>內容版式 Demos</title>
-        <link>https://duoyu.ren/articles/20191015-demos/</link>
+        <link>https://duoyu.ren/essay/20191015-demos/</link>
         <pubDate>Tue, 15 Oct 2019 00:57:29 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 29 Mar 2023 17:41:37 +0800</atom:modified>
-        <guid>https://duoyu.ren/articles/20191015-demos/</guid>
+        <atom:modified>Wed, 05 Apr 2023 22:53:22 +0800</atom:modified>
+        <guid>https://duoyu.ren/essay/20191015-demos/</guid>
         <description>本站新增樣式 參考衆多 Hugo shortcode 樣式案例，爲提高效率，本站新增以下幾種樣式。模板原有 shortcode 樣式在本文第二部分列出備查。 外鏈圖標（2023增加） 採用 im.youronly.one 的方</description>
         
         <dc:creator>李二狗</dc:creator>
@@ -58,11 +58,11 @@
       
       <item>
         <title>MathJax 電工王師傅</title>
-        <link>https://duoyu.ren/articles/20170513-mathjax-test/</link>
+        <link>https://duoyu.ren/essay/20170513-mathjax-test/</link>
         <pubDate>Sat, 13 May 2017 09:29:32 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Thu, 30 Mar 2023 13:26:34 +0800</atom:modified>
-        <guid>https://duoyu.ren/articles/20170513-mathjax-test/</guid>
+        <atom:modified>Wed, 05 Apr 2023 22:54:13 +0800</atom:modified>
+        <guid>https://duoyu.ren/essay/20170513-mathjax-test/</guid>
         <description>本頁面測試 MathJax 渲染網頁上的 $\LaTeX$ 公式。MathJax 與 Hugo 匹配使用時，因與 emph 等標籤衝突，$\LaTeX$ 源碼中的下標和閉區間符號等可能有時需要稍加調</description>
         
         <dc:creator>李二狗</dc:creator>
