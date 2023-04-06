@@ -11,13 +11,23 @@ jobs:
         uses: actions/checkout@v2
           
       # 使用SSH远程连接
-      - name: SSH Remote Commands
-        uses: appleboy/ssh-action@master
+      - name: ls -a via ssh
+        uses: garygrossgarten/github-action-ssh@release
         with:
+          command: ls -a
           host: ${{ secrets.ALIYUN_REMOTE_HOST }}
           username: ${{ secrets.ALIYUN_REMOTE_USER }}
-          password: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
+          #passphrase: ${{ secrets.PASSPHRASE }}
+          privateKey: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
           script: bash /root/blog_del.sh
+    
+      #- name: SSH Remote Commands
+      #  uses: appleboy/ssh-action@master
+      #  with:
+      #    host: ${{ secrets.ALIYUN_REMOTE_HOST }}
+      #    username: ${{ secrets.ALIYUN_REMOTE_USER }}
+      #    password: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
+       #   script: bash /root/blog_del.sh
           
       # 用SCP将文件传到远端服务器
       - name: SCP Files to aliyun
@@ -27,7 +37,5 @@ jobs:
           username: ${{ secrets.ALIYUN_REMOTE_USER }}
           password: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
           source: "./"
-          target: ${{ secrets.ALIYUN_PATH }}
-       
- 
+          target: ${{ secrets.ALIYUN_PATH }} 
 
