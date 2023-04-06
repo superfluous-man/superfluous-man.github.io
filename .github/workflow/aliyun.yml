@@ -1,27 +1,33 @@
-name: Build And Deploy To Aliyun ECS
-
-on:                               # 该 CI/CD 触发时的事件
-  push:                           # 只要push代码 就触发流程，更多触发事件请参考官方文档
+on:
+  push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]     
 
-jobs:                             # 需要执行的任务，可以有多个任务，所有的 job 都是并行的，但往往会有依赖关系
+jobs:
   build:
-    runs-on: ubuntu-latest        # github分配的运行平台，2-core CPU/7 GB of RAM memory/14 GB of SSD disk space
-    steps:                        # 某个任务的一系列步骤,如前端需要安装依赖，编译打包代码等等
-    - uses: actions/checkout@v2          #选择一个 现有的action，执行你的操作
-      with:
-        persist-credentials: false
-        ref: master
-        submodules: false
-    - name: Deploy to aliyun server        # 为 step 指定一个名称，将会在 github action 的控制台中显示
-      uses: easingthemes/ssh-deploy@v2.1.5      #可以访问的仓库，实现的上传服务器步骤被封装在此action
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}  #这个是阿里云的私钥
-        ARGS: "-avzr --delete"
-        SOURCE: "./"
-        REMOTE_HOST: ${{ secrets.ALIYUN_REMOTE_HOST }}    #阿里云的 ip
-        REMOTE_USER: ${{ secrets.ALIYUN_REMOTE_USER }}    #阿里云用户
-        TARGET: "/home/www/website"       #被部署的服务器路径 
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check Out
+        uses: actions/checkout@v2
+          
+      # 使用SSH远程连接
+      - name: SSH Remote Commands
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.ALIYUN_REMOTE_HOST }}
+          username: ${{ secrets.ALIYUN_REMOTE_USER }}
+          password: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
+          script: bash /root/blog_del.sh
+          
+      # 用SCP将文件传到远端服务器
+      - name: SCP Files to aliyun
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.ALIYUN_REMOTE_HOST }}
+          username: ${{ secrets.ALIYUN_REMOTE_USER }}
+          password: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
+          source: "./"
+          target: ${{ secrets.ALIYUN_PATH }}
+       
+ 
 
