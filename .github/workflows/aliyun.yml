@@ -29,8 +29,8 @@ jobs:
         with:
           host: ${{ secrets.ALIYUN_REMOTE_HOST }}
           username: ${{ secrets.ALIYUN_REMOTE_USER }}
-          # password: ${{ secrets.ALIYUN_REMOTE_PASSWORD }}
-          key: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
+          password: ${{ secrets.ALIYUN_REMOTE_PASSWORD }}
+          # key: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
           script: bash /root/blog_del.sh
           
       # 用SCP将文件传到远端服务器
@@ -39,8 +39,8 @@ jobs:
         with:
           host: ${{ secrets.ALIYUN_REMOTE_HOST }}
           username: ${{ secrets.ALIYUN_REMOTE_USER }}
-          # password: ${{ secrets.ALIYUN_REMOTE_PASSWORD }}
-          key: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
+          password: ${{ secrets.ALIYUN_REMOTE_PASSWORD }}
+          # key: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
           port: 22
           source: "./*"
           target: ${{ secrets.ALIYUN_PATH }} 
