@@ -29,7 +29,7 @@ jobs:
         with:
           host: ${{ secrets.ALIYUN_REMOTE_HOST }}
           username: ${{ secrets.ALIYUN_REMOTE_USER }}
-          password: ${{ secrets.ALIYUN_REMOTE_PASSWORD }}
+          # password: ${{ secrets.ALIYUN_REMOTE_PASSWORD }}
           key: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
           script: bash /root/blog_del.sh
           
@@ -39,7 +39,7 @@ jobs:
         with:
           host: ${{ secrets.ALIYUN_REMOTE_HOST }}
           username: ${{ secrets.ALIYUN_REMOTE_USER }}
-          password: ${{ secrets.ALIYUN_REMOTE_PASSWORD }}
+          # password: ${{ secrets.ALIYUN_REMOTE_PASSWORD }}
           key: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
           port: 22
           source: "./*"
