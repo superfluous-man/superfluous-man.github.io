@@ -1,9 +1,12 @@
+name: SSH Upload to Alibaba Cloud
+
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
 
 jobs:
-  build:
+  upload:
     runs-on: ubuntu-latest
     
     steps:
@@ -26,6 +29,7 @@ jobs:
         with:
           host: ${{ secrets.ALIYUN_REMOTE_HOST }}
           username: ${{ secrets.ALIYUN_REMOTE_USER }}
+          password: ${{ secrets.ALIYUN_REMOTE_PASSWORD }}
           key: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
           script: bash /root/blog_del.sh
           
@@ -35,7 +39,9 @@ jobs:
         with:
           host: ${{ secrets.ALIYUN_REMOTE_HOST }}
           username: ${{ secrets.ALIYUN_REMOTE_USER }}
+          password: ${{ secrets.ALIYUN_REMOTE_PASSWORD }}
           key: ${{ secrets.ALIYUN_SERVER_SSH_KEY }}
-          source: "."
+          port: 22
+          source: "./*"
           target: ${{ secrets.ALIYUN_PATH }} 
 
