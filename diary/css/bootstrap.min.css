@@ -118,7 +118,7 @@ template{display:none}
 
 hr{margin-top:1rem;margin-bottom:1rem;border:0;border-top:1px solid rgba(0,0,0,.1)}
 
-.small,small{font-size:100%;font-family:"LXGWWenKaiTC-Regular", "LXGWWenKai-Regular", "SYSong SemiBold"}
+.small,small{font-size:100%;font-family:"Noto Sans", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC"}
 
 .mark,mark{padding:.2em;background-color:#fcf8e3}
 
