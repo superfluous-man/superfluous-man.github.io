@@ -2,46 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://duoyu.ren/logic/index.html</loc>
-    <lastmod>2023-04-08T18:59:09.171Z</lastmod>
+    <lastmod>2023-04-09T15:28:04.189Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-zz/intro.html</loc>
-    <lastmod>2023-04-08T18:59:09.177Z</lastmod>
+    <lastmod>2023-04-09T15:28:04.199Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-propositional/welcome-to-command-line.html</loc>
-    <lastmod>2023-04-08T18:59:09.197Z</lastmod>
+    <lastmod>2023-04-09T15:28:04.219Z</lastmod>
+  </url>
+  <url>
+    <loc>https://duoyu.ren/logic/chs-propositional/git-and-github.html</loc>
+    <lastmod>2023-04-09T15:28:04.226Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-predicate/algorithm-thinking.html</loc>
-    <lastmod>2023-04-08T18:59:09.201Z</lastmod>
+    <lastmod>2023-04-09T15:28:04.232Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-modal/introduction-to-sequence-analysis.html</loc>
-    <lastmod>2023-04-08T18:59:09.211Z</lastmod>
+    <lastmod>2023-04-09T15:28:04.242Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-intuitionistic/phylogenetic-reconstructions.html</loc>
-    <lastmod>2023-04-08T18:59:09.217Z</lastmod>
+    <lastmod>2023-04-09T15:28:04.249Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-meta/genome-assembly.html</loc>
-    <lastmod>2023-04-08T18:59:09.224Z</lastmod>
+    <lastmod>2023-04-09T15:28:04.259Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-application/metagenomic-sequencing.html</loc>
-    <lastmod>2023-04-08T18:59:09.231Z</lastmod>
+    <lastmod>2023-04-09T15:28:04.262Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-zz/HISTORY.html</loc>
-    <lastmod>2023-04-08T18:59:09.241Z</lastmod>
+    <lastmod>2023-04-09T15:28:04.272Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/chs-zz/references.html</loc>
-    <lastmod>2023-04-08T18:59:09.244Z</lastmod>
+    <lastmod>2023-04-09T15:28:04.276Z</lastmod>
   </url>
   <url>
     <loc>https://duoyu.ren/logic/Baby-Logic.pdf</loc>
-    <lastmod>2023-04-08T18:59:08.814Z</lastmod>
+    <lastmod>2023-04-09T15:28:03.799Z</lastmod>
   </url>
 </urlset>
