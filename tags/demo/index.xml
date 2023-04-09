@@ -14,13 +14,47 @@
     <managingEditor>logos@duoyu.ren (Duōyú Rén)</managingEditor>
     <webMaster>logos@duoyu.ren (Duōyú Rén)</webMaster>
     <copyright>&amp;copy;2013-{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 15 Oct 2019 00:57:29 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 09 Apr 2023 19:03:43 +0800</lastBuildDate>
     
         <atom:link href="https://duoyu.ren/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>從「白嫖」到付費：在阿里雲部署站點</title>
+        <link>https://duoyu.ren/essay/20230409-web-server/</link>
+        <pubDate>Sun, 09 Apr 2023 19:03:43 +0800</pubDate>
+        <author>logos@duoyu.ren (Duōyú Rén)</author>
+        <atom:modified>Mon, 10 Apr 2023 00:13:55 +0800</atom:modified>
+        <guid>https://duoyu.ren/essay/20230409-web-server/</guid>
+        <description>「白嫖」之得失 bold italicof bolditalic 頁面字體指定 頁面加載速度 付費方案 域名備案 折中辦法香港 配置 工具安裝 域名解析 HTTPS 設置 Github 倉庫同步推送 工具安裝 「白嫖」與付費方案對</description>
+        
+        <dc:creator>李二苟</dc:creator>
+        <media:content url="https://duoyu.ren/https://s2.loli.net/2023/04/09/TgRIYuzcetZCdbl.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>demo</category>
+            
+          
+        
+        
+          
+            
+              <category>站點</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
       
       <item>
         <title>內容版式 Demos</title>
