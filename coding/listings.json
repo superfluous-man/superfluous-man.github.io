@@ -1,27 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/viewpoints/interviews/posts/03/06/data-science-act.html",
-      "/ideas/datasciencebites/posts/2023/03/02/basket-complementarity.html",
-      "/viewpoints/editors-blog/posts/2023/02/14/digital-skills.html",
-      "/viewpoints/interviews/posts/02/03/heidi-seibold.html",
-      "/viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html",
-      "/viewpoints/interviews/posts/01/25/erica-thompson.html",
-      "/ideas/datasciencebites/posts/2023/01/24/pulling-patterns.html",
-      "/viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html",
-      "/viewpoints/editors-blog/posts/2023/01/05/newsletter.html",
-      "/ideas/datasciencebites/posts/2022/12/13/ridesharing.html",
-      "/viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html",
-      "/viewpoints/editors-blog/posts/2022/12/09/LLM-news.html",
-      "/viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html",
-      "/viewpoints/editors-blog/posts/2022/12/01/themes.html",
-      "/viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html",
-      "/viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html",
-      "/viewpoints/editors-blog/posts/2023/03/15/AI-screening.html"
-    ]
-  },
-  {
     "listing": "/latest-content.html",
     "items": [
       "/viewpoints/editors-blog/posts/2023/03/15/AI-screening.html",
@@ -104,6 +82,28 @@
       "/ideas/datasciencebites/posts/2023/03/02/basket-complementarity.html",
       "/ideas/datasciencebites/posts/2023/01/24/pulling-patterns.html",
       "/ideas/datasciencebites/posts/2022/12/13/ridesharing.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/viewpoints/interviews/posts/03/06/data-science-act.html",
+      "/ideas/datasciencebites/posts/2023/03/02/basket-complementarity.html",
+      "/viewpoints/editors-blog/posts/2023/02/14/digital-skills.html",
+      "/viewpoints/interviews/posts/02/03/heidi-seibold.html",
+      "/viewpoints/editors-blog/posts/2023/01/27/talking-chatgpt.html",
+      "/viewpoints/interviews/posts/01/25/erica-thompson.html",
+      "/ideas/datasciencebites/posts/2023/01/24/pulling-patterns.html",
+      "/viewpoints/editors-blog/posts/2023/01/18/rwds-at-rss-conference.html",
+      "/viewpoints/editors-blog/posts/2023/01/05/newsletter.html",
+      "/ideas/datasciencebites/posts/2022/12/13/ridesharing.html",
+      "/viewpoints/editors-blog/posts/2022/12/13/dsb-launch.html",
+      "/viewpoints/editors-blog/posts/2022/12/09/LLM-news.html",
+      "/viewpoints/editors-blog/posts/2022/12/09/A-chat-with-ChatGPT.html",
+      "/viewpoints/editors-blog/posts/2022/12/01/themes.html",
+      "/viewpoints/editors-blog/posts/2022/11/23/LLM-content-warning.html",
+      "/viewpoints/editors-blog/posts/2022/10/18/meet-the-team.html",
+      "/viewpoints/editors-blog/posts/2023/03/15/AI-screening.html"
     ]
   }
 ]
