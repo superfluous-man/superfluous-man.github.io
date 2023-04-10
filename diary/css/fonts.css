@@ -62,8 +62,8 @@
   font-style: italic;
   font-weight: normal;
   font-display: swap;
-  src: url('https://lib.baomitu.com/fonts/noto-serif/noto-serif-700italic.woff2') format('woff2'),
-  url('https://lib.baomitu.com/fonts/noto-serif/noto-serif-700italic.woff') format('woff2');
+  src: url('https://lib.baomitu.com/fonts/stix-two-text/stix-two-text-600italic.woff2') format('woff2'),
+  url('https://lib.baomitu.com/fonts/stix-two-text/stix-two-text-600italic.woff') format('woff2');
 }
 @font-face {
   font-family: 'Noto Sans';
@@ -78,8 +78,8 @@
   font-style: italic;
   font-weight: bold;
   font-display: swap;
-    src: url('https://lib.baomitu.com/fonts/noto-serif/noto-serif-700italic.woff2') format('woff2'),
-  url('https://lib.baomitu.com/fonts/noto-serif/noto-serif-700italic.woff') format('woff2');
+  src: url('https://lib.baomitu.com/fonts/stix-two-text/stix-two-text-700italic.woff2') format('woff2'),
+  url('https://lib.baomitu.com/fonts/stix-two-text/stix-two-text-700italic.woff') format('woff2');
 }
 
 @font-face {
@@ -103,7 +103,7 @@ sigletitle {  /* 月份頁面的主標題樣式 */
 	 margin: -.06em 0 1em 0;
          text-indent: 0rem;
          font-size: 30px;
-         font-family: 'Noto Sans', 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
+         font-family: 'Noto Sans', "chdot", 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
          font-weight: bold;
          text-align: center; 
 	 line-height: 40px;
@@ -132,7 +132,7 @@ h1 {
 /* margin: 1em 0 0.8em 0; */
 color: #0E6251;
 font-size: 22px;
-  font-family: 'Noto Sans', 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
+  font-family: 'Noto Sans', "chdot", 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
   font-weight: bold;
   line-height: 25px;
    text-align: center; 
@@ -210,7 +210,7 @@ h2 {
 	margin: 0.55em 0 0.35em 0;
 	color: #0E6251;
 	font-size: 22px;
-        font-family: 'Noto Sans', 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
+        font-family: 'Noto Sans', "chdot", 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
         font-weight: bold;
 	line-height: 23px;
 counter-reset : h3;
@@ -232,7 +232,7 @@ h3 {
 	margin: 0.55em 0 0.35em 0;
 	color: #424949;
         font-size: 22px;
-        font-family: 'Noto Sans', 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
+        font-family: 'Noto Sans', "chdot", 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
         font-weight: bold;
 	line-height: 23px;
 counter-reset : h4;
@@ -251,7 +251,7 @@ text-shadow:
 }*/
 
 h4 { /* Card Title  */
-        font-family: 'Noto Sans', 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
+        font-family: 'Noto Sans', "chdot", 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
 	margin: 0 0 0 0;
 	color: #424949;
 	font-size: 27px;
@@ -260,13 +260,13 @@ h4 { /* Card Title  */
         text-align: left;
 }
 h4author { /* Card Title  Author*/
-        font-family: 'Noto Sans', 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
+        font-family: 'Noto Sans', "chdot", 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
 	color: #424949;
 	font-size: 1rem;
   /* font-weight: bold; */
 }
 .list-toc { /* Card Title  Author*/
-        font-family: 'Noto Sans', 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
+        font-family: 'Noto Sans', "chdot", 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
 padding-left:0;
 list-style:none;
 font-size: 1.2rem;
@@ -275,7 +275,7 @@ font-size: 1.2rem;
 }
 
 .list-toc-menu { /* list-toc in menu */
-        font-family: 'Noto Sans', 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
+        font-family: 'Noto Sans', "chdot", 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
 padding-left:0;
 list-style:none;
 font-size: 1.2rem;
@@ -286,7 +286,7 @@ font-size: 1.2rem;
 sec-book-title {
         margin-left:-0.77em;
         display: inline-block;
-        font-family: 'Noto Sans', 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
+        font-family: 'Noto Sans', "chdot", 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
         font-weight: bold;
         font-size:1.25rem;
         line-height:1.25rem;
@@ -317,7 +317,7 @@ font-size: 22px;
 
 /* 嘗試自定義書名與副標題格式 */
 .bookmaintitle {
-    font-family: 'Noto Sans', 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
+    font-family: 'Noto Sans', "chdot", 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;
     /* font-weight: bold; */
     text-align: center;
     margin: 0px 0px 7px 0px;
