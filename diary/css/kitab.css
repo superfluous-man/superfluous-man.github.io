@@ -16,7 +16,7 @@ p{
 
 nav {
   height: 40px;
-  font-family: "Noto Sans", "chdot", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif;
+  /* font-family: "Noto Sans", "chdot", "Noto Sans KR", "Noto Sans HK", "Noto Sans SC", sans-serif; */
 }
 main {
   min-height: calc(100vh - 100px);
