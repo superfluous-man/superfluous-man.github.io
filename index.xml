@@ -2019,7 +2019,7 @@
         <link>https://duoyu.ren/essay/20230409-web-server/</link>
         <pubDate>Sun, 09 Apr 2023 19:03:43 +0800</pubDate>
         <author>logos@duoyu.ren (Duōyú Rén)</author>
-        <atom:modified>Wed, 12 Apr 2023 04:44:04 +0800</atom:modified>
+        <atom:modified>Wed, 12 Apr 2023 05:22:46 +0800</atom:modified>
         <guid>https://duoyu.ren/essay/20230409-web-server/</guid>
         <description>緣起 站點內容一直存放在 Github 倉庫，並且先後以 Github Pages 加載，六年前購買域名後又採用 Cloudflare 的頁面加速方案。這些都不需要爲流量付費，大略算「白嫖」方案吧。站點</description>
         
