@@ -1248,7 +1248,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
 <meta name="keywords" content="demo">
 
 <meta name="created" content="2023-04-09T19:03:43&#43;0800">
-<meta name="modified" content="2023-04-12T05:22:46&#43;0800">
+<meta name="modified" content="2023-04-12T14:24:06&#43;0800">
 <meta property="article:published_time" content="2023-04-09T19:03:43&#43;0800">
 
 <meta name="author" content="李二苟">
@@ -1295,7 +1295,7 @@ h1.nocount:before, h2.nocount:before, h3.nocount:before, h4.nocount:before, h5.n
     "@type": "WebPage",
     "headline": "從「白嫖」到付費：在阿里雲部署站點",
     "datePublished": "2023-04-09T19:03:43+08:00",
-    "dateModified": "2023-04-12T05:22:46+08:00",
+    "dateModified": "2023-04-12T14:24:06+08:00",
     "url" : "https://duoyu.ren/essay/20230409-web-server/",
     "description": "初次配置阿里雲輕量應用服務器備忘。",
     "keywords": ["demo"],
@@ -1829,7 +1829,7 @@ if (!doNotTrack) {
   
 &middot; <time class="single__info" title="Modified At"> 📝Apr 12, 2023 </time>
   
-&middot; 🔢 4626 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 10 min read</span>
+&middot; 🔢 4637 words&middot; <span class="single__info" title="Reading Time"> ⏲️ 10 min read</span>
 <span class="single__info"> 
  
 </span>
@@ -1895,7 +1895,7 @@ if (!doNotTrack) {
         <li><a href="#修改-nginx-配置文檔">修改 nginx 配置文檔</a></li>
       </ul>
     </li>
-    <li><a href="#github-倉庫同步推送">Github 倉庫同步推送</a>
+    <li><a href="#github-倉庫同步推送">GitHub 倉庫同步推送</a>
       <ul>
         <li><a href="#創建-workflow-文檔">創建 workflow 文檔</a></li>
         <li><a href="#刪除服務器上舊的網頁">刪除服務器上舊的網頁</a></li>
@@ -1919,34 +1919,34 @@ if (!doNotTrack) {
       <artcoverl><img src="https://s2.loli.net/2023/04/09/TgRIYuzcetZCdbl.jpg" alt="從「白嫖」到付費：在阿里雲部署站點"></artcoverl> 
       
       <h1 id="緣起">緣起</h1>
-<p>站點內容一直存放在 Github 倉庫，並且先後以 <a href="https://pages.github.com/" title="Github Pages" class="icon_external" rel="noopener external">Github Pages</a>
+<p>站點內容一直存放在 GitHub 倉庫，並且先後以 <a href="https://pages.github.com/" title="GitHub Pages" class="icon_external" rel="noopener external">GitHub Pages</a>
 
 
- 加載，六年前購買域名後又採用 <a href="https://www.cloudflare.com/" title="Cloudflare" class="icon_external" rel="noopener external">Cloudflare</a>
+ 等加載，六年前購買域名後又採用 <a href="https://www.cloudflare.com/" title="Cloudflare" class="icon_external" rel="noopener external">Cloudflare</a>
 
 
- 的頁面加速方案。這些都不需要爲流量付費，大略算「白嫖」方案吧。站點如此運行了有七年左右的光景。</p>
-<p>最近使用 Quarto 整理課本資料、課程頁面與演示文檔，初步將頁面框架搭建起來後，照例放到站點倉庫加載頁面。有一天在查看頁面樣式加載效果時，手機沒有翻牆，發覺頁面加載速度很慢，給人的感覺似乎是互聯網上古時期加載圖片的「龜速」，這對習慣了當前寬帶網速的人而言，是難以忍受的。</p>
-<p>於是花了幾天尋找免費的提速方案，嘗試了各種中間代理加速方案，也試圖將一些前端公共庫鏈接調整爲境內鏈接，但是這些對頁面加載速度的提升似乎並不明顯，要想有良好的瀏覽體驗，翻牆後瀏覽頁面依然是最佳選擇。又考量打工可能的需要，折騰一個輕量服務器，每月固定花幾十塊錢，似乎也可以承受。於是便有了目前這個月的體驗。</p>
+ 的加速方案。這些都不需要爲流量付費，大略算「白嫖」方案吧。站點如此運行了有七年左右的光景。</p>
+<p>最近使用 Quarto 整理課本資料、課程頁面與演示文檔，初步將頁面框架搭建起來後，照例放到站點倉庫加載頁面。有一天在查看頁面加載效果時，手機沒有翻牆，發覺頁面加載速度很慢，給人的感覺似乎是互聯網上古時期加載圖片的「龜速」，這對習慣了當前寬帶網速的人而言，是難以忍受的。</p>
+<p>於是花了幾天尋找免費的提速方案，嘗試了各種中間代理加速方案，也試圖將一些前端公共庫鏈接調整爲境內鏈接，但是這些對頁面加載速度的提升似乎並不明顯。要想有良好的瀏覽體驗，翻牆後瀏覽頁面依然是最佳選擇。考量打工可能的需要，折騰一個輕量服務器，每月固定花幾十塊錢，似乎也可以承受。於是便有了目前這個月的體驗。</p>
 <h1 id="白嫖之得失">「白嫖」之得失</h1>
 <h2 id="頁面字體指定">頁面字體指定</h2>
-<p>因爲「白嫖」，沒有流量焦慮，加之極爲偏愛舊字形，所以可以爲站點頁面漢字指定特定的網頁字體樣式。運營七年來，先後製作、使用過好幾種 <code>.woff2</code> 字體文件，以 CSS 引用方式嵌入網頁。指定特定的字體樣式，大大提升了中文頁面的閱讀體驗。這也是七年前放棄公眾號寫作的主要原因之一，公眾號的樣式定製、數學公式渲染、後臺排版等體驗，當時都很「惡劣」。</p>
+<p>因爲「白嫖」，沒有流量焦慮，加之極爲偏愛漢字舊字形，所以可以爲站點頁面漢字指定特定的網頁字體樣式。運營七年來，先後製作、使用過好幾種 <code>.woff2</code> 字體文件，以 CSS 引用方式嵌入網頁。指定特定的字體樣式，大大提升了中文頁面的閱讀體驗。這也是七年前放棄公眾號寫作的主要原因之一，公眾號的樣式定製、數學公式渲染、後臺排版等體驗，當時都很「惡劣」。</p>
 <h2 id="頁面加載速度">頁面加載速度</h2>
-<p>頁面內容主要是文字，圖片與視頻幾乎都是外鏈插入，所以在<strong>翻牆</strong>的情況下，外網訪問頁面的加載速度也可以做到「秒級」，絕大多數場景下，在 5 秒之內都可以正常打開頁面並加載出指定的字體樣式。早期使用 .org 域名時，站點文章內容還引來一些同好發郵件來討論相關話題。後來因爲備案等要求，捨棄了原來的域名，全面更換爲目前的 .ren 域名，或許是搜索引擎不再收錄這種域名下的內容吧，境內訪問量大大減少，自己也不再關注推文的反響如何了。權當此處是在禁忌話題日多的時代，取代各種社交媒體而記錄自己自由發言的平臺。</p>
+<p>頁面內容主要是文字，圖片與視頻幾乎都是外鏈插入，所以在<strong>翻牆</strong>的情況下，外網訪問頁面的加載速度也可以做到「秒級」，絕大多數場景下，在 2~5 秒之內都可以正常打開頁面並加載出指定的字體樣式。早期使用 <code>.org</code> 域名時，站點文章內容還引來一些同好發郵件來討論相關話題。後來因爲備案等要求，捨棄了原來的域名，全面更換爲目前的 <code>.ren</code> 域名，或許是境內搜索引擎不再收錄這種域名下的內容吧，境內訪問量大大減少，自己也不再關注推文的反響如何了。權當此處是在禁忌話題日多的時代，取代各種社交媒體而記錄自己自由發言的平臺。</p>
 <h1 id="付費方案">付費方案</h1>
-<p>境內不少雲服務器提供商都有類似的產品，較大的幾家似乎也都提供了輕量應用服務器。咱這點東西，既沒多少關注度，又毫無經營的心思，所以「輕量」似乎都顯得「奢侈」了，當我配置完畢，就有「沒必要」的感慨。因爲域名是在<a href="https://www.aliyun.com/?spm=5176.12901015-2.0.0.320e525cTUSRw6" title="阿里雲" class="icon_external" rel="noopener external">阿里雲</a>
+<p>境內不少雲服務器提供商都有類似的產品，大商家似乎也都提供了輕量應用服務器。咱這點東西，既沒多少關注度，又毫無經營的心思，所以「輕量」似乎都顯得「奢侈」了，當我配置完畢，就有「沒必要」的感慨。域名是在<a href="https://www.aliyun.com/?spm=5176.12901015-2.0.0.320e525cTUSRw6" title="阿里雲" class="icon_external" rel="noopener external">阿里雲</a>
 
 
 購買的，順理成章地也在阿里雲購買了輕量應用服務。</p>
-<p>先後註冊、使用過兩個域名，曾經都嘗試過提交材料到相應機關「備案」，但每次折騰的過程中，都覺得過於繁瑣，交易成本不低，虛秏精力，所以一直沒心思備案域名。域名不備案，無法使用境內的服務器部署網站。經查詢網友經歷，發覺購買香港服務器大致可以平衡免備案與加載速度，於是購買了一個月時長的服務，折騰體驗一番，再決定是否長期採用此辦法部署站點。因此有必要記錄以下初次折騰服務器部署網站的摸索，以備下次換服務類型重新折騰時直接複製、借鑑。</p>
+<p>先後註冊、使用過兩個域名，曾經都嘗試過提交材料到相應機關「備案」，但每次折騰的過程中，都覺得過於繁瑣，交易成本不低，虛秏精力，所以一直沒心思備案域名。域名不備案，無法使用境內的服務器部署網站。經查詢網友經歷，發覺購買香港服務器大致可以平衡免備案與加載速度，於是購買了一個月時長的服務，折騰體驗一番，再決定是否長期採用此辦法部署站點。因此有必要記錄一下初次折騰服務器部署網站的摸索，以備下次換服務類型重新折騰時直接複製或借鑑。</p>
 <h1 id="服務器配置">服務器配置</h1>
 <p>雖然使用 Linux 作爲唯一的辦公系統有十年了，但從未涉足服務器領域，對此可謂一竅不通，全靠搜索引擎尋找網友經驗與最新最強大的助手 ChatGPT，纔得以在一天之內折騰完畢。</p>
 <h2 id="工具安裝">工具安裝</h2>
-<p>有幾種網站部署工具可用，經簡單了解，簡單的靜態圖文站點使用 nginx 的較多。於是參考<a href="https://github.com/mqyqingfeng/Blog/issues/243" title="《一篇教你博客如何部署到自己的服务器》" class="icon_external" rel="noopener external">《一篇教你博客如何部署到自己的服务器》</a>
+<p>有幾種網站部署工具可用，經粗略了解，簡單的靜態圖文站點使用 nginx 的較多。於是參考<a href="https://github.com/mqyqingfeng/Blog/issues/243" title="《一篇教你博客如何部署到自己的服务器》" class="icon_external" rel="noopener external">《一篇教你博客如何部署到自己的服务器》</a>
 
 
 這篇文章，照葫蘆畫瓢，很快便設置好基本的框架。</p>
-<p>服務器選擇的系統是 CentOS 9，通過網頁登入服務器後，在命令界面安裝 nginx 流程如下：</p>
+<p>服務器選擇的系統是 CentOS 9，通過網頁登入服務器後，在命令界面安裝 Nginx 流程如下：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -1969,7 +1969,7 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">systemctl <span class="nb">enable</span> nginx
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>這是在瀏覽器輸入購買服務器時得到的 IP，就能刷出 Nginx 提示頁面了。</p>
+</div><p>此時在瀏覽器輸入購買服務器時得到的 IP，就能刷出 Nginx 提示頁面了。</p>
 <h2 id="創建站點內容目錄">創建站點內容目錄</h2>
 <p>創建一個原始的 <code>index.html</code> 文檔並放到 <code>/home/www/website/</code> 目錄下：</p>
 <div class="highlight"><div class="chroma">
@@ -2001,7 +2001,7 @@ if (!doNotTrack) {
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="修改-nginx-配置文檔">修改 nginx 配置文檔</h2>
-<p>不同的操作系統中，nginx 的安裝路徑或許不同，需要根據實際情況找到對應的配置文檔：</p>
+<p>不同的操作系統中，Nginx 的安裝路徑或許不同，需要根據實際情況找到對應的配置文檔：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -2018,7 +2018,7 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">emacs nginx.conf
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>多數經驗文檔都是用 <code>vim nginx.conf</code> 編輯配置文檔，自己也使用 Vim，或許是對網頁進入服務器系統不熟悉，用 Vim 編輯好後，其一直停留在 <code>Insert</code> 模式，無法切換模式進而保存修改。所以在此之前先安裝了更熟悉的 emacs. Emacs 打開文檔後在 <code>location / {}</code> 花括號內填入下列內容：</p>
+</div><p>多數經驗文檔都是用 <code>vim nginx.conf</code> 編輯配置文檔，自己也使用 Vim，或許是對網頁進入服務器系統的操作不熟悉，用 Vim 編輯好後，其一直停留在 <code>Insert</code> 模式，無法切換模式進而保存修改。所以在此之前先安裝了更熟悉的 Emacs 文本編輯器。Emacs 打開文檔後在 <code>location / {}</code> 花括號內填入下列內容：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -2071,17 +2071,17 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl">    <span class="o">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>保存修改，退出 emacs 後使用 <code>systemctl reload nginx</code> 重新加載 nginx 以使新的配置生效。打開瀏覽器輸入服務器 IP 就能看到主頁顯示了更改在 <code>index.html</code> 文檔中編寫的文字內容。</p>
-<p>至此，服務器上的 Nginx 配置完畢，剩下的就是將本地網頁文檔上傳到剛剛設置的站點路徑之內。這有好幾種辦法，有的是直接用 SSH 直接將本地網頁文檔推送到服務器對應目錄。自己的網頁使用的生成工具、評論插件等都較以來 Github 倉庫，所以自己參考的思路是將已有的存放 Github Pages 的倉庫同步推送到服務器上。以下的辦法主要參考 <a href="https://wangchujiang.com/github-actions/#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5" title="Github Actions" class="icon_external" rel="noopener external">Github Actions</a>
+</div><p>保存修改，退出 Emacs 後使用 <code>systemctl reload nginx</code> 重新加載 Nginx 以使新的配置生效。打開瀏覽器輸入服務器 IP 就能看到主頁顯示了剛剛在 <code>index.html</code> 文檔中編寫的文字內容。</p>
+<p>至此，服務器上的 Nginx 配置完畢，剩下的就是將本地網頁文檔上傳到剛剛設置的站點路徑之內。這有好幾種辦法，有的是直接用 SSH 直接將本地網頁文檔推送到服務器對應目錄。自己的網頁使用的生成工具、評論插件等都較依賴 GitHub 倉庫，所以自己參考的思路是將已有的存放 GitHub Pages 的倉庫同步推送到服務器上。以下的辦法主要參考 <a href="https://wangchujiang.com/github-actions/#%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5" title="GitHub Actions" class="icon_external" rel="noopener external">GitHub Actions</a>
 
 
  的官方文檔與一些<a href="https://yqqy.top/hugo-github-actions-aliyun/#%E4%BA%86%E8%A7%A3" title="網友" class="icon_external" rel="noopener external">網友</a>
 
 
 記載的折騰過程。</p>
-<h1 id="github-倉庫同步推送">Github 倉庫同步推送</h1>
+<h1 id="github-倉庫同步推送">GitHub 倉庫同步推送</h1>
 <h2 id="創建-workflow-文檔">創建 workflow 文檔</h2>
-<p>在服務器配置完密碼或密鑰後，在存放網頁的 Github 倉庫的 <code>Setting &gt; Security &gt; Secrets and variables &gt; Actions</code> 中添加 New repository secret 以便 <code>GitHub Actions</code> 引用。官方文檔較爲詳細，照例按部就班即可。</p>
+<p>在服務器配置完密碼或密鑰後，在存放網頁的 GitHub 倉庫的 <code>Setting &gt; Security &gt; Secrets and variables &gt; Actions</code> 中添加 New repository secret 以便 <code>GitHub Actions</code> 引用。官方文檔較爲詳細，照例按部就班即可。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -2179,10 +2179,10 @@ if (!doNotTrack) {
 </span></span><span class="line"><span class="cl"><span class="k">fi</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>這樣就可以按原有方案，仍然只需將本地網頁文檔 git 推送到 Github 倉庫，其餘工作都讓 Github 按設定的工作流文件自動將倉庫內容同步到阿里雲服務器。</p>
+</div><p>這樣就可以按原有方案，仍然只需將本地網頁文檔 git 推送到 GitHub 倉庫，其餘工作都讓 GitHub 按設定的工作流文件自動將倉庫內容同步到阿里雲服務器。</p>
 <h2 id="遇事多問-chatgpt">遇事多問 ChatGPT</h2>
-<p>自己寫好 <code>GitHub Actions</code> 文檔後，一直沒有觸發倉庫的自動推動流程。初次折騰，以爲是自己文檔寫得不對，找了很多網友案例參照比對，瞎瞎地摸索了很久，最後近乎通宵達旦都沒解決。一覺醒來之後，決定問問 ChatGPT 爲什麼 <code>GitHub Actions</code> 配置沒有觸發相應流程。ChatGPT 列出了幾條常見的原因，第一條就說可能是工作流文檔路徑不正確。回頭檢查，果然如其所言。根據官方文檔說法，「GitHub Actions 採用 <code>YAML</code> 格式的配置文件叫做 workflow 文件，存放在代碼倉庫的 <code>.github/workflows</code> 目錄」，自己將 <code>workflows</code> 文件夾的名字少寫了最後的字母 s，導致其無法找到配置文件！</p>
-<p>看來有了 ChatGPT 後，遇事不決首先問谷歌的習慣要改一改，與其自己找案例摸索，不如首先看看 ChatGPT 的建議是什麼。</p>
+<p>自己寫好 <code>GitHub Actions</code> 文檔後，倉庫一直沒有觸發自動推動流程。初次折騰，以爲是自己文檔寫得不對，找了很多網友的配置案例參照比對，瞎瞎地摸索了很久，最後近乎通宵達旦都沒解決。一覺醒來之後，決定問問 ChatGPT 爲什麼 <code>GitHub Actions</code> 配置沒有觸發相應流程。ChatGPT 列出了幾條常見的原因，第一條就說可能是工作流文檔路徑不正確。回頭檢查，果然如其所言。根據官方文檔說法，「GitHub Actions 採用 <code>YAML</code> 格式的配置文件叫做 workflow 文件，存放在代碼倉庫的 <code>.github/workflows</code> 目錄」，自己將 <code>workflows</code> 文件夾的名字少寫了最後的字母 s，導致其無法找到配置文件！</p>
+<p>看來有了 ChatGPT 後，<strong>遇事不決首先問谷歌</strong>的習慣要改一改，與其自己找案例摸索，不如首先看看 ChatGPT 的建議是什麼。</p>
 <h1 id="域名解析與-https">域名解析與 HTTPS</h1>
 <p>將網頁文檔推送到服務器後，只能通過服務器 IP 地址打開站點主頁。要正常運行站點，還需要解析域名，網上案例很多，此處不再記載域名解析辦法。阿里雲官方的說明文檔也很詳細，甚至顯得過於「貼心」，以致用戶眼花繚亂，找不到最直接的信息。</p>
 <p>域名解析後可以使用所購買的域名打開網頁了，但似乎還只能用 <code>http</code> 登錄網頁，爲此還得使用 <code>https</code> 的數字證書服務。域名設置開啓 SSL 服務後，可以選用免費的 SSL 證書服務，取得證書後參照<a href="https://help.aliyun.com/document_detail/59081.html" title="官方文檔" class="icon_external" rel="noopener external">官方文檔</a>
@@ -2282,8 +2282,8 @@ if (!doNotTrack) {
 <h2 id="流量焦慮">流量焦慮</h2>
 <p>目前的套餐每月有 2T 的流量，按過去的經驗，本站並沒有多少訪問量，這個套餐應該是夠用的。考慮到折騰了圖書、課程、課件子欄目，勢必要涉及大量的中文內容，如用於輔助課程敎學也會產生較多的瀏覽，到時目前的套餐恐怕就未必敷用了。很快便產生了流量焦慮：沒有訪問並不憂傷，訪問量多了反倒心生疑慮。</p>
 <h2 id="字體樣式">字體樣式</h2>
-<p>這幾天權衡再三，心想一個月後不管還用不用商用服務器與否，哪怕回歸原有的「白嫖」方案，爲了加快境內訪問的頁面加載速度，也有必要優化漢字字體加載方案。自己偏愛舊字形，怎樣在不指定自製的 <code>.woff2</code> 字體的同時又能使網頁漢字字體使用舊字形風格呢？</p>
-<p>截至到 2023 年 4 月的辦法是使用 <a href="https://fonts.google.com/?query=Noto&#43;Sans&#43;" title="Google Fonts" class="icon_external" rel="noopener external">Google Fonts</a>
+<p>這幾天權衡再三，心想一個月後不管還用不用商用服務器與否，哪怕回歸原有的「白嫖」方案，爲了加快境內訪問的頁面加載速度，也有必要優化漢字字體加載方案。</p>
+<p>自己偏愛舊字形，怎樣在不指定自製的 <code>.woff2</code> 字體的同時又能使網頁漢字字體使用舊字形風格呢？截至到 2023 年 4 月的辦法是使用 <a href="https://fonts.google.com/?query=Noto&#43;Sans&#43;" title="Google Fonts" class="icon_external" rel="noopener external">Google Fonts</a>
 
 
  網頁字體。具體的方案是拉丁、西里爾、希臘字母等主要使用 <a href="https://fonts.google.com/noto/specimen/Noto&#43;Sans?query=Noto&#43;Sans&#43;" title="Noto Sans" class="icon_external" rel="noopener external">Noto Sans</a>
@@ -2395,14 +2395,14 @@ if (!doNotTrack) {
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>然後在樣式文檔設置 <code>body p</code> 的字體樣式爲 <code>font-family: 'Noto Sans', 'chdot', 'Noto Sans KR', 'Noto Sans HK', 'Noto Sans SC', sans-serif;</code> 則頁面正文字體則如本頁所示效果：<strong>粗體 bold</strong>，<em>斜體 italic</em>.</p>
-<p>字體樣式中的 `chdot** 是爲了替換「思源黑體韓國」中的置底的頓號、逗號、句號，使得漢字標點全部置中，以統一標點顯示風格。<strong>絞盡腦汁</strong>找到此方法，使用 <a href="https://github.com/yangchuansheng/font-spider-plus" title="font-spider-plus" class="icon_external" rel="noopener external">font-spider-plus</a>
+<p>字體樣式中的 <code>chdot</code> 是爲了替換「思源黑體韓國」中的置底的頓號、逗號、句號，以統一標點顯示風格，使得漢字標點全部置中。<strong>絞盡腦汁</strong>找到此方法，使用 <a href="https://github.com/yangchuansheng/font-spider-plus" title="font-spider-plus" class="icon_external" rel="noopener external">font-spider-plus</a>
 
 
  提取思源黑體香港版字體中的頓號、逗號、句號，生成專門的 CSS 文檔引用，在加載思源漢字前加載這三個標點。這個工具在處理網頁漢字字體方面還有一些奇妙的用處，不過似乎不必將頁面字體折騰得過於繁瑣。</p>
 <h2 id="回歸白嫖">回歸「白嫖」？</h2>
 <p>當字體回歸如上方案時，不翻牆時的頁面加載速度自然是「秒級」甚至是「毫秒級」的。但是，一旦捨棄字體指定的需求，則回歸原有「白嫖」方案，不翻牆時的頁面加載速度也會大大提升到可以忍受的程度。</p>
 
-<p style="font-family:Sarasa, LXGWWenKaiTC-Regular, SYHei Bold;font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Wednesday, April 12, 2023, 05:22:46 by 王小花.</p>
+<p style="font-family:Sarasa, LXGWWenKaiTC-Regular, SYHei Bold;font-weight:bold;text-align:right"><span class="gengxin"></span>The article was recently updated on Wednesday, April 12, 2023, 14:24:06 by 王小花.</p>
     </article>
     
     <script>
@@ -2948,7 +2948,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <li><a href="#修改-nginx-配置文檔">修改 nginx 配置文檔</a></li>
       </ul>
     </li>
-    <li><a href="#github-倉庫同步推送">Github 倉庫同步推送</a>
+    <li><a href="#github-倉庫同步推送">GitHub 倉庫同步推送</a>
       <ul>
         <li><a href="#創建-workflow-文檔">創建 workflow 文檔</a></li>
         <li><a href="#刪除服務器上舊的網頁">刪除服務器上舊的網頁</a></li>
