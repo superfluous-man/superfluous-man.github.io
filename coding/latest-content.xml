@@ -34,8 +34,8 @@
 <p>“The time when a person had to be a good writer to produce good writing ended in late 2022, and we need to adapt. Rather than banning students from using labor-saving and time-saving AI writing tools, we should teach students to use them ethically and productively… They need to learn to compose well-organized, coherent essays involving a mix of AI-generated text and traditional writing.”</p>
 </blockquote>
 <p>Villasenor makes a valid point. But experience tells us that not every student is going to use these tools ethically. Some will pursue the path of least resistance and will attempt to present ChatGPT’s outputs as their own. So, the question becomes: Is it possible to tell the difference between human-generated text and AI-generated text?</p>
-<section id="spot-the-difference" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="spot-the-difference">Spot the difference</h2>
+<section id="spot-the-difference" class="level2 page-columns page-full" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="spot-the-difference"><span class="header-section-number">1</span> Spot the difference</h2>
 <p>One answer to that question comes from OpenAI, makers of ChatGPT. On January 31, they launched a classifier “to distinguish between text written by a human and text written by AIs from a variety of providers”.</p>
 <p>OpenAI <a href="https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text">introduces the classifier</a> by saying that reliably detecting <em>all</em> AI-written text is “impossible”. But it goes on to say:</p>
 <blockquote class="blockquote">
@@ -203,8 +203,8 @@ The proportion of patients without the condition being screened for that are cor
 <div class="no-row-height column-margin column-container"><div class="">
 <p><strong>Figure 3b:</strong> Classifier test results as a percentage of all positive tests, assuming 30% prevalence of AI-written homework.</p>
 </div></div></section>
-<section id="determining-guilt" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="determining-guilt">Determining ‘guilt’</h2>
+<section id="determining-guilt" class="level2 page-columns page-full" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="determining-guilt"><span class="header-section-number">2</span> Determining ‘guilt’</h2>
 <p>If a test has a positive predictive value of just over 50% (at an assumed prevalence rate of 30%), does that provide a reasonable basis on which to accuse someone of getting ChatGPT to do their homework? That depends on who you ask. If we look to the legal system for guidance, in civil cases like personal injury claims or contract disputes judges typically make decisions on the so-called “balance of probabilities”. This is generally assumed to mean if we are more than 50% sure of someone’s “guilt” in this context, that might be sufficient to find against them. However, in criminal law, a higher standard applies: “beyond reasonable doubt”. Legal scholars have long wrestled with how to quantify this in probabilistic terms, and surveys of judges put “beyond reasonable doubt” somewhere in the range of being 80% to 99% certain of guilt – see, for example <span class="citation" data-cites="mccauliff1982burdens">McCauliff (1982)</span> and <span class="citation" data-cites="solan1999refocusing">Solan (1999)</span>.</p>
 <div class="no-row-height column-margin column-container"><div id="ref-mccauliff1982burdens" class="csl-entry">
 McCauliff, Catherine MA. 1982. <span>“Burdens of Proof: Degrees of Belief, Quanta of Evidence, or Constitutional Guarantees.”</span> <em>Vand. L. Rev.</em> 35: 1293.
@@ -270,8 +270,8 @@ Tarran, Brian. 2023. “OpenAI’s text classifier won’t calm fears about AI-w
 </ul>
 <p>Check out our full conversation below or on YouTube.</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/OaRFFgKb1S0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<section id="timestamps" class="level2">
-<h2 class="anchored" data-anchor-id="timestamps">Timestamps</h2>
+<section id="timestamps" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="timestamps"><span class="header-section-number">1</span> Timestamps</h2>
 <ul>
 <li>The state of data science education in the United States (<a href="https://youtu.be/OaRFFgKb1S0?t=211">3:31</a>)</li>
 <li>What will be the main impacts of the Data Science and Literacy Act? (<a href="https://youtu.be/OaRFFgKb1S0?t=554">9:14</a>)</li>
@@ -282,16 +282,16 @@ Tarran, Brian. 2023. “OpenAI’s text classifier won’t calm fears about AI-w
 <li>Learning from, and making connections with, international colleagues (<a href="https://youtu.be/OaRFFgKb1S0?t=2223">37:03</a>)</li>
 </ul>
 </section>
-<section id="quotes" class="level2">
-<h2 class="anchored" data-anchor-id="quotes">Quotes</h2>
+<section id="quotes" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="quotes"><span class="header-section-number">2</span> Quotes</h2>
 <p>“Most of our teachers in US schools, math teachers, have not had any formal training in statistics. Or if they have, it’s been maybe one course. They’re very uncomfortable with trying to implement these standards [for data science and statistics education]. And it’s just going to require a tremendous amount of professional development. Sounds easy in theory to deliver professional development, but very difficult in practice.” (<a href="https://youtu.be/OaRFFgKb1S0?t=618">10:18</a>)</p>
 <p>“We know that in aggregate, between federal, state, private and local funding, we’re going to have to create the necessary resources to make sure that our K-12 public education system can prepare students for a world that’s changing super fast, and the K-12 system moves super slow in how it adapts to new content. And so really it’s both about what can we do to upskill data science, data literacy skills [and] it’s also about how do we help the system adapt faster as new technology comes out and leverage the importance of data in that.” (<a href="https://youtu.be/OaRFFgKb1S0?t=1176">19:36</a>)</p>
 <p>“I think we’ve spoken to some 50 or 60 offices, both on the Senate side and the House side. And this [has been] received really well. We don’t get any pushback on that there is a need for greater data literacy. Here stateside, I’ve been saying it’s kind of like advocating for apple pie. People get it and they resonate.” (<a href="https://youtu.be/OaRFFgKb1S0?t=1280">21:20</a>)</p>
 <p>“As we introduce this bill, I think we should be messaging [that] there’s a economic competition aspect to this; that it’ll be really important for the US to make investments in this area to, frankly, catch up to where I think other international peers are.” (<a href="https://youtu.be/OaRFFgKb1S0?t=2434">40:34</a>)</p>
 <p>“Data tell our stories, and they reflect what’s happening in our world today – much like art around us in some ways. And a way to think about data science education is to think about what we need our data understanding to be at each point in time in our educational career, or in our lives. And it’s not static, it’s an evolving thing. So you have to move with the data that are being collected.” (<a href="https://youtu.be/OaRFFgKb1S0?t=2574">42:54</a>)</p>
 </section>
-<section id="transcript" class="level2">
-<h2 class="anchored" data-anchor-id="transcript">Transcript</h2>
+<section id="transcript" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="transcript"><span class="header-section-number">3</span> Transcript</h2>
 <div class="callout callout-style-simple callout-warning">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -480,14 +480,14 @@ About the paper
 </div>
 </div>
 </div>
-<section id="asymmetry-and-tolerance" class="level2">
-<h2 class="anchored" data-anchor-id="asymmetry-and-tolerance">Asymmetry and tolerance</h2>
+<section id="asymmetry-and-tolerance" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="asymmetry-and-tolerance"><span class="header-section-number">1</span> Asymmetry and tolerance</h2>
 <p>Milk and cornflakes are reasonably complementary, and we can see from Figure 1 above that, regardless of whether you start by picking up milk or cornflakes, the probabilities of a shopper buying the other item are broadly similar: <em>conf</em>({cornflakes} → {milk}) = 0.4, while <em>conf</em>({milk} → {cornflakes}) = 0.33. There is a small amount of asymmetry in the probabilities in this particular example, but asymmetry can be more extreme for other pairs of items. This leads to the idea of one- and two-sided complementarity. Two items sharing a smallish asymmetry – like milk and cornflakes – will be connected through two-sided complementarity, while large asymmetries indicate one-sided complementarity. Such imbalances will be quite common when, for instance, items of hugely different prices are involved. When someone buys a house, for example, they may want to buy a bookcase, but buying a bookcase doesn’t mean someone wants to buy a house: this would be an instance of one-sided complementarity.</p>
 <p>Puka and Jedrusik capitalize on this observation. They define two items to be “basket complementary” if the two probabilities – the normal and its opposite – remain close and reasonably high. The items need to share a bond that is blind to the direction: seeing you bought one, no matter which, means you are (almost equally) likely to buy the other.</p>
 <p>It is rare that the two probabilities should be exactly the same, of course, and the authors allow some deviation. Along the red diagonal line of perfect equality (Figure 1) we may lay tolerance bands marking degrees of product inseparability. This, if need be, may lead to the notion of being complementary at such-and-such a tolerance level – 0%, 1%, 5%, etc. – generating a score of sorts. In cases where a dot representing the two-way dependencies between two items falls within a narrow band – corresponding to a smaller tolerance – the more inseparable the items are, and the more sensible a cross-selling recommendation may become.</p>
 </section>
-<section id="in-conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="in-conclusion">In conclusion</h2>
+<section id="in-conclusion" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="in-conclusion"><span class="header-section-number">2</span> In conclusion</h2>
 <p>A large part of the world we inhabit, particularly the economy, is powered by recommendations: from strangers, friends and algorithms. That applies not only to the things we buy but also to the things we watch or read. (Perhaps you arrived at this article because of a tweet that Twitter thought you might like, or maybe it was suggested to you by Google News because of your past reading habits.) Whatever the intent of these recommendations, the key challenge is in knowing which two things are functionally or thematically intertwined. Which item or product is, by default, synonymous with which? Puka and Jedrusik deliver an answer: two items that are basket complementary to each other, preferably at a slim tolerance, are inextricably linked. One may be safely offered – perhaps always – whenever the other is already in the shopping basket.</p>
 <p>The relative simplicity and interpretability of basket complementary may provide small-scale retailers, starved of analytical wherewithal, a sane and safe strategy for developing their product offer. It might also serve as a benchmark to keep other, more sophisticated recommendation algorithms in check. (In weather forecasting, for example, it is often seen that <a href="https://www.sciencedirect.com/science/article/pii/S0022169415000414">naive benchmarks</a> – such as using today’s temperature to predict tomorrow’s – frequently outperform more advanced models.)</p>
 <p>Basket complementarity could also be used to help individuals understand their own shopping habits and the links between the things they buy. I’ve built <a href="https://moinak.shinyapps.io/MarketBasketDashboard/">an interactive dashboard</a> where you can enter your own receipt lists and filter associations based on various confidence thresholds. The <a href="https://github.com/moinakbhaduri/MarketBasketAnalysis">underlying code</a> is also available.</p>
@@ -553,8 +553,8 @@ Bhaduri, Moinak. 2023. “Using ‘basket complementarity’ to make product rec
 <p>Digital skills. We all need them. Employers say they want them, but there aren’t enough to go around. Supply can’t meet demand, so we’re left with a gap – a digital skills gap. But what are <em>digital skills</em> exactly?</p>
 <p>This is a question that was asked repeatedly, in various different constructions, by <a href="https://members.parliament.uk/member/4092/career">Stephen Metcalfe MP</a>, chairing a meeting of the <a href="https://www.scienceinparliament.org.uk/information/about/">Parliamentary and Scientific Committee</a> on Tuesday, February 7. I went along to the meeting as an observer, hoping to hear an answer to that very question.</p>
 <p>What I got was several different answers – no single solid definition, but a reasonable sense that boosting data science skills would go a long way towards closing the digital skills gap.</p>
-<section id="survey-says" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="survey-says">Survey says…</h2>
+<section id="survey-says" class="level2 page-columns page-full" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="survey-says"><span class="header-section-number">1</span> Survey says…</h2>
 <p>The committee meeting was sponsored by the Institution of Engineering and Technology (IET), and the main focus of discussion was the results of IET’s <a href="https://www.theiet.org/impact-society/factfiles/innovation-and-skills-factfiles/iet-skills-survey/skills-for-a-digital-future-survey/">skills for a digital future survey</a>, based on a YouGov poll of 1,235 respondents drawn from engineering employers (defined as “employers who employ at least one engineering and technology employee in the UK”).</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
@@ -568,8 +568,8 @@ Bhaduri, Moinak. 2023. “Using ‘basket complementarity’ to make product rec
 <p>As the hot topic of the day, <a href="../../../../../../news-and-views/editors-blog/posts/2023/01/27/talking-chatgpt.html">ChatGPT inevitably came up during the discussion</a>. Herries sees it as a disruptive force, and 36% of all respondents believe artificial intelligence (AI) skills will be important for their engineers to have within five years (24% say they are important <em>now</em>). But AI skills are important for non-engineers too, argued Herries, as he pointed to stirrings in the creative industries caused by generative art tools such as <a href="https://stability.ai/blog/stable-diffusion-public-release">Stable Diffusion</a>.</p>
 <p>Herries therefore puts AI skills under the broad umbrella of “digital skills”. But, to him, it’s not enough to simply be able to use AI technology; rather, users should know enough to be able to ask the right questions about the provenance of the data used to train the AI, its quality and biases, etc. This was a point developed further by Yvonne Baker, an engineer and the CEO of STEM Learning. Baker talked about digital skills as being both the ability to use digital technology and also to understand its limitations. Yet another perspective was offered by Rab Scott, director of industrial digitalisation at the University of Sheffield’s Advanced Manufacturing Research Centre. Scott defined digital skills in the context of <a href="https://rss.onlinelibrary.wiley.com/doi/10.1111/1740-9713.01523">quality control systems in industry 4.0</a>: it’s about knowing how and where to place a sensor to collect data about the manufacturing process, to feed that data into a data collection system, analyse the data for insights, and use those insights to inform decision-making.</p>
 </section>
-<section id="closing-the-gap" class="level2">
-<h2 class="anchored" data-anchor-id="closing-the-gap">Closing the gap</h2>
+<section id="closing-the-gap" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="closing-the-gap"><span class="header-section-number">2</span> Closing the gap</h2>
 <p>Further definitions of “digital skills” are to be found in the <a href="https://www.theiet.org/impact-society/factfiles/innovation-and-skills-factfiles/iet-skills-survey/skills-for-a-digital-future-survey/">IET’s published report</a>. Survey respondents were encouraged to describe the term in their own words, so we see things like:</p>
 <ul>
 <li><p>“the ability to understand, process and analyse data.”</p></li>
@@ -645,8 +645,8 @@ Tarran, Brian. 2023. “Data science can help close the ‘digital skills’ gap
 <p>To discuss what this means for science generally and data science in particular, Real World Data Science invited <a href="https://heidiseibold.com/">Heidi Seibold</a> for an interview. Seibold is a statistician and data scientist, and also an open science trainer and consultant, and we talked about how she became involved in open science, what it means to her, the benefits of it, and how academic and industry researchers can move towards it.</p>
 <p>Check out our full conversation below or on <a href="https://youtu.be/GD2g7cJ_yE4">YouTube</a>.</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/GD2g7cJ_yE4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<section id="timestamps" class="level2">
-<h2 class="anchored" data-anchor-id="timestamps">Timestamps</h2>
+<section id="timestamps" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="timestamps"><span class="header-section-number">1</span> Timestamps</h2>
 <ul>
 <li>How did Heidi become interested in open science? (<a href="https://youtu.be/GD2g7cJ_yE4?t=106">1:46</a>)</li>
 <li>What does open data science mean to Heidi? (<a href="https://youtu.be/GD2g7cJ_yE4?t=470">7:50</a>)</li>
@@ -656,8 +656,8 @@ Tarran, Brian. 2023. “Data science can help close the ‘digital skills’ gap
 <li>Year of Open Science initiatives and lasting impacts (<a href="https://youtu.be/GD2g7cJ_yE4?t=1268">21:08</a>)</li>
 </ul>
 </section>
-<section id="quotes" class="level2">
-<h2 class="anchored" data-anchor-id="quotes">Quotes</h2>
+<section id="quotes" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="quotes"><span class="header-section-number">2</span> Quotes</h2>
 <p>“Reproducibility [is] just like this minimum standard in research quality, where we say, ‘When we have the same data and the same analysis, we also want to see the same results’, and being able to check that from others is really, really important.” (<a href="https://youtu.be/GD2g7cJ_yE4?t=165">2:45</a>)</p>
 <p>“On the back of my wall here in my office I have written, ‘Open science is just good science in a digital era’… Before, we only had the printing press, and we had to print journals in order to distribute the knowledge that we have.” (<a href="https://youtu.be/GD2g7cJ_yE4?t=323">5:23</a>)</p>
 <p>“For me, open data science entails the part of the scientific process that focuses on everything that happens on the computer: the data processing and the data analysis, and then getting from the data analysis – getting the results and the knowledge, really – in sort of a pipeline where you go from one step to the next. And so the image that I have in my head, when I think about open data science, is of a pipeline.” (<a href="https://youtu.be/GD2g7cJ_yE4?t=616">10:16</a>)</p>
@@ -665,8 +665,8 @@ Tarran, Brian. 2023. “Data science can help close the ‘digital skills’ gap
 <p>“If we think of companies, for example, like Microsoft – they put a lot of money right now into open source: they bought GitHub, they publish open source software, they put money into open source software projects like R, for example. So, somehow, this must be a good way of making profits.” (<a href="https://youtu.be/GD2g7cJ_yE4?t=909">15:09</a>)</p>
 <p>“[Open science for the public has value because] we don’t know what ideas people will have. There’s so many skilled people out there that probably will do amazing things… We have this with the software Stable Diffusion right now. That’s an AI that generates images from text, and it runs on my computer here. And I don’t need AI skills to be able to do that. And people are building such incredible images out of this, and it’s really fun to see.” (<a href="https://youtu.be/GD2g7cJ_yE4?t=1130">18:50</a>)</p>
 </section>
-<section id="transcript" class="level2">
-<h2 class="anchored" data-anchor-id="transcript">Transcript</h2>
+<section id="transcript" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="transcript"><span class="header-section-number">3</span> Transcript</h2>
 <div class="callout callout-style-simple callout-warning">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -789,8 +789,8 @@ Tarran, Brian. 2023. “Why open science is ‘just good science in a digital er
 <p>Check out the full conversation below or on <a href="https://www.youtube.com/watch?v=AWxfSmcgPbo">YouTube</a>.</p>
 <p>Detlef Nauck is a member of the <a href="../../../../../../news-and-views/editors-blog/posts/2022-10-18-meet-the-team/meet-the-team.html">Real World Data Science editorial board</a> and head of AI and data science research for BT’s Applied Research Division.</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/AWxfSmcgPbo" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<section id="timestamps" class="level2">
-<h2 class="anchored" data-anchor-id="timestamps">Timestamps</h2>
+<section id="timestamps" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="timestamps"><span class="header-section-number">1</span> Timestamps</h2>
 <ul>
 <li>How ChatGPT was built and trained (<a href="https://youtu.be/AWxfSmcgPbo?t=41">0:41</a>)</li>
 <li>ChatGPT’s major advance (<a href="https://youtu.be/AWxfSmcgPbo?t=185">3:05</a>)</li>
@@ -799,15 +799,15 @@ Tarran, Brian. 2023. “Why open science is ‘just good science in a digital er
 <li>Questions for OpenAI and other model builders (<a href="https://youtu.be/AWxfSmcgPbo?t=689">11:29</a>)</li>
 </ul>
 </section>
-<section id="quotes" class="level2">
-<h2 class="anchored" data-anchor-id="quotes">Quotes</h2>
+<section id="quotes" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="quotes"><span class="header-section-number">2</span> Quotes</h2>
 <p>“[OpenAI] have achieved quite remarkable capabilities in terms of sustaining conversations, and producing very realistic sounding responses… But sometimes [ChatGPT] makes silly mistakes. Sometimes the mistakes are not that obvious. It can hallucinate content… And it still doesn’t know what it’s talking about. It has no knowledge representation, doesn’t have a word model. And it’s just a statistical language model.” (<a href="https://youtu.be/AWxfSmcgPbo?t=124">2:04</a>)</p>
 <p>“These models, they produce an answer, which is based on the kind of texts that they have been trained on. And that can be quite effective. But it cannot yet link back to an original source. So what’s still missing is the step where it says, ‘Okay, this my answer to your question, and here’s some evidence.’ As soon as they have done this, then these kinds of systems will probably replace the search engines that we’re used to.” (<a href="https://youtu.be/AWxfSmcgPbo?t=247">4:07</a>)</p>
 <p>“[These large language models are] still too big and too expensive to run… For [use in a] contact centre or similar, what you need is a much smaller model that is restricted in terms of what it can say. It should have knowledge representation, so it gives correct answers. And it doesn’t need to speak 48 languages and be able to produce programming code. It only needs to be able to talk about a singular domain, where the information, the knowledge about the domain, has been carefully curated and prepared. And that’s what we’re not seeing yet. Can we build something like this, much smaller, much more restricted, and provably correct, so we can actually use the output?” (<a href="https://youtu.be/AWxfSmcgPbo?t=469">7:49</a>)</p>
 <p>“We are seeing communities who don’t necessarily have the technical background to judge the capabilities of these models, but see the opportunities for their own domain and might be acting too fast in adopting them. So the producer of these models has a certain responsibility to make sure that this doesn’t happen.” (<a href="https://youtu.be/AWxfSmcgPbo?t=746">12:26</a>)</p>
 </section>
-<section id="further-reading" class="level2">
-<h2 class="anchored" data-anchor-id="further-reading">Further reading</h2>
+<section id="further-reading" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="further-reading"><span class="header-section-number">3</span> Further reading</h2>
 <ul>
 <li><a href="https://philadelphiaphysicist.wordpress.com/2023/01/13/chatgpt-the-robot-the-myth-the-legend/">ChatGPT: The Robot, the Myth, the Legend</a> - Philadelphia Physicist blog, January 13, 2023</li>
 <li><a href="https://twitter.com/sama/status/1599671496636780546?s=20&amp;t=TbscFaGtn5JFu_dfZDczVg">Cost to run ChatGPT</a> - tweet by OpenAI CEO Sam Altman, December 5, 2022</li>
@@ -816,8 +816,8 @@ Tarran, Brian. 2023. “Why open science is ‘just good science in a digital er
 <li><a href="https://www.theverge.com/2023/1/17/23558516/ai-art-copyright-stable-diffusion-getty-images-lawsuit">Getty Images is suing the creators of AI art tool Stable Diffusion for scraping its content</a> - The Verge, January 17, 2023</li>
 </ul>
 </section>
-<section id="transcript" class="level2">
-<h2 class="anchored" data-anchor-id="transcript">Transcript</h2>
+<section id="transcript" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="transcript"><span class="header-section-number">4</span> Transcript</h2>
 <div class="callout callout-style-simple callout-warning">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -926,8 +926,8 @@ Tarran, Brian. 2023. “ChatGPT can hold a conversation, but lacks knowledge rep
 <p>In this interview with Brian Tarran, editor of Real World Data Science, Thompson talks about the “social element of modelling” and how it manifests, how to counter the subjectivity of individual models with a diversity of models, and whether human-made models are held to the same standards of transparency that are expected of AI-“created” models.</p>
 <p>Erica Thompson is a senior policy fellow in the ethics of modelling and simulation at the London School of Economics Data Science Institute.</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/RB5CQW8lbEo" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<section id="timestamps" class="level2">
-<h2 class="anchored" data-anchor-id="timestamps">Timestamps</h2>
+<section id="timestamps" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="timestamps"><span class="header-section-number">1</span> Timestamps</h2>
 <ul>
 <li>What led Erica to write the book, and why now? (<a href="https://youtu.be/RB5CQW8lbEo?t=147">2:27</a>)</li>
 <li>Critiquing climate models (<a href="https://youtu.be/RB5CQW8lbEo?t=450">7:30</a>)</li>
@@ -938,16 +938,16 @@ Tarran, Brian. 2023. “ChatGPT can hold a conversation, but lacks knowledge rep
 <li>Will the UK Prime Minister’s “maths to 18” proposal help or hinder our <em>Escape from Model Land</em>? (<a href="https://youtu.be/RB5CQW8lbEo?t=2041">34:01</a>)</li>
 </ul>
 </section>
-<section id="quotes" class="level2">
-<h2 class="anchored" data-anchor-id="quotes">Quotes</h2>
+<section id="quotes" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="quotes"><span class="header-section-number">2</span> Quotes</h2>
 <p>“Putting things in a mathematical language does tend to make people think that it is truth from on high. And so my book, in some way, goes towards saying actually, these models, obviously we hope that they’re based on facts and they’re based on data that we gather, but they also do have this value judgement content as well” (<a href="https://youtu.be/RB5CQW8lbEo?t=111">1:51</a>)</p>
 <p>“It is arbitrary how we choose to model a situation. There are infinitely many different ways that you could choose to simplify reality - this huge, messy, complex thing in front of us, with physical laws that we don’t fully understand and things going on that we can only measure by proxy.” (<a href="https://youtu.be/RB5CQW8lbEo?t=729">12:09</a>)</p>
 <p>“The choice of assumption has a very direct result in the model output and in the information and advice that you’re giving to policymakers… [In climate models] maybe we have a cost of however many dollars per tonne of carbon dioxide for nuclear electricity or for renewables. But what kind of price would you put on behaviour change? How many dollars per tonne of CO<sub>2</sub> avoided does it cost to change the behaviour of a population such that they use less energy? If you put it in at $2 per tonne of CO<sub>2</sub>, it would be heavily relied on [as a policy response]; if you put it in at $2,000 per tonne of CO<sub>2</sub>, it’ll never happen.” (<a href="https://youtu.be/RB5CQW8lbEo?t=1002">16:42</a>)</p>
 <p>“There needs to be more frank discussion of values and value judgments, and politics and social assumptions within models. And I think we are starting to see that with the pandemic models, particularly because it’s been so high profile. [But] it’s really hard to unpick your own value judgments. It’s easier for somebody with a different perspective to come in and say, ‘Oh, actually, you know, you’ve assumed that. Why did you assume that?’ When we are embedded in a particular culture of modelling, it’s particularly hard to imagine that anything could possibly be done differently.” (<a href="https://youtu.be/RB5CQW8lbEo?t=1640">27:20</a>)</p>
 <p>“I think some people maybe read the book and think, ‘Oh, this is just a sort of woke advertisement for diversity’. Well, it’s not; it’s a way of doing the maths better. The whole point is to do the maths better, make better forecasts, understand the future more effectively, and be able to make better decisions based on that information.” (<a href="https://youtu.be/RB5CQW8lbEo?t=2021">33:41</a>)</p>
 </section>
-<section id="transcript" class="level2">
-<h2 class="anchored" data-anchor-id="transcript">Transcript</h2>
+<section id="transcript" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="transcript"><span class="header-section-number">3</span> Transcript</h2>
 <div class="callout callout-style-simple callout-warning">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -1088,8 +1088,8 @@ About the paper and this post
 <p>Large volumes of data are pouring in every day from scientific experiments like <a href="https://home.cern/">CERN</a> and the <a href="https://www.sdss5.org/">Sloan Digital Sky Survey</a>. Data is coming in so fast that researchers struggle to keep pace with the analysis and are increasingly developing automated analysis methods to aid in this herculean task. As a first step, it is now commonplace to perform dimension reduction in order to reduce a large number of measurements to a set of key values that are easier to visualize and interpret.</p>
 <p>When working on the cutting edge, another problem scientists often face is that “we don’t know what we don’t know”. For this reason, we often want to simply ask the data, “What is interesting about you?” This is the realm of <a href="https://en.wikipedia.org/wiki/Unsupervised_learning">“unsupervised” methods</a>, where the data itself drives the analysis, with little to no guidance or human labeling of the data.</p>
 <p>Many physical processes depend continuously on some driving parameter. For example, the evaporation rate of water increases with temperature. We call these continuous variations in datasets “trends”. Describing a dataset by a single trend reduces it to one dimension - an ordered list. Finding such a trend within a high-dimensional dataset is the aim of a method called “The Sequencer” introduced by Baron and Ménard.</p>
-<section id="key-insight-a-tree" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="key-insight-a-tree">Key insight: A tree</h2>
+<section id="key-insight-a-tree" class="level2 page-columns page-full" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="key-insight-a-tree"><span class="header-section-number">1</span> Key insight: A tree</h2>
 <p>The key insight of Baron and Ménard was to relate trends in data to an object from graph theory called a <a href="https://en.wikipedia.org/wiki/Minimum_spanning_tree">minimum spanning tree</a>. Given a measure of distance between two data points, for example the usual (Euclidean) distance between two points, we can visualize a dataset as a graph. This graph consists of a node (a dot) for each data point. These nodes are then connected by an edge (a line), labeled by the distance between the two data points. The minimum spanning tree is a reduction of this graph to include only enough of the smallest distance edges so that no node is isolated.</p>
 <p>What Baron and Ménard realized is that datasets that are “trendy” have elongated and narrow minimum spanning trees. As shown in Figure 1, a totally random dataset results in a graph with many branches while a perfect sequence results in a perfect linear graph. Then, they use connectivity of the nodes in the minimum spanning tree to return an ordering of the data that follows the main trend in the dataset. However, a sequence is all you get. It is up to us to understand and interpret what this trend represents.</p>
 <div class="column-page">
@@ -1100,12 +1100,12 @@ About the paper and this post
 <p><strong>Figure 1:</strong> Examples demonstrating that data with stronger trends have more narrow and elongated minimum spanning trees. Adapted from <a href="https://iopscience.iop.org/article/10.3847/1538-4357/abfc4d" aria-label="Link to Baron and Ménard's 2021 paper, 'Extracting the main trend in a data set: The Sequencer algorithm'">Baron and Ménard (2021)</a>, Figure 1. Figure used under <a href="https://creativecommons.org/licenses/by/4.0/" aria-label="Link to Creative Commons licence">CC BY 4.0</a>.</p>
 </div></div><p>Sometimes, the ordering of observations within a data point matters, like in time series data. Measurements taken close in time are more likely to be correlated than measurements taken after a long time delay. Baron and Ménard were careful to include a measure of distance that takes this ordering into account, unlike our usual notion of distance. They argue that this gives them an edge over other common dimension reduction techniques such as <a href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding">t-SNE</a> and <a href="https://umap-learn.readthedocs.io/en/latest/how_umap_works.html">UMAP</a>, and even go so far as to use The Sequencer to optimize the hyperparameters used by these other methods!</p>
 </section>
-<section id="when-does-it-fail" class="level2">
-<h2 class="anchored" data-anchor-id="when-does-it-fail">When does it fail?</h2>
+<section id="when-does-it-fail" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="when-does-it-fail"><span class="header-section-number">2</span> When does it fail?</h2>
 <p>It is important to acknowledge that no statistical or machine-learning tool is a cure-all. And, the authors themselves are quick to point out several limitations that can hinder the application of their method. The Sequencer can struggle when the data has a large dynamic range, a variety of signal strengths relative to noise, or there are multiple trends present in the data. In each case, Baron and Ménard propose ways to mitigate these problems, but practitioners still need to be wary when applying The Sequencer in those instances.</p>
 </section>
-<section id="what-discoveries-await" class="level2">
-<h2 class="anchored" data-anchor-id="what-discoveries-await">What discoveries await?</h2>
+<section id="what-discoveries-await" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="what-discoveries-await"><span class="header-section-number">3</span> What discoveries await?</h2>
 <p>To demonstrate the power of their method, Baron and Ménard apply The Sequencer to several real datasets where a pattern was already known and show that The Sequencer recovers that pattern. Examples include ordering spectral measurements of stars by their temperature and <a href="https://en.wikipedia.org/wiki/Quasar">quasars</a> by their <a href="https://en.wikipedia.org/wiki/Redshift_survey">redshift</a>, a measure of their distance from us on Earth.</p>
 <p>But, what about new patterns? The team has already applied The Sequencer to mine seismographic data and discover previously unknown formations deep within the earth, at the boundary between the core and <a href="https://en.wikipedia.org/wiki/Core%E2%80%93mantle_boundary">mantle</a>. By sequencing the seismic waves, they realized that the main trend was the amplitude of diffraction off of these structures, which they were then able to localize beneath Hawaii and the Marquesas (DOI: <a href="https://doi.org/10.1126/science.aba8972" aria-label="Link to article, 'Sequencing seismograms: A panoptic view of scattering in the core-mantle boundary region'">10.1126/science.aba8972</a>).</p>
 <p>For more demonstrations and discoveries, or even to upload your own data for sequencing, <a href="http://sequencer.org/">check out the project website</a>. Data sleuths can also download all of the code directly from <a href="https://github.com/dalya/Sequencer">GitHub</a> and sequence to their hearts’ content!<br>
@@ -1383,8 +1383,8 @@ Tarran, Brian. 2022. “Sink your teeth into some data science papers with our b
 <p>Two weeks ago, I posted a <a href="../../../../../../news-and-views/editors-blog/posts/2022-11-23-LLMs-content-warning/LLM-content-warning.html">Q&amp;A with our editorial board member Detlef Nauck about large language models</a> (LLMs), their drawbacks and risks. And since then we’ve had several big new announcements in this space. First came news from Meta (the company that owns Facebook) about <a href="https://galactica.org/mission/">Galactica, an LLM trained on scientific papers</a>. This was followed by another Meta announcement, about <a href="https://ai.facebook.com/research/cicero/">Cicero</a>, an AI agent that is apparently very good at playing the game Diplomacy. And then came perhaps the biggest launch of them all: <a href="https://openai.com/blog/chatgpt/">ChatGPT from OpenAI</a>, an LLM-based chatbot that millions of people have already started talking to.</p>
 <p>Following these stories and the surrounding commentaries has been something of a rollercoaster ride. ChatGPT, for example, has been greeted in some quarters as if artificial general intelligence has finally arrived, while others point out that – impressive though it is – the technology is as prone to spout nonsense as all LLMs before it (including Galactica, <a href="https://thenextweb.com/news/meta-takes-new-ai-system-offline-because-twitter-users-mean">the demo of which was quickly taken offline</a> for this reason). Cicero, meanwhile, has impressed with its ability to play a game that is (a) very difficult and (b) relies on dialogue, cooperation, and negotiation between players. It blends a language model with planning and reinforcement learning algorithms, meaning that it is trained not only on the rules of the game and how to win, but how to communicate with other players to achieve victory.</p>
 <p>To help me make sense of all these new developments, and the myriad implications, I reached out to <a href="../../../../../../news-and-views/editors-blog/posts/2022-10-18-meet-the-team/meet-the-team.html">Harvey Lewis</a>, another of our editorial board members and a partner in EY’s tax and law practice.</p>
-<section id="qa" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="qa">Q&amp;A</h2>
+<section id="qa" class="level2 page-columns page-full" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="qa"><span class="header-section-number">1</span> Q&amp;A</h2>
 <p><strong>Harvey, when I spoke with Detlef, he mentioned that one of the reasons we’re seeing investment in LLMs is because there’s this belief that they are somehow the route to artificial general intelligence (AGI). And there were headlines in some places that would perhaps convince a casual reader that AGI had been achieved following the release of ChatGPT. For example, the Telegraph described it as a <a href="https://www.telegraph.co.uk/business/2022/12/05/meet-scarily-intelligent-robot-who-can-do-job-better/">“scarily intelligent robot who can do your job better than you”</a>. What do you make of all that?</strong></p>
 <p><strong>Harvey Lewis (HL):</strong> My personal view is that you won’t get to artificial general intelligence using just one technique like deep learning, because of the problematic nature of these models and the limitations of the data used in their training. I’m convinced that more general intelligence will come from a combination of different systems.</p>
 <p>The challenge with many LLMs, as we’ve seen repeatedly, is that they’ve no real understanding of language or concepts represented within language. They’re good at finding patterns in semantics and grammatical rules that people use in writing, and then they use those patterns to create new expressions given a prompt. But they’ve no idea whether these outputs are factual, inaccurate or completely fabricated. As a consequence, they can produce outputs that are unreliable, but which sound authoritative, because they’re just repeating a style that we expect to see.</p>
@@ -1574,8 +1574,8 @@ Tarran, Brian. 2022. “A chat with ChatGPT.” Real World Data Science, Decembe
 <p>We’ve had a fantastic early response to our <a href="../../../../../../contributor-docs/call-for-contributions.html">call for contributions</a>, and it has been pleasing to see and hear how our plans for Real World Data Science chime with the wants and needs of the data science community. But one question we’ve been asked frequently is: “What particular topics are you most interested in?”</p>
 <p>The honest answer to that question is this: we’re interested in any and all topics that are of interest and importance to <em>you</em>, the data science community at large. However, we thought it might be helpful to identify some themes around which potential contributors could construct different types of content.</p>
 <p>These themes are outlined below. If you’d like to discuss any of them further, please do not hesitate to <a href="../../../../../../contact.html">contact us</a>.</p>
-<section id="can-data-science-save-the-world" class="level2">
-<h2 class="anchored" data-anchor-id="can-data-science-save-the-world">Can data science save the world?</h2>
+<section id="can-data-science-save-the-world" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="can-data-science-save-the-world"><span class="header-section-number">1</span> Can data science save the world?</h2>
 <p>Earth today faces major challenges – from the global to the regional to the local, and from the natural and physical to the social and digital. We have rich sources of data to help us understand many of these challenges, and there are teams of data scientists around the world who are working with, analysing, and extracting insights from that data in the hope of delivering positive lasting change.</p>
 <p>On Real World Data Science we want to highlight this vital work, through <a href="../../../../../../contributor-docs/case-studies.html"><strong>case studies</strong></a> of data science projects and applications in such areas as:</p>
 <ul>
@@ -1588,19 +1588,19 @@ Tarran, Brian. 2022. “A chat with ChatGPT.” Real World Data Science, Decembe
 </ul>
 <p>As well as exploring the benefits that data science can deliver, we also want to have an informed conversation about the unintended negative consequences that can arise without careful consideration of <strong>data ethics</strong> and responsibilities.</p>
 </section>
-<section id="what-is-a-data-scientist" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-a-data-scientist">What <em>is</em> a data scientist?</h2>
+<section id="what-is-a-data-scientist" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="what-is-a-data-scientist"><span class="header-section-number">2</span> What <em>is</em> a data scientist?</h2>
 <p>Don’t be misled by the title of this theme. Definitions abound, but we’re not interested in establishing the exact boundaries of what a data scientist is or isn’t. Rather, our goal is to profile actual working data scientists. We want to hear about their skillsets, their experiences, and their career journeys so far. We want to learn about the ways in which they work, who they work with, the challenges they face, and their thoughts on where data science is heading next.</p>
 <p>If you’re a working data scientist and you are happy to share your own <strong>career story</strong>, please <a href="../../../../../../contact.html">get in touch</a>.</p>
 </section>
-<section id="statistical-ideas-all-data-scientists-need-to-know" class="level2">
-<h2 class="anchored" data-anchor-id="statistical-ideas-all-data-scientists-need-to-know">Statistical ideas all data scientists need to know</h2>
+<section id="statistical-ideas-all-data-scientists-need-to-know" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="statistical-ideas-all-data-scientists-need-to-know"><span class="header-section-number">3</span> Statistical ideas all data scientists need to know</h2>
 <p>Statistics is a crucial component of data science, but not all data scientists have a background in statistics. For those just starting out in their data science careers, or for those coming in from other fields, we want to highlight some of the statistical ideas that are absolutely vital to know.</p>
 <p>We’re particularly interested in <a href="../../../../../../contributor-docs/explainers.html"><strong>explainers</strong></a> that serve as an introduction to these ideas, alongside which we’ll be looking to publish <a href="../../../../../../contributor-docs/exercises.html"><strong>exercises</strong></a> and example <a href="../../../../../../contributor-docs/datasets.html"><strong>datasets</strong></a> to help people put what they’ve learned into practice.</p>
 <p>We are also keen to explore the <strong>origins of modern data science techniques</strong>, including tracing their roots back to some of the foundational ideas in statistics and other disciplines.</p>
 </section>
-<section id="whats-happening-in-the-world-of-data-science" class="level2">
-<h2 class="anchored" data-anchor-id="whats-happening-in-the-world-of-data-science">What’s happening in the world of data science?</h2>
+<section id="whats-happening-in-the-world-of-data-science" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="whats-happening-in-the-world-of-data-science"><span class="header-section-number">4</span> What’s happening in the world of data science?</h2>
 <p>Data science is such a fast-moving, fast-developing field that it’s difficult to stay on top of all the latest news and developments. But racing to keep up can be counterproductive. It leaves little time to sit back and reflect on what the genuinely important new developments are, and what these might mean for data science longer term.</p>
 <p>On Real World Data Science, we want to create <a href="../../../../../../viewpoints/index.html">a space</a> for people to have these conversations – to step outside the news hype cycle, to ask big questions about what’s happening in the field, and to discuss new papers and ideas that otherwise might be lost amid the daily rush and noise.</p>
 <p>So, if you have thoughts to share, a question you want to ask, or a new paper you want to talk about (one you’ve not written yourself, of course!), <a href="../../../../../../contact.html">let us know</a>.</p>
@@ -1663,8 +1663,8 @@ Tarran, Brian. 2022. “Four themes for potential contributors to think about.�
 <p>“If academic researchers rely too heavily on large language models as research assistants, they may become reliant on the models and may not be able to conduct research without them. This can hinder research because the researchers may not be able to think for themselves and may not be able to come up with new ideas.”</p>
 </blockquote>
 <p>A fair point, I suppose. But I sense there’s more to this story, and rather than continue quizzing GPT-3, I sat down with Detlef Nauck, a member of the <a href="../../../../../../news-and-views/editors-blog/posts/2022-10-18-meet-the-team/meet-the-team.html">Real World Data Science Editorial Board</a> and head of AI and data science research for BT’s Applied Research Division, to ask a few more questions.</p>
-<section id="qa" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="qa">Q&amp;A</h2>
+<section id="qa" class="level2 page-columns page-full" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="qa"><span class="header-section-number">1</span> Q&amp;A</h2>
 <p><strong>Thanks for joining me today, Detlef. To start, could you give a brief overview of these large language models, what they are, and how they work?</strong></p>
 <p><strong>Detlef Nauck (DN):</strong> Essentially, LLMs match sequences to sequences. Language is treated as a sequence of patterns, and this is based on word context similarity. The way these things work is that they either reuse or create a word vector space, where a word is mapped to something like a 300-dimensional vector based on the context it’s normally found in. In these vector spaces, words like “king” and “queen”, for example, would be very similar to each other, because they appear in similar contexts in the written texts that are used to train these models. Based on this, LLMs can produce coherent sequences of words.</p>
 <p>But the drawback of this approach is that these models have bias, because they are trained with biased language. If you talk about “women”, for example, and you look at which job roles are similar to “women” in a vector space, you find the stereotypically “female” professions but not technical professions, and that is a problem. Let’s say you take the word vector for “man” and the word vector for “king”, and you subtract “man” and then add this to “woman”, then you end up with “queen”. But if you do the same with “man”, “computer scientist”, and “woman”, then you end up maybe at “nurse” or “human resources manager” or something. These models embed the typical bias in society that is expressed through language.</p>
@@ -1745,16 +1745,16 @@ Tarran, Brian. 2022. “Why large language models should come with a content war
 
 
 
-<section id="editor" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="editor">Editor</h2>
+<section id="editor" class="level2 page-columns page-full" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="editor"><span class="header-section-number">1</span> Editor</h2>
 <p><strong>Brian Tarran</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <p><img src="https://duoyu.ren/coding/viewpoints/editors-blog/posts/2022/10/18/images/Brian.png" class="quarto-discovered-preview-image img-fluid"></p>
 </div></div><p>I am a writer and editor with 20 years of experience covering the research and data space. I have worked for the Royal Statistical Society (RSS) for the past 8 years, and was editor of <a href="https://www.significancemagazine.com/">Significance Magazine</a> (a joint publication of the RSS, the American Statistical Association and the Statistical Society of Australia) prior to the launch of Real World Data Science. I am a former editor of Research-Live.com and was launch editor of Impact magazine, both published by the Market Research Society.</p>
 </section>
-<section id="editorial-board" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="editorial-board">Editorial Board</h2>
+<section id="editorial-board" class="level2 page-columns page-full" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="editorial-board"><span class="header-section-number">2</span> Editorial Board</h2>
 <p><strong>Sophie Carr (chair)</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">

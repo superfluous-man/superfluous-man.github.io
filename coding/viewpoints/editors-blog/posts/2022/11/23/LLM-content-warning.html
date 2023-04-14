@@ -199,7 +199,7 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#qa" id="toc-qa" class="nav-link active" data-scroll-target="#qa">Q&amp;A</a></li>
+  <li><a href="#qa" id="toc-qa" class="nav-link active" data-scroll-target="#qa"><span class="header-section-number">1</span> Q&amp;A</a></li>
   </ul>
 </nav>
     </div>
@@ -223,8 +223,8 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 <p>“If academic researchers rely too heavily on large language models as research assistants, they may become reliant on the models and may not be able to conduct research without them. This can hinder research because the researchers may not be able to think for themselves and may not be able to come up with new ideas.”</p>
 </blockquote>
 <p>A fair point, I suppose. But I sense there’s more to this story, and rather than continue quizzing GPT-3, I sat down with Detlef Nauck, a member of the <a href="../../../../../../news-and-views/editors-blog/posts/2022-10-18-meet-the-team/meet-the-team.html">Real World Data Science Editorial Board</a> and head of AI and data science research for BT’s Applied Research Division, to ask a few more questions.</p>
-<section id="qa" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="qa">Q&amp;A</h2>
+<section id="qa" class="level2 page-columns page-full" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="qa"><span class="header-section-number">1</span> Q&amp;A</h2>
 <p><strong>Thanks for joining me today, Detlef. To start, could you give a brief overview of these large language models, what they are, and how they work?</strong></p>
 <p><strong>Detlef Nauck (DN):</strong> Essentially, LLMs match sequences to sequences. Language is treated as a sequence of patterns, and this is based on word context similarity. The way these things work is that they either reuse or create a word vector space, where a word is mapped to something like a 300-dimensional vector based on the context it’s normally found in. In these vector spaces, words like “king” and “queen”, for example, would be very similar to each other, because they appear in similar contexts in the written texts that are used to train these models. Based on this, LLMs can produce coherent sequences of words.</p>
 <p>But the drawback of this approach is that these models have bias, because they are trained with biased language. If you talk about “women”, for example, and you look at which job roles are similar to “women” in a vector space, you find the stereotypically “female” professions but not technical professions, and that is a problem. Let’s say you take the word vector for “man” and the word vector for “king”, and you subtract “man” and then add this to “woman”, then you end up with “queen”. But if you do the same with “man”, “computer scientist”, and “woman”, then you end up maybe at “nurse” or “human resources manager” or something. These models embed the typical bias in society that is expressed through language.</p>

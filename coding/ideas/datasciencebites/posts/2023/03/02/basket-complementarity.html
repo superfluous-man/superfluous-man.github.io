@@ -199,8 +199,8 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#asymmetry-and-tolerance" id="toc-asymmetry-and-tolerance" class="nav-link active" data-scroll-target="#asymmetry-and-tolerance">Asymmetry and tolerance</a></li>
-  <li><a href="#in-conclusion" id="toc-in-conclusion" class="nav-link" data-scroll-target="#in-conclusion">In conclusion</a></li>
+  <li><a href="#asymmetry-and-tolerance" id="toc-asymmetry-and-tolerance" class="nav-link active" data-scroll-target="#asymmetry-and-tolerance"><span class="header-section-number">1</span> Asymmetry and tolerance</a></li>
+  <li><a href="#in-conclusion" id="toc-in-conclusion" class="nav-link" data-scroll-target="#in-conclusion"><span class="header-section-number">2</span> In conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -248,14 +248,14 @@ About the paper
 </div>
 </div>
 </div>
-<section id="asymmetry-and-tolerance" class="level2">
-<h2 class="anchored" data-anchor-id="asymmetry-and-tolerance">Asymmetry and tolerance</h2>
+<section id="asymmetry-and-tolerance" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="asymmetry-and-tolerance"><span class="header-section-number">1</span> Asymmetry and tolerance</h2>
 <p>Milk and cornflakes are reasonably complementary, and we can see from Figure 1 above that, regardless of whether you start by picking up milk or cornflakes, the probabilities of a shopper buying the other item are broadly similar: <em>conf</em>({cornflakes} → {milk}) = 0.4, while <em>conf</em>({milk} → {cornflakes}) = 0.33. There is a small amount of asymmetry in the probabilities in this particular example, but asymmetry can be more extreme for other pairs of items. This leads to the idea of one- and two-sided complementarity. Two items sharing a smallish asymmetry – like milk and cornflakes – will be connected through two-sided complementarity, while large asymmetries indicate one-sided complementarity. Such imbalances will be quite common when, for instance, items of hugely different prices are involved. When someone buys a house, for example, they may want to buy a bookcase, but buying a bookcase doesn’t mean someone wants to buy a house: this would be an instance of one-sided complementarity.</p>
 <p>Puka and Jedrusik capitalize on this observation. They define two items to be “basket complementary” if the two probabilities – the normal and its opposite – remain close and reasonably high. The items need to share a bond that is blind to the direction: seeing you bought one, no matter which, means you are (almost equally) likely to buy the other.</p>
 <p>It is rare that the two probabilities should be exactly the same, of course, and the authors allow some deviation. Along the red diagonal line of perfect equality (Figure 1) we may lay tolerance bands marking degrees of product inseparability. This, if need be, may lead to the notion of being complementary at such-and-such a tolerance level – 0%, 1%, 5%, etc. – generating a score of sorts. In cases where a dot representing the two-way dependencies between two items falls within a narrow band – corresponding to a smaller tolerance – the more inseparable the items are, and the more sensible a cross-selling recommendation may become.</p>
 </section>
-<section id="in-conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="in-conclusion">In conclusion</h2>
+<section id="in-conclusion" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="in-conclusion"><span class="header-section-number">2</span> In conclusion</h2>
 <p>A large part of the world we inhabit, particularly the economy, is powered by recommendations: from strangers, friends and algorithms. That applies not only to the things we buy but also to the things we watch or read. (Perhaps you arrived at this article because of a tweet that Twitter thought you might like, or maybe it was suggested to you by Google News because of your past reading habits.) Whatever the intent of these recommendations, the key challenge is in knowing which two things are functionally or thematically intertwined. Which item or product is, by default, synonymous with which? Puka and Jedrusik deliver an answer: two items that are basket complementary to each other, preferably at a slim tolerance, are inextricably linked. One may be safely offered – perhaps always – whenever the other is already in the shopping basket.</p>
 <p>The relative simplicity and interpretability of basket complementary may provide small-scale retailers, starved of analytical wherewithal, a sane and safe strategy for developing their product offer. It might also serve as a benchmark to keep other, more sophisticated recommendation algorithms in check. (In weather forecasting, for example, it is often seen that <a href="https://www.sciencedirect.com/science/article/pii/S0022169415000414">naive benchmarks</a> – such as using today’s temperature to predict tomorrow’s – frequently outperform more advanced models.)</p>
 <p>Basket complementarity could also be used to help individuals understand their own shopping habits and the links between the things they buy. I’ve built <a href="https://moinak.shinyapps.io/MarketBasketDashboard/">an interactive dashboard</a> where you can enter your own receipt lists and filter associations based on various confidence thresholds. The <a href="https://github.com/moinakbhaduri/MarketBasketAnalysis">underlying code</a> is also available.</p>
