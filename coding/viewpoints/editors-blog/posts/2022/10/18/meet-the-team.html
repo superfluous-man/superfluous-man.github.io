@@ -287,12 +287,72 @@ src: url('web-resources/xkcd-font/xkcd-script.ttf') format('truetype');
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+
+<style>
+.styled-table {
+    border-collapse: collapse;
+    /* margin: 0px 0;  */
+    font-size: 0.9em;
+    font-variant: small-caps;
+    /* font-family: "Helvetica Neue", "Arial", 'Noto Sans TC', 'Noto Sans SC', "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "PingFang SC", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", "Microsoft YaHei", "微软雅黑", sans-serif; */
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 3px 6px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.styled-table tbody tr:nth-of-type(even) {
+    /* background-color: #f3f3f3; */
+}
+.styled-table tbody tr:last-of-type {
+    border-bottom: 1.5px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    /* color: #009879; */
+}
+</style>
 <script defer="" src="https://busuanzi.9420.ltd/js"></script>
+
+
+<table class="styled-table table" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th"><span class="fa-solid fa-handshake"></span></th>
+<th data-quarto-table-cell-role="th"><span class="fa-solid fa-users"></span> Visitors</th>
+<th data-quarto-table-cell-role="th"><span class="fa-solid fa-eye"></span> Views</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd active-row">
+<td style="text-align: left;">The Page</td>
+<td><span id="busuanzi_page_uv">...</span></td>
+<td><span id="busuanzi_page_pv">...</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">The Site</td>
+<td><span id="busuanzi_site_uv">...</span></td>
+<td><span id="busuanzi_site_pv">...</span></td>
+</tr>
+</tbody>
+</table>
+
+<!--
 <div class="busuanzi">
-<span> <!-- busuanziAltPageUV -->
+<span> <!-- busuanziAltPageUV  
 <i class="fa-solid fa-handshake"></i> <b>The Page</b>: <i class="fa-solid fa-users"></i> <b style="color:red;"><span id="busuanzi_page_uv">...</span></b> Visitors, <i class="fa-solid fa-eye"></i> <b style="color:red;"><span id="busuanzi_page_pv">...</span></b> Views; <b>The Site</b>: <i class="fa-solid fa-users"></i> <b><span id="busuanzi_site_uv">...</span></b> Visitors, <i class="fa-solid fa-eye"></i> <b><span id="busuanzi_site_pv">...</span></b> Views.
 </span>
 </div>
+-->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
